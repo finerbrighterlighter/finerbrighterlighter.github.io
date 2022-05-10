@@ -39,14 +39,14 @@ h3 {
 }
 p {
     font-family:'Tahoma';
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-size: 1em;
     line-height: 2em;
     color: #333;
 }
 footer {
     font-family:'Tahoma';
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     border-top: 1px solid #d5d5d5;
     font-size: 0.5em;
 }
