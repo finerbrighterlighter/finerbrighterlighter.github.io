@@ -1,6 +1,6 @@
 body {
     margin-top: 200px;
-    font-family: Major+Mono+Display;
+    font-family: "Major Mono Display";
     margin: 60px auto;
     text-align: justify;
     text-justify: inter-word;
@@ -31,7 +31,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: Cutive+Mono;
+  font-family: "Cutive Mono";
   font-weight: bold;
   border-bottom: 3px solid transparent;
 }
@@ -46,7 +46,7 @@ body {
 
 nav ul, footer ul {
     color: red;
-    font-family: Cutive+Mono;
+    font-family: "Cutive Mono";
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -68,19 +68,19 @@ a:hover {
 
 h1 {
     font-size: 2em;
-    font-family: Major+Mono+Display;
+    font-family: "Major Mono Display";
     text-align: center;
 }
 
 h2 {
     font-size: 1.8em;
-    font-family: Major+Mono+Display;
+    font-family: "Major Mono Display";
     text-align: center;
 }
 
 h3 {
     font-size: 1.6em;
-    font-family: Major+Mono+Display;
+    font-family: "Major Mono Display";
     text-align: left;
 }
 
