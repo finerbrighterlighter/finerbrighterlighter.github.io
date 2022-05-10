@@ -54,7 +54,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-family:'Tahoma';
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     font-size: medium;
 }
 
