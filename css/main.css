@@ -2,8 +2,8 @@ body {
     margin: 60px auto;
     width: 70%;
     letter-spacing: 2px;
-    font-size: 0.7em;
-    line-height: 1.5em;
+    font-size: 2em;
+    line-height: 2em;
 }
 nav ul, footer ul {
     font-family:'Tahoma';
@@ -25,37 +25,37 @@ a:hover {
 h1 {
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 2em;
+    font-size: 5em;
 }
 h2 {
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 1.5em;
+    font-size: 4em;
 }
 h3 {
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 1em;
+    font-size: 3em;
 }
 p {
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 0.7em;
-    line-height: 1.5em;
+    font-size: 2em;
+    line-height: 2em;
     color: #333;
 }
 footer {
     font-family:'Tahoma';
     letter-spacing: 2px;
     border-top: 1px solid #d5d5d5;
-    font-size: 0.5em;
+    font-size: 1em;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 0.7em;
+    font-size: 2em;
 }
 
 ul.posts li {
