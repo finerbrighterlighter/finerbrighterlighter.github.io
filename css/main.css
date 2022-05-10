@@ -3,45 +3,61 @@ body {
     margin: 60px auto;
     text-align: left;
     width: 50%;
+    background-color: white;
+    color: black;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 nav ul, footer ul {
     font-family: Lora, serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 2em;
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
+
 h2 {
     font-size: 1.8em;
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
+
 h3 {
     font-size: 1.6em;
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     text-align: left;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
