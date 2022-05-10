@@ -1,4 +1,0 @@
-gem "jekyll-remote-theme"
-
-plugins:
-  - jekyll-remote-theme
