@@ -37,10 +37,14 @@ body {
 }
 
 .topnav a:hover {
+  background-color: #a7d379;
+  color: #000000;
   border-bottom: 2px dashed  #a7d379;
 }
 
 .topnav a.active {
+  background-color: #a7d379;
+  color: #000000;
   border-bottom: 2px dashed #a7d379;
 }
 
@@ -64,6 +68,8 @@ a {
 }
 
 a:hover {
+    background-color: #a7d379;
+    color: #000000;
     border-bottom: 2px dashed #a7d379;
 }
 
@@ -119,3 +125,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
