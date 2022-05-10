@@ -1,9 +1,10 @@
 body {
+    font-family: Lora, serif;
     margin: 60px auto;
     width: 50%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Lora, serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,15 +22,15 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
 }
 h2 {
     font-size: 1.8em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
 }
 h3 {
     font-size: 1.6em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
 }
 p {
     font-size: 1.5em;
