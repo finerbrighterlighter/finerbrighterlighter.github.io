@@ -7,6 +7,8 @@ body {
     width: 65%;
     background-color: white;
     color: black;
+    line-height: 32px;   /* within paragraph */
+    margin-bottom: 30px; /* between paragraphs */
 }
 
 .topnav {
@@ -84,7 +86,8 @@ h3 {
 
 p {
     font-size: 1.3em;
-    line-height: 1.4em;
+    line-height: 32px;   /* within paragraph */
+    margin-bottom: 30px; /* between paragraphs */
     text-align: justify;
     text-justify: inter-word;
     color: #333;
