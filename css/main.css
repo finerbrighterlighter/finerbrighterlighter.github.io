@@ -1,5 +1,5 @@
 body {
-    margin-top: 100px;
+    margin-top: 200px;
     font-family: Lora, serif;
     margin: 60px auto;
     text-align: justify;
@@ -92,8 +92,9 @@ p {
 
 footer {
     background-color: #a7d379;
-    border-top: 1px solid black;
+    border-top: 1px solid #a7d379;
     font-size: 1em;
+    width: 100%;
 }
 
 ul.posts { 
