@@ -10,8 +10,7 @@ body {
 }
 
 .topnav {
-  background-color: #fecc02;
-  overflow: hidden;
+  background-color: #a7d379;
 }
 
 .topnav a {
@@ -28,11 +27,11 @@ body {
 }
 
 .topnav a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #3da542;
 }
 
 .topnav a.active {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #3da542;
 }
 
 nav ul, footer ul {
@@ -84,8 +83,8 @@ p {
 }
 
 footer {
-    background-color: #fecc02;
-    border-top: 1px solid #d5d5d5;
+    background-color: #a7d379;
+    border-top: 1px solid black;
     font-size: 1em;
 }
 
