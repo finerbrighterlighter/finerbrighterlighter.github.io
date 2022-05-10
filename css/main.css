@@ -1,4 +1,5 @@
 body {
+    margin-top: 100px;
     font-family: Lora, serif;
     margin: 60px auto;
     text-align: justify;
@@ -14,6 +15,7 @@ body {
 }
 
 .topnav a {
+  position: fixed;
   float: left;
   display: block;
   color: white;
