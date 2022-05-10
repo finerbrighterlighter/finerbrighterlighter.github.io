@@ -3,12 +3,11 @@
 #permalink: /blog/:year/:month/:day/:title
 
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+name: Htun Teza
 paginate: 1
 baseurl: ""
-permalink: pretty
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
 
 # Gems
 plugins:
@@ -37,9 +36,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Htun Teza
 
 # Custom vars
 version: 3.0.0
