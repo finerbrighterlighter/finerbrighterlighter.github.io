@@ -10,14 +10,14 @@ body {
 }
 
 .topnav {
-  background-color: #a7d379;
+  background-color: #3da542;
 }
 
 .topnav a {
   position: fixed;
   float: left;
   display: block;
-  color: white;
+  color: #a7d379;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
