@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    letter-spacing: 2px;
 }
 nav ul, footer ul {
     font-family:'Tahoma';
@@ -21,17 +22,19 @@ a:hover {
 }
 h1 {
     font-family:'Tahoma';
+    letter-spacing: 2px;
     font-size: 3em;
-    font-family:'Tahoma';
 }
 p {
     font-family:'Tahoma';
+    letter-spacing: 2px;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
     font-family:'Tahoma';
+    letter-spacing: 2px;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
@@ -39,6 +42,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-family:'Tahoma';
+    letter-spacing: 2px;
     font-size: 1.5em;
 }
 
