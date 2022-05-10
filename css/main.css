@@ -62,7 +62,7 @@ h1 {
 h2 {
     font-size: 1.8em;
     font-family: Ubuntu, sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 h3 {
@@ -72,7 +72,7 @@ h3 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.4em;
     text-align: left;
     color: #333;
