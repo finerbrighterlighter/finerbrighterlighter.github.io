@@ -34,15 +34,15 @@ body {
   text-decoration: none;
   font-family: Rubik, sans-serif;
   font-weight: bold;
-  border-bottom: 5px solid #a7d379;
+  border-bottom: 3.5px solid #a7d379;
 }
 
 .topnav a:hover {
-  border-bottom: 5px solid #a7d379;
+  border-bottom: 3.5px solid #a7d379;
 }
 
 .topnav a.active {
-  border-bottom: 5px solid #a7d379;
+  border-bottom: 3.5px solid #a7d379;
 }
 
 nav ul, footer ul {
@@ -65,7 +65,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 5px solid #a7d379;
+    border-bottom: 3.5px solid #a7d379;
 }
 
 h1 {
