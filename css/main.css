@@ -37,11 +37,11 @@ body {
 }
 
 .topnav a:hover {
-  border-bottom: 2px solid #a7d379;
+  border-bottom: 2px dashed  #a7d379;
 }
 
 .topnav a.active {
-  border-bottom: 2px solid #a7d379;
+  border-bottom: 2px dashed #a7d379;
 }
 
 nav ul, footer ul {
@@ -64,7 +64,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 2px solid #a7d379;
+    border-bottom: 2px dashed #a7d379;
 }
 
 h1 {
