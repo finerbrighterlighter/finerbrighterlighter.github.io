@@ -91,8 +91,13 @@ p {
 }
 
 footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    padding: 0px;
     position: absolute;
-    background-color: #a7d379;
+    background-color: #3da542;
     border-top: 1px solid #a7d379;
     font-size: 1em;
     width: 100%;
