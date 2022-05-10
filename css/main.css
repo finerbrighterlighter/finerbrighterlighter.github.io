@@ -57,11 +57,11 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: white;
 }
 
 a:hover {
-    text-decoration: underline;
+    border-top: 3px solid #3da542;
 }
 
 h1 {
