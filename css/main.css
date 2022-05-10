@@ -1,5 +1,5 @@
 body {
-    margin-top: 300px;
+    margin-top: 20px;
     font-family: Spectral, serif;
     margin: 60px auto;
     text-align: justify;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 h1 {
-    margin: 20px auto;
+    margin-top: 100px;
     font-size: 2em;
     font-family: Rubik, sans-serif;
     text-align: center;
@@ -86,6 +86,7 @@ h3 {
 }
 
 p {
+    margin-top: 20px;
     font-size: 1.3em;
     line-height: 32px;   /* within paragraph */
     margin-bottom: 30px; /* between paragraphs */
@@ -117,4 +118,5 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
 
