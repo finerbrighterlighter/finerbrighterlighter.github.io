@@ -2,6 +2,8 @@ body {
     margin: 60px auto;
     width: 70%;
     letter-spacing: 2px;
+    font-size: 1em;
+    line-height: 1em;
 }
 nav ul, footer ul {
     font-family:'Tahoma';
@@ -23,13 +25,13 @@ a:hover {
 h1 {
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 3em;
+    font-size: 2em;
 }
 p {
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1em;
     color: #333;
 }
 footer {
@@ -43,7 +45,7 @@ ul.posts {
     margin: 20px auto 40px; 
     font-family:'Tahoma';
     letter-spacing: 2px;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 ul.posts li {
