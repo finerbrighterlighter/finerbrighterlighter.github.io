@@ -1,6 +1,5 @@
 body {
     margin-top: 20px;
-    margin-bottom: 250px;
     font-family: Spectral, serif;
     margin: 60px auto;
     text-align: justify;
@@ -9,7 +8,7 @@ body {
     background-color: #ffffff;
     color: black;
     line-height: 32px;   /* within paragraph */
-    margin-bottom: 30px; /* between paragraphs */
+    margin-bottom: 100px; /* between paragraphs */
 }
 
 .topnav {
@@ -23,7 +22,7 @@ body {
   padding: 0px 5px;
   overflow: hidden;
   background-color: #3da542;
-  border-bottom: 3px solid #a7d379;
+  border-bottom: 15px solid #a7d379;
 }
 
 .topnav a {
@@ -38,11 +37,11 @@ body {
 }
 
 .topnav a:hover {
-  border-bottom: 3.5px solid #a7d379;
+  border-bottom: 2px solid #a7d379;
 }
 
 .topnav a.active {
-  border-bottom: 3.5px solid #a7d379;
+  border-bottom: 2px solid #a7d379;
 }
 
 nav ul, footer ul {
@@ -65,7 +64,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 3.5px solid #a7d379;
+    border-bottom: 2px solid #a7d379;
 }
 
 h1 {
@@ -105,7 +104,7 @@ footer {
     padding: 0px 20px;
     position: fixed;
     background-color: #000000;
-    border-top: 3px solid #a9a9a9;
+    border-top: 15px solid #a9a9a9;
     font-size: 1em;
     width: 100%;
 }
@@ -120,5 +119,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-
