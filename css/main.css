@@ -24,18 +24,22 @@ a:hover {
 h1 {
     font-size: 2em;
     font-family: Ubuntu, sans-serif;
+    text-align: center;
 }
 h2 {
     font-size: 1.8em;
     font-family: Ubuntu, sans-serif;
+    text-align: center;
 }
 h3 {
     font-size: 1.6em;
     font-family: Ubuntu, sans-serif;
+    text-align: center;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
+    text-align: left;
     color: #333;
 }
 footer {
