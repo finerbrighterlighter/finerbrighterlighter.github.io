@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: medium;
     line-height: 2em;
 }
@@ -39,14 +39,14 @@ h3 {
 }
 p {
     font-family:'Tahoma';
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: medium;
     line-height: 2em;
     color: #333;
 }
 footer {
     font-family:'Tahoma';
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     border-top: 1px solid #d5d5d5;
     font-size: small;
 }
