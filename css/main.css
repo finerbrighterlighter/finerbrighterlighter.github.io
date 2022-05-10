@@ -9,14 +9,14 @@ body {
 }
 
 .topnav {
-  background-color: white;
+  background-color: #fecc02;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: red;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -82,12 +82,14 @@ p {
 }
 
 footer {
-    color: red;
+    background-color: #fecc02;
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
 }
 
 ul.posts { 
+    text-align: justify;
+    text-justify: inter-word;
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
