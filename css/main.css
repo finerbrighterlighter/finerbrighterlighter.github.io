@@ -37,11 +37,11 @@ body {
 }
 
 .topnav a:hover {
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid #a7d379;
 }
 
 .topnav a.active {
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid #a7d379;
 }
 
 nav ul, footer ul {
