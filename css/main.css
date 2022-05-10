@@ -1,5 +1,5 @@
 body {
-    margin-top: 200px;
+    margin-top: 300px;
     font-family: Spectral, serif;
     margin: 60px auto;
     text-align: justify;
@@ -67,6 +67,7 @@ a:hover {
 }
 
 h1 {
+    margin: 20px auto;
     font-size: 2em;
     font-family: Rubik, sans-serif;
     text-align: center;
