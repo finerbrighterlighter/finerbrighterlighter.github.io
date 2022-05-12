@@ -33,14 +33,27 @@
 
 			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Source+Serif+Pro">
+			
+			<script>
+			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") 
+				{x.className += " responsive";} 
+				else 
+				{x.className = "topnav";}
+				} 
+			</script>
+
 		</head>
 		
 			
-			<div class="topnav">
+			<div class="topnav" id="myTopnav">
 				<a href="/">Home</a>
-		        	<a href="/about">About</a>
-	        		<a href="/cv">CV</a>
-	        		<a href="/blog">Blog</a>
+		        <a href="/about">About</a>
+	        	<a href="/cv">CV</a>
+	        	<a href="/blog">Blog</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
 			</div>
 		<body>	
 			<div class="container">
@@ -52,12 +65,9 @@
 			<footer>
 	    		<ul>
 	        		
-				<li><a href="mailto:htun.tez@mahidol.edu" style="color:white;">university mail <i class="fa-solid fa-envelope"></i></i></a></li>
-				<li><a href="mailto:htun.tez@ceb-rama.org" style="color:white;">department mail <i class="fa-solid fa-envelope"></i></i></a></li>
-				<li><a href="https://www.linkedin.com/in/htunteza/" style="color:white;">linkedin <i class="fa-brands fa-linkedin"></i></a></li>
-				<li><a href="https://www.researchgate.net/profile/Htun-Teza" style="color:white">researchgate <i class="fa-brands fa-researchgate"></i></a></li>
-	        		<li><a href="https://github.com/finerbrighterlighter" style="color:white;">github <i class="fa-brands fa-github-square"></i></a></li>
-				<li><a href="https://unsplash.com/@finerbrighterlighter" style="color:white;">unsplash <i class="fa-brands fa-unsplash"></i></a></li>
+				<li><a href="mailto:htun.tez@mahidol.edu" style="color:white;">university <i class="fa-solid fa-envelope"></i></i></a></li>
+				<li><a href="mailto:htun.tez@ceb-rama.org" style="color:white;">department <i class="fa-solid fa-envelope"></i></i></a></li>
+
 				<li><a href="https://orcid.org/0000-0002-1076-9513" style="color:white;">0000-0002-1076-9513 <i class="fa-brands fa-orcid"></i></a></li>
 					</ul>
 			</footer>
