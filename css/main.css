@@ -1,6 +1,6 @@
 body {
     margin-top: 20px;
-    font-family: 'Source Serif Pro', sans-serif;
+	font-family: 'Nunito', serif;
     margin: 60px auto;
     text-align: justify;
     text-justify: inter-word;
@@ -40,7 +40,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Source Serif Pro', sans-serif;
+	font-family: 'Nunito', serif;
   font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ body {
 
 nav ul, footer ul {
     color: red;
-    font-family: 'Source Serif Pro', sans-serif;
+	font-family: 'Nunito', serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -108,20 +108,20 @@ a:hover {
 h1 {
     margin-top: 150px;
     font-size: 3em;
-    font-family: 'Nunito', serif;
+    font-family: 'Source Serif Pro', sans-serif;
     text-align: center;
     margin-bottom: 50px;
 }
 
 h2 {
     font-size: 1.8em;
-    font-family: 'Nunito', serif;
+    font-family: 'Source Serif Pro', sans-serif;
     text-align: center;
 }
 
 h3 {
     font-size: 1.6em;
-	font-family: 'Nunito', serif;
+	font-family: 'Source Serif Pro', sans-serif;
     text-align: left;
 }
 
