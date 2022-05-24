@@ -3,7 +3,6 @@ body {
 	font-family: 'Source Serif Pro', sans-serif;
     margin: 60px auto;
     text-align: justify;
-    text-justify: inter-word;
     width: 75%;
     background-color: #ffffff;
     color: black;
@@ -128,7 +127,6 @@ p {
     line-height: 32px;   /* within paragraph */
     margin-bottom: 30px; /* between paragraphs */
     text-align: justify;
-    text-justify: inter-word;
     color: #333;
 }
 
@@ -147,7 +145,6 @@ footer {
 
 ul.posts { 
     text-align: justify;
-    text-justify: inter-word;
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
