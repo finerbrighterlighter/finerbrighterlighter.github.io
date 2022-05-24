@@ -40,7 +40,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-	font-family: 'Source Serif Pro', sans-serif;
+  font-family: 'Source Serif Pro', sans-serif;
   font-weight: bold;
 }
 
@@ -54,6 +54,10 @@ body {
   background-color: #a7d379;
   color: #000000;
   border-bottom: 2px dashed #a7d379;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -91,18 +95,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #e1ad01;
-}
-
-a:hover {
-    background-color: #a7d379;
-    color: #000000;
-    border-bottom: 2px dashed #a7d379;
 }
 
 h1 {
