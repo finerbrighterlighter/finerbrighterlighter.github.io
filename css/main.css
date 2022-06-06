@@ -6,7 +6,7 @@ body {
     background-color: #ffffff;
     color: black;
     line-height: 32px;   /* within paragraph */
-    margin-bottom: 100px; /* between paragraphs */
+    margin-bottom: 10%; /* between paragraphs */
 }
 
 @media only screen and (min-width: 481px) {
@@ -101,7 +101,7 @@ nav ul li, footer ul li {
 }
 
 h1 {
-    margin-top: 10%;
+    margin-top: 3%;
     font-size: 3em;
     font-family: 'Nunito', serif;
     text-align: center;
