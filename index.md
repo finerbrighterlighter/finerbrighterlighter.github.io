@@ -41,12 +41,10 @@ Master of Science (Data Science for Healthcare)
 >
 > [Mahidol University](https://mahidol.ac.th/), Bangkok, Thailand
 
-### August 2021 - Present
+### December 2012 - December 2018
 
-December 2012 - December 2018
+Bachelor of Dental Surgery
 
-> Bachelor of Dental Surgery
->
 > [University of Dental Medicine](http://udmyangon-edu.com/), Yangon, Myanmar 
 
 <hr />
