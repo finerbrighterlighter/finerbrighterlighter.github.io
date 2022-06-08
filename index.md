@@ -37,9 +37,7 @@ Graduate Research Assistant
 
 Master of Science (Data Science for Healthcare)
 
-> Data Science and Clinical Informatics Division
->
-> [Mahidol University](https://mahidol.ac.th/), Bangkok, Thailand
+> Department of Clinical Epidemiology and Biostatistics,<br/>[Mahidol University](https://mahidol.ac.th/), Bangkok, Thailand
 
 ### December 2012 - December 2018
 
