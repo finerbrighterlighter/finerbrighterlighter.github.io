@@ -9,7 +9,7 @@ From Myanmar (Burma), but I consider myself a citizen of where I am sleeping tod
 
 I did practice dentistry until graduation in 2018 and never looked back since. 
 
-Currently based in [Bangkok](https://upload.wikimedia.org/wikipedia/commons/4/49/Th-Bangkok_ceremonial_name.ogg "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit") of Thailand, I am working in health care research, concentrating in data science and clinical data research. 
+Currently based in [Bangkok](https://upload.wikimedia.org/wikipedia/commons/4/49/Th-Bangkok_ceremonial_name.ogg "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit") of Thailand, I am working for health care research, with data science concentration.
 
 Mainly fascinated with secondary data research, I am enthused to explore **why, what, and how we should reuse** regarding electronic medical records and data collected for other purposes. 
 
@@ -25,16 +25,31 @@ Occasionally, I take [photos of stuffs](https://unsplash.com/@finerbrighterlight
 
 # Employment
 
-| Time    | Position         | Affiliation | 
-|:------- |:------------------|:----------|
-| August 2021 - Present | Graduate Research Assistant | Data Science and Clinical Informatics Division,<br/>[Department of Clinical Epidemiology and Biostatistics](https://www.rama.mahidol.ac.th/ceb/), Faculty of Medicine Ramathibodi Hospital, <br/>Mahidol University, Bangkok, Thailand  | 
+### August 2021 - Present
+
+Graduate Research Assistant
+
+> Data Science and Clinical Informatics Division
+>
+> [Department of Clinical Epidemiology and Biostatistics](https://www.rama.mahidol.ac.th/ceb/), Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand
 
 # Education
 
-| Time    | Position         | Affiliation | 
-|:------- |:------------------|:----------|
-| July 2019 - July 2021 | Master of Science (Data Science for Healthcare) | [Mahidol University](https://mahidol.ac.th/), Bangkok, Thailand  | 
-| December 2012 - December 2018 | Bachelor of Dental Surgery | [University of Dental Medicine](http://udmyangon-edu.com/), Yangon, Myanmar  | 
+### July 2019 - July 2021
+
+Master of Science (Data Science for Healthcare)
+
+> Data Science and Clinical Informatics Division
+>
+> [Mahidol University](https://mahidol.ac.th/), Bangkok, Thailand
+
+### August 2021 - Present
+
+December 2012 - December 2018
+
+> Bachelor of Dental Surgery
+>
+> [University of Dental Medicine](http://udmyangon-edu.com/), Yangon, Myanmar 
 
 <hr />
 
@@ -55,7 +70,7 @@ Occasionally, I take [photos of stuffs](https://unsplash.com/@finerbrighterlight
 
 Thesis:
 
-> [Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning models](https://htunteza.com/docs/msc_thesis.pdf "Thesis")
+> [Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning models](/assets/docs/msc_thesis.pdf "Thesis")
 >
 > Advisors: [Dr. Anuchate Pattanateepapon](https://orcid.org/0000-0003-1246-9482), [Dr. Attawood Lertpimonchai](https://orcid.org/0000-0003-2501-1534), [Prof. Dr. Ammarin Thakkinstian](https://scholar.google.com/citations?user=HW_DvVYAAAAJ&hl=en&oi=ao)
 
