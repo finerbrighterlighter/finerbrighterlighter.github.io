@@ -36,7 +36,8 @@ Occasionally, I take [photos of stuffs](https://unsplash.com/@finerbrighterlight
 | July 2019 - July 2021 | Master of Science (Data Science for Healthcare) | [Mahidol University](https://mahidol.ac.th/), Bangkok, Thailand  | 
 | December 2012 - December 2018 | Bachelor of Dental Surgery | [University of Dental Medicine](http://udmyangon-edu.com/), Yangon, Myanmar  | 
 
-=======
+<hr />
+
 # Projects
 ## Publications, Conferences and Preprints
 -------
