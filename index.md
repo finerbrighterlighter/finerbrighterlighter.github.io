@@ -3,7 +3,6 @@ layout: default
 ---
 
 # About me
--------
 
 From Myanmar (Burma), but I consider myself a citizen of where I am sleeping today. 
 
@@ -49,7 +48,6 @@ Bachelor of Dental Surgery
 
 # Projects
 ## Publications, Conferences and Preprints
--------
 
 ### August 2021 - Present
 [CEB Data Warehouse](https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse "Introduction")
