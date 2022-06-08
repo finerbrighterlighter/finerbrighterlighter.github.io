@@ -29,9 +29,7 @@ Occasionally, I take [photos of stuffs](https://unsplash.com/@finerbrighterlight
 
 Graduate Research Assistant
 
-> Data Science and Clinical Informatics Division
->
-> [Department of Clinical Epidemiology and Biostatistics](https://www.rama.mahidol.ac.th/ceb/), Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand
+> Data Science and Clinical Informatics Division,<br/>[Department of Clinical Epidemiology and Biostatistics](https://www.rama.mahidol.ac.th/ceb/),<br/>Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand
 
 # Education
 
