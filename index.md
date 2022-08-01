@@ -54,6 +54,12 @@ Bachelor of Dental Surgery
 
 > Department of Clinical Epidemiology and Biostatistics,<br/>Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand
 
+Symposium Speaker:
+• 2022/07/20
+• Big Cohort Data for NCDs (NCDs: Bridging the Gaps) 
+• 14th [Ministry of Health - Academy of Medicine of Malaysia Scientific Meeting](https://mohammsc.org/) 2022
+• 23rd National Institutes of Health Scientific Conference (Malaysia)
+
 <hr />
 
 ### July 2020 - August 2021
@@ -62,7 +68,7 @@ Bachelor of Dental Surgery
 
 Thesis:
 
-> [Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning models](/assets/docs/msc_thesis.pdf "Thesis")
+> [Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning models](/assets/docs/mohammsc.jiff "Electronic certificate")
 >
 > Advisors: [Dr. Anuchate Pattanateepapon](https://orcid.org/0000-0003-1246-9482), [Dr. Attawood Lertpimonchai](https://orcid.org/0000-0003-2501-1534), [Prof. Dr. Ammarin Thakkinstian](https://scholar.google.com/citations?user=HW_DvVYAAAAJ&hl=en&oi=ao)
 
