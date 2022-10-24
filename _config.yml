@@ -1,31 +1,36 @@
-title: HTUN TEZA
-logo: /assets/img/me_home.png
-email: htun.tez@mahidol.edu
-description: from Automatic to Intelligent
-show_downloads: false
-color-scheme: auto
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
+#Update all the sections by editing the data.yml file inside _data folder.
 
-# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
-sidebar:
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin fa-lg"></i>
-    link: https://www.linkedin.com/in/htunteza/
-  - name: ResearchGate
-    icon: <i class="fa-brands  fa-researchgate fa-lg"></i>
-    link: https://www.researchgate.net/profile/Htun-Teza
-  - name: Google Scholar
-    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5L12 0l12 9.5l-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14a7 7 0 0 0 0-14z" fill="currentColor"/></svg>
-    link: https://scholar.google.com/citations?user=7waEOqcAAAAJ&hl=en
-  - name: ORCID
-    icon: <i class="fa-brands fa-orcid  fa-lg"></i>
-    link: https://orcid.org/0000-0002-1076-9513
+# Site Settings
+title: My Resume
+url: 'http://webjeda.com'
 
-# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
-# When running locally, we run into the following error —
-# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
-# adding this avoids it
-github: [metadata]
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv' 
+
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+
+# Tracker
+analytics: UA-83979019-1
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false

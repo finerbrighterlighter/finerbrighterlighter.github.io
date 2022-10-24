@@ -1,83 +1,25 @@
-{% case site.color-scheme %}
-  {% when "", nil, false, 0, empty %}
-    {% assign ColorScheme = "auto" %}
-  {% else %}
-    {% assign ColorScheme = site.color-scheme %}
-{% endcase %}
-
+---
+#Add "layout: compress" here to compress the html code
+---
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Htun Teza is a Burmese Data Scientist, Research Assistant, Dentist, Music, Movie and Anime Enthusiast, currently based in Bangkok Thailand.">
-	<meta name="author" content="Htun Teza">
-	<title>HTUN TEZA</title>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include head.html %}
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+<body>
+  <div class="wrapper">
+    {% include sidebar.html %}
 
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/icon/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icon/apple-touch-icon-114x114.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icon/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icon/apple-touch-icon-144x144.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/icon/apple-touch-icon-60x60.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/icon/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/icon/apple-touch-icon-76x76.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/icon/apple-touch-icon-152x152.png" />
-	<link rel="icon" type="image/png" href="/assets/icon/favicon-196x196.png" sizes="196x196" />
-	<link rel="icon" type="image/png" href="/assets/icon/favicon-96x96.png" sizes="96x96" />
-	<link rel="icon" type="image/png" href="/assets/icon/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="/assets/icon/favicon-16x16.png" sizes="16x16" />
-	<link rel="icon" type="image/png" href="/assets/icon/favicon-128.png" sizes="128x128" />
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="sidebar">
-        <header>
-          {% if site.logo %}
-            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
-          {% endif %}
-
-          {% if site.blank_title %}
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          {% else %}
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          {% endif %}
-
-          {% if site.email %}
-            <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
-          {% endif %}
-
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-          {% include sidebar.html %}
-
-        </header>
-
-        {% include links-mobile.html %}
-
-        <div class="sidebar-footer">
-          {%- include footer.html -%}
-        </div>
-      </div>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {%- include footer.html -%}
-      </footer>
+    <div class="main-wrapper">
+        {{ content }}
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+  </div>
+
+  {% include footer.html %}
+
+{% include scripts.html %}
+</body>
+
 </html>
+

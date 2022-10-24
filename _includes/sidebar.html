@@ -1,18 +1,33 @@
-<div class="link-wrapper">
-    <style scoped>
-      ul.link a {
-        color:var(--clr-h1-and-bold);
-        text-decoration:none;
-      }
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
 
-      ul.link a:hover, a:focus {
-        color: var(--clr-a-text-hvr);
-      }
-    </style>
-    <ul class="link">
-      {%- for platform in site.sidebar %}
-      <!-- <li><a href="{{ platform.link }}"><i class="{{ platform.icon }}"></i> {{ platform.name }}</a></li> -->
-       <li><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
-      {%- endfor %}
-    </ul>
-  </div>
+  <div class="profile-container">
+
+    {% if sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
+
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+
+  </div><!--//profile-container-->
+
+  {% include contact.html %}
+
+  {% if sidebar.education %}
+    {% include education.html %}
+  {% endif %}
+
+  {% include language.html %}
+  {% include interests.html %}
+
+  {% if sidebar.about %}
+    {% include about.html %}
+  {% endif %}
+
+</div><!--//sidebar-wrapper-->
