@@ -43,22 +43,22 @@ sidebar:
       info: In my free time, I prefer to keep myself in my room; listening to music, walking around with a headset or watching tv shows/anime on repeat.
 
         - item: Unsplash
-          link: "https://unsplash.com/@finerbrighterlighter"
+          link: https://unsplash.com/@finerbrighterlighter
 
         - item: MyAnimeList
-          link: "https://myanimelist.net/profile/fibrili"
+          link: https://myanimelist.net/profile/fibrili
 
         - item: Replay 2022 (Apple Music)
-          link: "https://music.apple.com/th/playlist/replay-2022/pl.rp-755XHRnNGGR6"
+          link: https://music.apple.com/th/playlist/replay-2022/pl.rp-755XHRnNGGR6
         
         - item: Replay 2021 (Apple Music)
-          link: "https://music.apple.com/th/playlist/replay-2021/pl.rp-8AA9cXvO44Xo"
+          link: https://music.apple.com/th/playlist/replay-2021/pl.rp-8AA9cXvO44Xo
         
         - item: Replay 2020 (Apple Music)
-          link: "https://music.apple.com/th/playlist/replay-2020/pl.rp-P449SYAZaaYV"
+          link: https://music.apple.com/th/playlist/replay-2020/pl.rp-P449SYAZaaYV
         
         - item: Replay 2019 (Apple Music)
-          link: "https://music.apple.com/th/playlist/replay-2019/pl.rp-BooEUbOj66bP"
+          link: https://music.apple.com/th/playlist/replay-2019/pl.rp-BooEUbOj66bP
 
 career-profile:
     title: Career Profile
