@@ -3,71 +3,65 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Alan Doe
-    tagline: Full Stack Developer
+    tagline: Graduate Research Assistant
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: htun.tez@mahidol.edu 
+    phone: (+66) 0-2201-0833
+    timezone: Indochina Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website:  #do not add http://
+    linkedin: htunteza
+    xing:  
+    github: finerbrighterlighter
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: ' 
+    stack-overflow: 12473607/hteza # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    goodreads: 154577593-fibrili # Number-Username, e.g. 123456-alandoe
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Burmese
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
-      title: Interests
+      title:  
       info:
-        - item: Climbing
+        - item:  
           link:
 
-        - item: Snowboarding
+        - item:  
           link:
 
-        - item: Cooking
+        - item:  
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Currently based in [Bangkok](https://upload.wikimedia.org/wikipedia/commons/4/49/Th-Bangkok_ceremonial_name.ogg "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit") of Thailand, I am working for health care research, with data science concentration.
+      Mainly fascinated with secondary data research, I am enthused to explore **why, what, and how we should reuse** regarding electronic medical records and data collected for other purposes. 
+      I majorly code in Python with occasional R. I have experience in medical data wrangling for secondary data research projects, and applying sociodemographic data for screening algorithms/ clinical decision support.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Master of Science in Data Science for Healthcare
+        university: Mahidol University
+        time: 2019 - 2021
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,9 +70,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: Bachelor of Dental Surgery
+        university: University of Dental Medicine Yangon
+        time: 2012 - 2018
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -90,113 +84,126 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Graduate Research Assistant
+        time: 2021 - Present
+        company: Mahidol University
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
+          Affiliated under Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I perform data extraction, cleaning and engineering of electronic medical records to research ready datasets. I am responsible for two themes under the (CEB Data Warehouse)[https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Overview] project, Hypertension and Surgery. 
+          On two occasions, I had the experience to speak about our experience with the Real World Data research.
+            - Big Cohort Data for NCDs (NCDs: Bridging the Gaps) 
+                - 14th Ministry of Health - Academy of Medicine of Malaysia Scientific Meeting 2022 (2022/07/20)
+            - Real World Data in Ramathibodi Hospital (Real World Data) 
+                - CEB-RAMA-MU (2022/09/28)
+      - role: Graduate Student Researcher
         time: 2014 - 2015
-        company: Google, London
+        company: Mahidol University
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Affiliated under Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I did my postgraduate research regarding Severe Periodontitis in Thai population. Factors affecting development of the condition were studied, and four screening models were developed using statistical and machine learning classification models.
+      - role: House Officer
+        time: 2018 - 2018
+        company: University of Dental Medicine Yangon
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Affiliated under Teaching Hospital of University of Dental Medicine Yangon, various shifts of six-weeks-spans were taken under multiple specialty departments over the one-year clinical training period.
+            - Department of Orthodontics
+            - Department of Pediateic Dentistry
+            - Department of Peridontology
+            - Department of Prosthodontics
+            - Department of Conservative Dentistry
+            - Department of Oral Medicine
+            - Department of Preventive and Community Dentistry
+            - Hospital of Oral and Maxillofacial Surgery
+      - role: House Officer
+        time: 2018 - 2018
+        company: University of Dental Medicine Yangon
+        details: |
+          Affiliated under Department of Preventive and Community Dentistry of University of Dental Medicine Yangon, I assisted data collection and data entry tasks relevant to various projects by the department or the postgraduate researchers.
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: CEB Data Warehouse; Hypertension Theme
+        link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/HT"
+        tagline: "Ramathibodi Human Research Ethics Committee Certification - COA. MURA2021/512"
+        
+      - title: CEB Data Warehouse; Surgery Theme
+        link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/Surgery"
+        tagline: "Ramathibodi Human Research Ethics Committee Certification - COA. MURA2021/1013"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Clinical Prediction of Chronic Periodontitis
+        link: "https://www.researchgate.net/project/Risk-Factor-based-Diagnosis-for-Chronic-Periodontitis-using-Machine-Learning-Models"
+        tagline: "Ramathibodi Human Research Ethics Committee Certification - COA. MURA2020/1560"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Epidemiological characteristics of SARS-COV-2 in Myanmar
+        link: "https://www.researchgate.net/project/Epidemiology-of-SARS-CoV-2-in-Myanmar"
+        tagline: # "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 publications:
-    title: Publications
+    title: Works
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: "Transitional probability between Hypertension and associated comorbidities: A Thai real-world clinical cohort"
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Teza, H., Boonmanunt, S., Unwanatham, N., Thadanipon, K., Pattanateepapon, A., Pattanaprateep, O., Attia, J., McKay, G.J., Thakkinstian, A.
+        conference: "Journal Manuscript, Under Draft (2022)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "External validation and revision of Penn incisional hernia prediction model: A retrospective cohort study"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Tansawet, A., Numthavaj, P., Teza, H., Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
+        conference: "Journal Manuscript, Under Review (2022)"
 
-      - title: A syntax directed compiler for Algol 60
+      - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
+        conference: "Journal Manuscript, Under Review (2021)"
 
+      - title: Screening models for Periodontitis
+        link: "http://doi.org/10.13140/RG.2.2.20986.77764"
+        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
+        conference: "Conference Poster, 43rd Annual Conference of Internation Society for Clinical Biostatistics, Newcastle University, Newcastle upon Tyne, United Kingdom (2022)"
+
+      - title: "Clinical Prediction of Chronic Periodontitis"
+        link: "https://www.researchgate.net/publication/351563629_Clinical_Prediction_of_Chronic_Periodontitis"
+        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., Thakkinstian, A.
+        conference: "Conference Proceedings, The 7th Regional Conference on Graduate Research 2021, Sripatum University, Khon Kaen, Thailand (2021)"
+
+      - title: "Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning Models"
+        link: "/assets/docs/msc_thesis.pdf"
+        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
+        conference: "Thesis, Mahidol University, Bangkok, Thailand (2021)"
+        
+      - title: "Epidemiological characteristics of SARS-COV-2 in Myanmar"
+        link: "https://doi.org/10.1101/2020.08.02.20166504"
+        authors: Thway, A.M., Teza, H., Win, T.T., Htun, Y.M., Aung, M.M., Win, Y.N., Tun, K.M.
+        conference: "Preprint, Medrxiv (2020)"  
+        
+      - title: "Assessment of Oral Health Status in Taung-Tha Township, Myingyan District, Mandalay Division, Myanmar : A Cross-sectional Descriptive Study"
+        link: "#"
+        authors: Teza, H.
+        conference: "Descriptive Report, University of Dental Medicine Yangon, Yangon, Myanmar (2017)"          
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python & Django
-        level: 98%
+        level: #98%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: #98%
 
       - name: Angular
-        level: 98%
+        level: #98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: #95%
 
       - name: Ruby on Rails
-        level: 85%
+        level: #85%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: #60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
