@@ -39,8 +39,8 @@ sidebar:
           level: Professional
 
     interests:
-      title:  In my free time, I prefer to keep myself in my room; listening to music, walking around with a headset or watching tv shows/anime on repeat.
-      info:
+      title:  
+      info: In my free time, I prefer to keep myself in my room; listening to music, walking around with a headset or watching tv shows/anime on repeat.
         - item: Unsplash
           link: "https://unsplash.com/@finerbrighterlighter"
 
@@ -64,6 +64,7 @@ career-profile:
     summary: |
       Currently based in [Bangkok](https://upload.wikimedia.org/wikipedia/commons/4/49/Th-Bangkok_ceremonial_name.ogg "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit") of Thailand, I am working for health care research, with data science concentration.
       Mainly fascinated with secondary data research, I am enthused to explore **why, what, and how we should reuse** regarding electronic medical records and data collected for other purposes. 
+        
       I majorly code in Python with occasional R. I have experience in medical data wrangling for secondary data research projects, and applying sociodemographic data for screening algorithms/ clinical decision support.
 education:
     title: Education
@@ -97,7 +98,7 @@ experiences:
         time: 2018 - 2018
         company: University of Dental Medicine Yangon
         details: |
-          Affiliated under Teaching Hospital; various shifts of six-weeks-spans were taken under multiple specialty departments over the one-year of clinical training period.
+          Affiliated under Teaching Hospital; various shifts of six-weeks-spans were taken under several specialty departments over the one-year of clinical training period.
             - Department of Orthodontics
             - Department of Pediateic Dentistry
             - Department of Peridontology
