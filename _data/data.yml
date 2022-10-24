@@ -15,7 +15,7 @@ sidebar:
     email: htun.tez@mahidol.edu 
     phone: (+66) 0-2201-0833
     timezone: Indochina Timezone
-    citizenship: Myanmar
+    citizenship: 
     website:  ceb-rama.org
     linkedin: htunteza
     xing:  
@@ -40,7 +40,9 @@ sidebar:
 
     interests:
       title:  
-      info: In my free time, I prefer to keep myself in my room; listening to music, walking around with a headset or watching tv shows/anime on repeat.
+      info: |
+        In my free time, I prefer to keep myself in my room; listening to music, walking around with a headset or watching tv shows/anime on repeat.
+
         - item: Unsplash
           link: "https://unsplash.com/@finerbrighterlighter"
 
@@ -98,7 +100,7 @@ experiences:
         time: 2018 - 2018
         company: University of Dental Medicine Yangon
         details: |
-          Affiliated under Teaching Hospital; various shifts of six-weeks-spans were taken under several specialty departments over the one-year of clinical training period.
+          Affiliated under University Hospital; various shifts of six-weeks-spans were taken under several specialty departments over the one-year of clinical training period.
             - Department of Orthodontics
             - Department of Pediateic Dentistry
             - Department of Peridontology
