@@ -141,52 +141,52 @@ publications:
     papers:
       - title: "Transitional probability between Hypertension and associated comorbidities: A Thai real-world clinical cohort"
         link: "#"
-        authors: Teza, H., Boonmanunt, S., Unwanatham, N., Thadanipon, K., Pattanateepapon, A., Pattanaprateep, O., Attia, J., McKay, G.J., Thakkinstian, A.
+        authors: <b>Teza, H.</b>, Boonmanunt, S., Unwanatham, N., Thadanipon, K., Pattanateepapon, A., Pattanaprateep, O., Attia, J., McKay, G.J., Thakkinstian, A.
         conference: "Journal Manuscript, Under Draft (2022)"
 
       - title: "External validation and revision of Penn incisional hernia prediction model: A retrospective cohort study"
         link: "#"
-        authors: Tansawet, A., Numthavaj, P., Teza, H., Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
+        authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
         conference: "Journal Manuscript, Under Review (2022)"
         
       - title: "Real World Data in Ramathibodi Hospital"
         link: "/assets/docs/realworlddata.jfif"
-        authors:  Thakkinstian, A., Lukkunaprasit, T., Ponthongmak, W. , Looaresuwan, P., Teza, H.
+        authors:  Thakkinstian, A., Lukkunaprasit, T., Ponthongmak, W. , Looaresuwan, P., <b>Teza, H.</b>
         conference: "Conference Speaker, Real World Data, Mahidol University, Bangkok, Thailand (2022)"
         
       - title: "Screening models for Periodontitis"
         link: "http://doi.org/10.13140/RG.2.2.20986.77764"
-        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
+        authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
         conference: "Conference Poster, 43rd Annual Conference of Internation Society for Clinical Biostatistics, Newcastle University, Newcastle upon Tyne, United Kingdom (2022)"
         
       - title: "Big Cohort Data for NCDs (NCDs: Bridging the Gaps)"
         link: "/assets/docs/mohammsc.jfif"
-        authors: Thakkinstian, A., Lolak, S., Looaresuwan, P., Teza, H.
+        authors: Thakkinstian, A., Lolak, S., Looaresuwan, P., <b>Teza, H.</b>
         conference: "Conference Speaker, 14th Ministry of Health - Academy of Medicine of Malaysia Scientific Meeting, National Institutes of Health, Selangor, Malaysia (2022)"
 
       - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
         link: "#"
-        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
+        authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
         conference: "Journal Manuscript, Under Review (2021)"
         
       - title: "Clinical Prediction of Chronic Periodontitis"
         link: "https://www.researchgate.net/publication/351563629_Clinical_Prediction_of_Chronic_Periodontitis"
-        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., Thakkinstian, A.
+        authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., Thakkinstian, A.
         conference: "Conference Proceedings, The 7th Regional Conference on Graduate Research 2021, Sripatum University, Khon Kaen, Thailand (2021)"
 
       - title: "Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning Models"
         link: "/assets/docs/msc_thesis.pdf"
-        authors: Teza, H., Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
+        authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
         conference: "Thesis, Mahidol University, Bangkok, Thailand (2021)"
         
       - title: "Epidemiological characteristics of SARS-COV-2 in Myanmar"
         link: "https://doi.org/10.1101/2020.08.02.20166504"
-        authors: Thway, A.M., Teza, H., Win, T.T., Htun, Y.M., Aung, M.M., Win, Y.N., Tun, K.M.
+        authors: Thway, A.M., <b>Teza, H.</b>, Win, T.T., Htun, Y.M., Aung, M.M., Win, Y.N., Tun, K.M.
         conference: "Preprint, Medrxiv (2020)"  
         
       - title: "Assessment of Oral Health Status in Taung-Tha Township, Myingyan District, Mandalay Division, Myanmar : A Cross-sectional Descriptive Study"
         link: "#"
-        authors: Teza, H.
+        authors: <b>Teza, H.</b>
         conference: "Descriptive Report, University of Dental Medicine Yangon, Yangon, Myanmar (2017)"          
 
 footer: >
