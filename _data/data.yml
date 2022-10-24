@@ -88,7 +88,7 @@ experiences:
         time: 2021 - Present
         company: Mahidol University
         details: |
-          Affiliated under Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I perform data extraction, cleaning and engineering of electronic medical records to research ready datasets. I am responsible for two themes under the (CEB Data Warehouse)[https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Overview] project, Hypertension and Surgery. 
+          Affiliated under Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I perform data extraction, cleaning and engineering of electronic medical records to research ready datasets. I am responsible for two themes under the CEB Data Warehouse project, Hypertension and Surgery. 
       
       - role: Graduate Student Researcher
         time: 2014 - 2015
@@ -134,7 +134,7 @@ projects:
 
       - title: Epidemiological characteristics of SARS-COV-2 in Myanmar
         link: "https://www.researchgate.net/project/Epidemiology-of-SARS-CoV-2-in-Myanmar"
-        tagline: "No Ethics Committee Certification seeked; Secondary Data Research"
+        tagline: "No Ethics Committee Certification seeked; Public Data Research"
 
 publications:
     title: Works
