@@ -25,12 +25,6 @@
     </li>
     {% endif %}
 
-    {% if sidebar.telegram %}
-    <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
@@ -43,9 +37,9 @@
     </li>
     {% endif %}
 
-    {% if sidebar.xing %}
-    <li class="xing"><i class="fab fa-xing"></i>
-      <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
+    {% if sidebar.orcid %}
+    <li class="xing"><i class="fab fa-orcid"></i>
+      <a href="https://orcid.org/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.orcid }}</a>
     </li>
     {% endif %}
 
