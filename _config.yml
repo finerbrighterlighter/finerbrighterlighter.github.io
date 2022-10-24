@@ -1,17 +1,17 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Htun Teza
+title: Teza, H.
 url: 'http://htunteza.com'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: from Automatic to Intelligent
+description: Htun Teza is a Burmese Data Scientist, Research Assistant, Dentist, Music, Movie and Anime Enthusiast, currently based in Bangkok Thailand.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+chrome_mobile_color: #3c5560 
 
 # Tracker
 analytics: #UA-83979019-1
