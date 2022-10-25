@@ -188,7 +188,7 @@ publications:
         link: "#"
         authors: <b>Teza, H.</b>
         conference: "Descriptive Report, University of Dental Medicine Yangon, Yangon, Myanmar (2017)"          
-
+        
 updates:
     title: Updates
     info:
@@ -215,7 +215,6 @@ updates:
         company: Mahidol University, Thailand
         details: |
           I was asked to share [my experience](https://www.rama.mahidol.ac.th/ceb/content/htun-tezas-personal-story) of being a data science student in Department of Clinical Epidemiology and Biostatistics, coming from a biomedical background rather than computer science.
-          
-          
+         
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
