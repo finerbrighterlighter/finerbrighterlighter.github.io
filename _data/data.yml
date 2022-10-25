@@ -197,7 +197,9 @@ updates:
         company: Mahidol University, Thailand
         details: |
           On 28th of September 2022, CEB-RAMA-MU hosted Dr. Olivia Wu from Glasgow University and various academics across Thailand to discuss on the topic of research using real world data. I was invited for participation as a speaker under the topic “Real World Data in Ramathibodi Hospital” to share our experience of extracting and curating medical data from Electronic Health Records.
-          ![alt-text-1](/assets/images/ceb_rwd/ceb_rwd2.jpg "Presenting"){width=25%} ![alt-text-2](/assets/images/ceb_rwd/ceb_rwd3.jpg =25x "Group photo"){width=25%} ![alt-text-3](/assets/images/ceb_rwd/ceb_rwd1.jpg =25x "Poster"){width=25%}
+          ![alt-text-1](/assets/images/ceb_rwd/ceb_rwd2.jpg "Presenting") | ![alt-text-2](/assets/images/ceb_rwd/ceb_rwd3.jpg =25x "Group photo")
+          :======:|:======:
+          ![alt-text-3](/assets/images/ceb_rwd/ceb_rwd1.jpg =25x "Poster")|
 
       
       - role: 43rd Annual Conference of the International Society for Clinical Biostatistics
