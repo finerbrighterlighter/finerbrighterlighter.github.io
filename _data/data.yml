@@ -201,30 +201,35 @@ updates:
         company: Mahidol University, Thailand
         details: |
           CEB-RAMA-MU hosted Graduation Cerlebration for alumni of 2020 and 2021 academic years. Although I chose not to attend the ceremony hosted by Faculty of Medicine Ramathibodi Hospital and Mahidol University, I participated as a Mastert of Science graduate of 2021.
+          <br>
           
       - role: Real World Data
         time: 28th September, 2022
         company: Mahidol University, Thailand
         details: |
           CEB-RAMA-MU hosted Dr. Olivia Wu from Glasgow University and various academics across Thailand to discuss on the topic of research using real world data. I was invited for participation as a speaker under the topic “Real World Data in Ramathibodi Hospital” to share our experience of extracting and curating medical data from Electronic Health Records.
+          <br>
 
       - role: 43rd Annual Conference of the International Society for Clinical Biostatistics
         time: 21st-25th August, 2022
         company: Newcastle University, United Kingdom
         details: |
           I was sponsored by Faculty of Medicine Ramathibodi Hospital to attend my poster presentation hosted at Newcastle University, Newcastle upon Tyne, United Kingdom.
+          <br>
           
       - role: 14th Ministry of Health of Malaysia - Academy of Medicine of Malaysia Scientific Meeting 2022
         time: 20th July, 2022
         company: National Institutes of Health, Malaysia
         details: |
           I was invited as a symposium speaker under the theme "NCDs: Bridging the Gaps" in 23rd National Institutes of Health (Malaysia) Scientific Conference. We discussed our work with Non-communicable diseases and real world data from electronic medical records at CEB-RAMA-MU.
+          <br>
           
       - role: Htun Teza's personal story
         time: 17th June, 2021
         company: Mahidol University, Thailand
         details: |
           I was asked to share [my experience](https://www.rama.mahidol.ac.th/ceb/content/htun-tezas-personal-story "CEB-RAMA-MU") of being a data science student in Department of Clinical Epidemiology and Biostatistics, coming from a biomedical background rather than computer science.
+          <br>
          
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
