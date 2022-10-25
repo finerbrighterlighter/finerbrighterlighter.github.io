@@ -198,9 +198,9 @@ updates:
         details: |
           On 28th of September 2022, CEB-RAMA-MU hosted Dr. Olivia Wu from Glasgow University and various academics across Thailand to discuss on the topic of research using real world data. I was invited for participation as a speaker under the topic “Real World Data in Ramathibodi Hospital” to share our experience of extracting and curating medical data from Electronic Health Records.
           <table>
-            <td><img src="/assets/images/ceb_rwd/ceb_rwd2.jpg" width="30%" height="30%"></td>
-            <td><img src="/assets/images/ceb_rwd/ceb_rwd3.jpg" width="30%" height="30%"></td>
-            <td><img src="/assets/images/ceb_rwd/ceb_rwd1.jpg" width="30%" height="30%"></td>
+            <td><img src="/assets/images/ceb_rwd/ceb_rwd2.jpg" width="50%" height="50%"></td>
+            <td><img src="/assets/images/ceb_rwd/ceb_rwd3.jpg" width="50%" height="50%"></td>
+            <td><img src="/assets/images/ceb_rwd/ceb_rwd1.jpg" width="50%" height="50%"></td>
           </table>
 
       - role: 43rd Annual Conference of the International Society for Clinical Biostatistics
@@ -208,13 +208,22 @@ updates:
         company: Newcastle University, United Kingdom
         details: |
           From 21st to 25th of August 2022, I was sponsored by Faculty of Medicine Ramathibodi Hospital to attend my poster presentation hosted at Newcastle University, Newcastle upon Tyne, United Kingdom.
-      
+          <table>
+            <td><img src="/assets/images/iscb/iscb1.jpg" width="50%" height="50%"></td> 
+            <td><img src="/assets/images/iscb/iscb2.jpg" width="50%" height="50%"></td>
+            <td><img src="/assets/images/iscb/iscb3.jpg" width="50%" height="50%"></td>
+          </table>
+          
       - role: 14th Ministry of Health of Malaysia - Academy of Medicine of Malaysia Scientific Meeting 2022
         time: 20th July, 2022
         company: National Institutes of Health, Malaysia
         details: |
           On 20th of July 2022, I was invited as a symposium speaker under the theme "NCDs: Bridging the Gaps" in 23rd National Institutes of Health (Malaysia) Scientific Conference. We discussed our work with Non-communicable diseases and real world data from electronic medical records at CEB-RAMA-MU.
-      
+          <table>
+            <td><img src="/assets/images/moh_ncd/moh_ncd2.jpg" width="70%" height="70%"></td>
+            <td><img src="/assets/images/moh_ncd/moh_ncd1.jpg" width="70%" height="70%"></td>
+          </table>    
+          
       - role: Htun Teza's personal story
         time: 17th June, 2021
         company: Mahidol University, Thailand
