@@ -121,19 +121,19 @@ projects:
     assignments:
       - title: CEB Data Warehouse; Surgery Theme
         link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/Surgery"
-        tagline: "Ramathibodi Human Research Ethics Committee Certification - COA. MURA2021/1013"
+        tagline: "Project funded by National Research Council of Thailand (NRCT)"
         
       - title: CEB Data Warehouse; Hypertension Theme
         link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/HT"
-        tagline: "Ramathibodi Human Research Ethics Committee Certification - COA. MURA2021/512"
+        tagline: "Project funded by National Research Council of Thailand (NRCT)"
       
       - title: Clinical Prediction of Chronic Periodontitis
         link: "https://www.researchgate.net/project/Risk-Factor-based-Diagnosis-for-Chronic-Periodontitis-using-Machine-Learning-Models"
-        tagline: "Ramathibodi Human Research Ethics Committee Certification - COA. MURA2020/1560"
+        tagline: "Author funded by Faculty of Medicine Ramathibodi Hospital adn Faculty of Graduate Studies, Mahidol University"
 
       - title: Epidemiological characteristics of SARS-COV-2 in Myanmar
         link: "https://www.researchgate.net/project/Epidemiology-of-SARS-CoV-2-in-Myanmar"
-        tagline: "No Ethics Committee Certification seeked; Public Data Research"
+        tagline: "No funding seeked"
 
 publications:
     title: Works
