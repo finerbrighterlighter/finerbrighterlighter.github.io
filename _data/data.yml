@@ -71,12 +71,12 @@ education:
     title: Education
     info:
       - degree: Master of Science in Data Science for Healthcare
-        university: [Mahidol University](https://en.wikipedia.org/wiki/Mahidol_University)
+        university: Mahidol University, Thailand
         time: 2019 - 2021
         details: 
         
       - degree: Bachelor of Dental Surgery
-        university: [University of Dental Medicine Yangon](https://en.wikipedia.org/wiki/University_of_Dental_Medicine,_Yangon)
+        university: University of Dental Medicine Yangon, Myanmar
         time: 2012 - 2018
         details: 
         
@@ -85,21 +85,21 @@ experiences:
     info:
       - role: Graduate Research Assistant
         time: 2021 - Present
-        company: [Mahidol University](https://en.wikipedia.org/wiki/Mahidol_University)
+        company: Mahidol University, Thailand
         details: |
-          Affiliated under Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I perform data extraction, cleaning and engineering of electronic medical records to research ready datasets. I am responsible for two themes under the [CEB Data Warehouse project](https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Overview); Hypertension and Surgery. 
+          Affiliated under the Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I perform data extraction, cleaning and engineering of electronic medical records to research ready datasets. I am responsible for two themes under the [CEB Data Warehouse project](https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Overview); Hypertension and Surgery. 
       
       - role: Graduate Student Researcher
         time: 2019 - 2021
-        company: [Mahidol University](https://en.wikipedia.org/wiki/Mahidol_University)
+        company: Mahidol University, Thailand
         details: |
-          Affiliated under Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I did my postgraduate research regarding Severe Periodontitis in Thai population. Factors affecting development of the condition were studied, and four screening models were developed using statistical and machine learning classification models.
+          Affiliated under the Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I did my postgraduate research regarding Severe Periodontitis in Thai population. Factors affecting development of the condition were studied, and four screening models were developed using statistical and machine learning classification models.
       
       - role: House Officer
         time: 2018 - 2018
-        company: [University of Dental Medicine Yangon](https://en.wikipedia.org/wiki/University_of_Dental_Medicine,_Yangon)
+        company: University of Dental Medicine Yangon, Myanmar
         details: |
-          Affiliated under University Hospital; various shifts of six-weeks-spans were taken under several specialty departments over the one-year of clinical training period.
+          Affiliated under the University affiliated Hospital; various shifts of six-weeks-spans were taken under several specialty departments over the one-year of clinical training period.
             - Department of Orthodontics
             - Department of Pediateic Dentistry
             - Department of Peridontology
@@ -111,9 +111,9 @@ experiences:
       
       - role: Undergraduate Research Assistant
         time: 2018 - 2018
-        company: [University of Dental Medicine Yangon](https://en.wikipedia.org/wiki/University_of_Dental_Medicine,_Yangon)
+        company: University of Dental Medicine Yangon, Myanmar
         details: |
-          Affiliated under Department of Preventive and Community Dentistry; I assisted data collection and data entry tasks relevant to various projects by the department and the postgraduate researchers.
+          Affiliated under the Department of Preventive and Community Dentistry; I assisted data collection and data entry tasks relevant to various projects by the department and the postgraduate researchers.
           
 projects:
     title: Projects
