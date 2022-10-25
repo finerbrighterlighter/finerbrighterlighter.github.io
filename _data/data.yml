@@ -192,40 +192,50 @@ publications:
 updates:
     title: Updates
     info:
+       - role: Real World Data
+        time: 18th October, 2022
+        company: Mahidol University, Thailand
+        details: |
+          CEB-RAMA-MU hosted Graduation Cerlebration for alumni of 2020 and 2021 academic years. Although I chose not to attend the ceremony hosted by Faculty of Medicine Ramathibodi Hospital and Mahidol University, I participated as a Mastert of Science graduate of 2021.
+          <table>
+            <td><img src="/assets/images/ceb_grad/ceb_grad1.jpg" width="90%" height="90%" title="With the major advisor for the thesis" alt="With the major advisor for the thesis; left to right: Anuchate Pattanateepapon, Htun Teza"></td>
+            <td><img src="/assets/images/ceb_grad/ceb_grad2.jpg" width="90%" height="90%" title="With all graduates attending the event" alt="With all graduates attending the event; left to right: Everyoen came poshed up, I cannot name half the people in this photo"></td>
+          </table> <br>
+          
       - role: Real World Data
         time: 28th September, 2022
         company: Mahidol University, Thailand
         details: |
-          On 28th of September 2022, CEB-RAMA-MU hosted Dr. Olivia Wu from Glasgow University and various academics across Thailand to discuss on the topic of research using real world data. I was invited for participation as a speaker under the topic “Real World Data in Ramathibodi Hospital” to share our experience of extracting and curating medical data from Electronic Health Records.
+          CEB-RAMA-MU hosted Dr. Olivia Wu from Glasgow University and various academics across Thailand to discuss on the topic of research using real world data. I was invited for participation as a speaker under the topic “Real World Data in Ramathibodi Hospital” to share our experience of extracting and curating medical data from Electronic Health Records.
           <table>
-            <td><img src="/assets/images/ceb_rwd/ceb_rwd2.jpg" width="90%" height="90%"></td>
-            <td><img src="/assets/images/ceb_rwd/ceb_rwd3.jpg" width="90%" height="90%"></td>
+            <td><img src="/assets/images/ceb_rwd/ceb_rwd2.jpg" width="90%" height="90%" title="Presenting about data extraction process" alt="Presenting about data extraction process; left to right: Htun Teza, Wanchan Ponthongmak, Panu Looaresuwan"></td>
+            <td><img src="/assets/images/ceb_rwd/ceb_rwd3.jpg" width="90%" height="90%" title="Post-event group photo" alt="Post-event group photo; left to right: Panu Looaresuwan, Htun Teza, Thitiya Lukkunaprasit, Oliva Wu, Ammarin Thakkinstian, Wanchan Ponthongmak"></td>
           </table> <br>
 
       - role: 43rd Annual Conference of the International Society for Clinical Biostatistics
         time: 21st-25th August, 2022
         company: Newcastle University, United Kingdom
         details: |
-          From 21st to 25th of August 2022, I was sponsored by Faculty of Medicine Ramathibodi Hospital to attend my poster presentation hosted at Newcastle University, Newcastle upon Tyne, United Kingdom.
+          I was sponsored by Faculty of Medicine Ramathibodi Hospital to attend my poster presentation hosted at Newcastle University, Newcastle upon Tyne, United Kingdom.
           <table>
-            <td><img src="/assets/images/iscb/iscb2.jpg" width="90%" height="80%"></td>
-            <td><img src="/assets/images/iscb/iscb3.jpg" width="107%" height="107%"></td>
+            <td><img src="/assets/images/iscb/iscb2.jpg" width="80%" height="80%" title="With conference poster" alt="Htun Teza in front of the conference poster; titled "Screening models for Periodontitis"></td>
+            <td><img src="/assets/images/iscb/iscb3.jpg" width="107%" height="107%" title="Post-conference group photo" alt="Post-conference group photo; left to right: Pawin Numthavaj, Panu Looaresuwan, Wanchana Ponthongmak, Ammarin Thakkinstian, Htun Teza, Suparee Boonmanunt, Napaphat Poprom, Amarit Tansawet"></td>
           </table> <br>
           
       - role: 14th Ministry of Health of Malaysia - Academy of Medicine of Malaysia Scientific Meeting 2022
         time: 20th July, 2022
         company: National Institutes of Health, Malaysia
         details: |
-          On 20th of July 2022, I was invited as a symposium speaker under the theme "NCDs: Bridging the Gaps" in 23rd National Institutes of Health (Malaysia) Scientific Conference. We discussed our work with Non-communicable diseases and real world data from electronic medical records at CEB-RAMA-MU.
+          I was invited as a symposium speaker under the theme "NCDs: Bridging the Gaps" in 23rd National Institutes of Health (Malaysia) Scientific Conference. We discussed our work with Non-communicable diseases and real world data from electronic medical records at CEB-RAMA-MU.
           <table>
-            <td><img src="/assets/images/moh_ncd/moh_ncd2.jpg" width="45%" height="45%"></td>
+            <td><img src="/assets/images/moh_ncd/moh_ncd2.jpg" width="45%" height="45%" title="Remote presentation" alt="Screen capture of Remote presentation; left to right: Ammarin Thakkinstian, Panu Looaresuwan, Htun Teza, Sermkiat Lolak></td>
           </table> <br>
           
       - role: Htun Teza's personal story
         time: 17th June, 2021
         company: Mahidol University, Thailand
         details: |
-          I was asked to share [my experience](https://www.rama.mahidol.ac.th/ceb/content/htun-tezas-personal-story) of being a data science student in Department of Clinical Epidemiology and Biostatistics, coming from a biomedical background rather than computer science.
+          I was asked to share [my experience](https://www.rama.mahidol.ac.th/ceb/content/htun-tezas-personal-story "CEB-RAMA-MU") of being a data science student in Department of Clinical Epidemiology and Biostatistics, coming from a biomedical background rather than computer science.
          
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
