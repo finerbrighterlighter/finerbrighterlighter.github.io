@@ -233,3 +233,18 @@ updates:
          
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+
+<h1>Updates</h1>
+<ul>
+  {% comment %}
+    Get all "photo_set" pages and display a list with links to them.
+  {% endcomment %}
+  {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+  {% for photo_page in photo_pages %}
+    <li>
+      <a href="{{ photo_page.url | prepend: site.baseurl }}">{{ photo_page.title }}</a>
+    </li>
+	<br>
+  {% endfor %}
+</ul>
