@@ -14,8 +14,9 @@ description: "ENTER HERE"
     Updates
   </h2>
   
-{% assign photo_pages = site.pages | where: "layout", "photo_set" %}
-{% for photo_page in photo_pages %}
+{% assign photo_pages1 = site.pages | where: "layout", "photo_set" %}
+
+{% for photo_page in photo_pages1 %}
 
   <div class="item">
     <div class="meta">
@@ -37,3 +38,10 @@ description: "ENTER HERE"
 
 {% endfor %}
 </section><!--//section-->
+
+<script> 
+document.getElementById("photo_pages1").innerHTML = photo_pages1;
+photo_pages1.sort(); 
+photo_pages1.reverse(); 
+document.getElementById("photo_pages1").innerHTML = photo_pages1;
+</script>
