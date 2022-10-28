@@ -15,7 +15,7 @@ description: "ENTER HERE"
   </h2>
   
 {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
-{% photo_pages.reverse() %}
+<script> photo_pages.reverse() </script>
 {% for photo_page in photo_pages %}
 
   <div class="item">
