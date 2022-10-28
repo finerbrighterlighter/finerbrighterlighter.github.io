@@ -15,8 +15,8 @@ description: "ENTER HERE"
   </h2>
   
 {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
-
-{% for photo_page in photo_pages | dictsortreversed:'name'  %}
+{% rev_photos = reversed(photo_pages) %}
+{% for photo_page in rev_photos %}
 
   <div class="item">
     <div class="meta">
