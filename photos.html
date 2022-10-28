@@ -13,18 +13,22 @@ description: "ENTER HERE"
     </span>
     Updates
   </h2>
+  <br>
+  <br>
   
 {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
 {% for photo_page in photo_pages %}
   <div class="item">
     <div class="meta">
-		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h3 class="job-title"><b>{{photo_page.title }}</b></h3></a>
+		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h4 class="job-title">{{photo_page.title }}</h4></a>
       
 	  <div class="upper-row">
         <div class="time">{{ photo_page.time }}</div>
-		<div class="company">{{ photo_page.company }}</div>
+		<div class="company"><i>{{ photo_page.company }}</i></div>
       </div><!--//upper-row-->
-
+	  <br>
+	  <br>
+	 
     </div><!--//meta-->
   {% endfor %}
 
