@@ -8,10 +8,16 @@ layout: default
 <ul>
   {% for i in (1..num) %}
   <li>
-    <img src="{{ site.baseurl }}/gallery/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" style='height: 100%; width: 100%; object-fit: contain'>
+    <img src="{{ site.baseurl }}/gallery/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" style="height: 100%; width: 100%; object-fit: contain">
   </li>
+  <br>
   {% endfor %}
 </ul>
+<br>
 <div>
-  <a href="{{ site.baseurl }}/gallery/">View All Photo Sets</a>
+  <a href="{{ site.baseurl }}/updates/" style="margin-left: auto; margin-right:0">View all updates.</a>
+</div>
+<br>
+<div>
+  <a href="{{ site.baseurl }}" style="margin-left: auto; margin-right:0">Back to main page.</a>
 </div>
