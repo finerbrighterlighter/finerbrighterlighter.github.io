@@ -5,6 +5,13 @@ layout: default
 {% assign num = page.photos.size %}
 
 <h2>{{ page.title }}</h2>
+
+{% if page.description %}
+<div class="details">
+  {{ page.detdescriptionails | markdownify }}
+</div><!--//details-->
+{% endif %}
+	
 <ul>
   {% for i in (1..num) %}
 
@@ -15,8 +22,8 @@ layout: default
 </ul>
 <br>
 <div>
-  - <a href="{{ site.baseurl }}/updates/" style="align: right; margin-left: auto; margin-right:0">View all updates.</a>
+  <li><a href="{{ site.baseurl }}/updates/" style="align: right; margin-left: auto; margin-right:0">View all updates.</a></li>
 </div>
 <div>
-  - <a href="{{ site.baseurl }}/#" style="align: right; margin-left: auto; margin-right:0">Back to home page.</a>
+  <li><a href="{{ site.baseurl }}/#" style="align: right; margin-left: auto; margin-right:0">Back to home page.</a></li>
 </div>

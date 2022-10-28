@@ -19,7 +19,7 @@ description: "ENTER HERE"
 
   <div class="item">
     <div class="meta">
-		<li><a href="{{ photo_page.url | prepend: site.baseurl }}"><h3 class="job-title">{{photo_page.title }}</h3></a></li>
+		<a href="{{ photo_page.url | prepend: site.baseurl }}"><li><h3 class="job-title">{{photo_page.title }}</li></h3></a>
 	  <div class="upper-row">
         <div class="time"><i>{{ photo_page.time }}</i></div>
 		<div class="company">{{ photo_page.company }}</div>
@@ -27,9 +27,7 @@ description: "ENTER HERE"
 	  
 	  <div class="lower-row">
 	  <ul>
-		{% for i in (1..2) %}
-		<img src="{{ site.baseurl }}/gallery/{{ photo_page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ photo_page.photos.set | capitalize }}" style="height: 50%; width: 50%; object-fit: contain" />
-		{% endfor %}
+		<img src="{{ site.baseurl }}/gallery/{{ photo_page.photos.set }}-1.jpg" style="height: 100%; width: 100%; object-fit: contain" >
 	  </ul>
 	  </div><!--//meta-->
 	  
