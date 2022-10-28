@@ -5,22 +5,18 @@ permalink: /updates/
 description: "ENTER HERE"
 ---
 
-{% include updates.html %}
-
-{% assign updates = site.data.data.updates %}
-{% if updates %}
 <section class="section updates-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    {{ updates.title }}
+    Updates
   </h2>
-
-  {% for photo_page in photo_pages %}
+  
+{% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+{% for photo_page in photo_pages %}
   <div class="item">
-
     <div class="meta">
 		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h3 class="job-title"><b>{{photo_page.title }}</b></h3></a>
       

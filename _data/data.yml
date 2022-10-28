@@ -207,7 +207,7 @@ updates:
         time: 
         company: 
         details: |
-          Read more of my recent [updates](/updates "Updates page").
+          <i>Read more of <b>[my recent updates](/updates "Updates page")</b>.</i>
          
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
