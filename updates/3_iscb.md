@@ -9,5 +9,5 @@ description: "I was sponsored by Faculty of Medicine Ramathibodi Hospital to att
 
 photos:
     set: iscb
-    size: 3
+    size: 6
 ---

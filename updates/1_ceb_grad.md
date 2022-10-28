@@ -9,5 +9,5 @@ description: "CEB-RAMA-MU hosted Graduation Cerlebration for alumni of 2020 and 
 
 photos:
     set: ceb_grad
-    size: 2
+    size: 5
 ---

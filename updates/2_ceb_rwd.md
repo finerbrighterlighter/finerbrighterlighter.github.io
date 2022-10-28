@@ -9,5 +9,5 @@ description: "CEB-RAMA-MU hosted Dr. Olivia Wu from Glasgow University and vario
 
 photos:
     set: ceb_rwd
-    size: 3
+    size: 5
 ---
