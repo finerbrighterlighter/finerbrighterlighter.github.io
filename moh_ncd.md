@@ -1,10 +1,10 @@
 ---
 layout: photo_set
-title: Graduation
-permalink: /updates/ceb_grad/
+title: Malaysia
+permalink: /updates/moh_ncd/
 description: "An example photo gallery."
 
 photos:
-    set: ceb_grad
+    set: moh_ncd
     size: 2
 ---
