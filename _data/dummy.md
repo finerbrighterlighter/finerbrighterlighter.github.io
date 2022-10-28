@@ -248,3 +248,44 @@ footer: >
 	<br>
   {% endfor %}
 </ul>
+
+
+---
+layout: default
+title: Updates
+permalink: /updates/
+description: "ENTER HERE"
+---
+
+<section class="section updates-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    Updates
+  </h2>
+  
+{% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+{% for photo_page in photo_pages %}
+
+  <div class="item">
+    <div class="meta">
+		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h2 class="job-title">{{photo_page.title }}</h2></a>
+	  <div class="upper-row">
+        <div class="time"><i>{{ photo_page.time }}</i></div>
+		<div class="company">{{ photo_page.company }}</div>
+      </div><!--//upper-row-->
+	  
+	  <div class="lower-row">
+	  <ul>
+		<img src="{{ site.baseurl }}/gallery/{{ photo_page.photos.set }}-1.jpg" style="height: 100%; width: 100%; object-fit: contain" >
+	  </ul>
+	  </div><!--//meta-->
+	  
+	  <br>
+	</div>
+  </div>
+
+{% endfor %}
+</section><!--//section-->
