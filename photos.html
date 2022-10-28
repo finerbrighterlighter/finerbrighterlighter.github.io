@@ -18,10 +18,10 @@ description: "ENTER HERE"
 {% for photo_page in photo_pages %}
   <div class="item">
     <div class="meta">
-		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h3 class="job-title"><b>{{photo_page.title }}</b></h3></a>
+		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h4 class="job-title">{{photo_page.title }}</h4></a>
       
 	  <div class="upper-row">
-        <div class="time">{{ photo_page.time }}</div>
+        <div class="time"><i>{{ photo_page.time }}</i></div>
 		<div class="company">{{ photo_page.company }}</div>
       </div><!--//upper-row-->
 
