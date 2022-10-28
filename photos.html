@@ -16,6 +16,7 @@ description: "ENTER HERE"
   
 {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
 {% for photo_page in photo_pages %}
+<li>
   <div class="item">
     <div class="meta">
 		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h4 class="job-title">{{photo_page.title }}</h4></a>
@@ -24,8 +25,19 @@ description: "ENTER HERE"
         <div class="time"><i>{{ photo_page.time }}</i></div>
 		<div class="company">{{ photo_page.company }}</div>
       </div><!--//upper-row-->
-
-    </div><!--//meta-->
-  {% endfor %}
-
+	  
+	  <div class="lower-row">
+	  <ul>
+		{% for i in 2 %}
+		<img src="{{ site.baseurl }}/gallery/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" style="height: 50%; width: 50%; object-fit: contain">
+		<br>
+		{% endfor %}
+	  </ul>
+	  </div><!--//meta-->
+	  
+	  <br>
+	</div>
+  </div>
+</li>
+{% endfor %}
 </section><!--//section-->
