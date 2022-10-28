@@ -16,7 +16,7 @@ description: "ENTER HERE"
   
 {% assign photo_pages1 = site.pages | where: "layout", "photo_set" %}
 
-{% for photo_page in photo_pages1 %}
+{% for photo_page in photo_pages2 %}
 
   <div class="item">
     <div class="meta">
@@ -40,8 +40,8 @@ description: "ENTER HERE"
 </section><!--//section-->
 
 <script> 
-document.getElementById("photo_pages1").innerHTML = photo_pages1;
-photo_pages1.sort(); 
-photo_pages1.reverse(); 
-document.getElementById("photo_pages1").innerHTML = photo_pages1;
+document.getElementById("sort_array").innerHTML = photo_pages1;
+sort_array.sort(); 
+sort_array.reverse(); 
+document.getElementById("photo_pages2").innerHTML = sort_array;
 </script>
