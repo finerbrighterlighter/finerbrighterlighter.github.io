@@ -14,7 +14,8 @@ description: "ENTER HERE"
     Updates
   </h2>
   
-{% assign photo_pages = site.pages.all().reverse() | where: "layout", "photo_set" %}
+{% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+{% assign photo_pages = photo_pages.all().reverse() %}
 
 {% for photo_page in photo_pages %}
   <div class="item">
