@@ -1,6 +1,6 @@
 ---
-layout: photo_set
-title: Graduation Celebration
+layout: post
+title: "raduation Celebration"
 permalink: /updates/ceb_grad/
 date: 2022-10-18
 time: 18th October, 2022
