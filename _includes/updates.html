@@ -1,32 +1,28 @@
-{% assign updates = site.data.data.updates %}
-{% if updates %}
 <section class="section updates-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    {{ updates.title }}
+    Updates
   </h2>
+  
+{% assign photo_pages = site.pages | where: "layout", "photo_set" | sort: 'name' | reverse %}
 
-  {% for update in updates.info %}
+  {% for photo_page in photo_pages limit:1%}
   <div class="item">
-
     <div class="meta">
-		<h3 class="job-title"><b>{{ update.role }}</b></h3>
-      
+		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{photo_page.title }}</b></h2></a>
 	  <div class="upper-row">
-        <div class="time">{{ update.time }}</div>
-		<div class="company">{{ update.company }}</div>
+        <div class="time"><i>{{ photo_page.time }}</i></div>
+		<div class="company">{{ photo_page.company }}</div>
       </div><!--//upper-row-->
-
-    </div><!--//meta-->
-
-    {% if update.details %}
-    <div class="details">
-      {{ update.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
+	  
+		{% if page.description %}
+		<div class="details" style="text-align: justify; text-justify: auto">
+			{{ photo_page.description | markdownify }}
+		</div><!--//details-->
+		{% endif %}
 	
   </div><!--//item-->
   {% endfor %}
