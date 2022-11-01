@@ -25,6 +25,13 @@ description: "ENTER HERE"
 		<div class="company">{{ photo_page.company }}</div>
       </div><!--//upper-row-->
 	  
+		{% if page.description %}
+		<div class="details" style="text-align: justify; text-justify: inter-word">
+			{{ page.description | markdownify }}
+		</div><!--//details-->
+		{% endif %}
+		
+		
 	  <div class="lower-row">
 	  <ul>
 		<img src="{{ site.baseurl }}/gallery/{{ photo_page.photos.set }}-1.jpg" style="height: 100%; width: 100%; object-fit: contain" >
