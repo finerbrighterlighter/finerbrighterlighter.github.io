@@ -26,7 +26,7 @@ sidebar:
     twitter: 
     stack-overflow: 12473607/hteza # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: 154577593-fibrili # Number-Username, e.g. 123456-alandoe
+    goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: /assets/images/hteza.vcf
 
     languages:
@@ -44,9 +44,12 @@ sidebar:
       
         - item: Unsplash
           link: "https://unsplash.com/@finerbrighterlighter"
-
+          
         - item: MyAnimeList
           link: "https://myanimelist.net/profile/fibrili"
+          
+        - item: Goodreads
+          link: "https://goodreads.com/user/show/154577593-fibrili"
 
         - item: Replay 2022 (Apple Music)
           link: "https://music.apple.com/th/playlist/replay-2022/pl.rp-755XHRnNGGR6"
