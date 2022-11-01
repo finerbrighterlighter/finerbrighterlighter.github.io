@@ -14,7 +14,7 @@ description: "ENTER HERE"
     Updates
   </h2>
   
-{% assign photo_pages = site.pages | where: "layout", "photo_set" | sort:"date", "last" %}
+{% assign photo_pages = site.pages | where: "layout", "photo_set" | sort:"name", "last" %}
 
 {% for photo_page in photo_pages %}
   <div class="item">
