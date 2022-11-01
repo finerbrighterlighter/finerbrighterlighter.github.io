@@ -1,5 +1,41 @@
+{% assign update = site.data.update.updates-profile %}
+{% if update %}
 	<ul>
 		{% for post in site.entries %}
 			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br>
 		{% endfor %}
 	</ul>
+
+<section class="section updates-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ updates.title }}
+  </h2>
+
+  {% for update in updates.info %}
+  <div class="item">
+
+    <div class="meta">
+		<h3 class="job-title"><b>{{ update.role }}</b></h3>
+      
+	  <div class="upper-row">
+        <div class="time">{{ update.time }}</div>
+		<div class="company">{{ update.company }}</div>
+      </div><!--//upper-row-->
+
+    </div><!--//meta-->
+
+    {% if update.details %}
+    <div class="details">
+      {{ update.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+	
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
