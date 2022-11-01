@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: 12473607/hteza # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: 154577593-fibrili # Number-Username, e.g. 123456-alandoe
-    pdf: # http://www.africau.edu/images/default/sample.pdf
+    pdf: /assets/images/hteza.vcf
 
     languages:
       title: Languages
