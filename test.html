@@ -1,0 +1,34 @@
+---
+layout: default
+title: Blog Posts
+---
+<section class="section updates-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    Updates
+  </h2>
+ 
+<ul>
+{% for post in site.updates %}
+  <div class="item">
+    <div class="meta">
+		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  <div class="upper-row">
+        <div class="time"><i>{{ post.time }}</i></div>
+		<div class="company">{{ post.company }}</div>
+      </div><!--//upper-row-->
+	  
+	  <div class="lower-row">
+	  <ul>
+		<img src="{{ site.baseurl }}/gallery/{{post.photos.set }}-1.jpg" style="height: 100%; width: 100%; object-fit: contain" >
+	  </ul>
+	  </div><!--//meta-->
+	  
+	  <br>
+	</div>
+  </div>
+{% endfor %}
+</ul>
