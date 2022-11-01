@@ -2,10 +2,12 @@
 layout: default
 ---
 
+{% include updates.html %}
+
+<hr style="width:50%">
 
 {% include career-profile.html %}
 
-{% include updates.html %}
 
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
