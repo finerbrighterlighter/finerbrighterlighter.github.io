@@ -37,7 +37,17 @@
     </li>
     {% endif %}
 
-
+    {% if sidebar.orcid %}
+    <li class="orcid"><i class="fa fa-graduation-cap"></i>
+      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">ORCID</a>
+    </li>
+    {% endif %}
+	
+    {% if sidebar.scholar %}
+    <li class="scholar"><i class="fa fa-graduation-cap"></i>
+      <a href="https://scholar.google.com/citations?user={{ sidebar.scholar }}" target="_blank">Google Scholar</a>
+    </li>
+    {% endif %}
 	
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
@@ -84,18 +94,6 @@
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.orcid %}
-    <li class="orcid"><i class=" fa-graduation-cap"></i>
-      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">ORCID</a>
-    </li>
-    {% endif %}
-	
-    {% if sidebar.scholar %}
-    <li class="scholar"><i class="fab fa-slideshare"></i>
-      <a href="https://scholar.google.com/citations?user={{ sidebar.scholar }}" target="_blank">Google Scholar</a>
     </li>
     {% endif %}
 	
