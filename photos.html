@@ -13,12 +13,11 @@ description: "ENTER HERE"
     </span>
     Updates
   </h2>
- 
-	<ul>
-
-	  {% for post in site.updates %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li><br>
-	  {% endfor %}
-	</ul>
-	
+ 	
 </section><!--//section-->
+
+ <ul>
+  {% for post in site.updates %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></li><br>
+  {% endfor %}
+</ul>
