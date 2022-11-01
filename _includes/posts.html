@@ -1,0 +1,5 @@
+	<ul>
+		{% for post in site.entries %}
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br>
+		{% endfor %}
+	</ul>
