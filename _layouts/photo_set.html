@@ -15,14 +15,20 @@ layout: default
 
 <br>
 
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+
 <ul>
   {% for i in (1..num) %}
-
-    <img src="{{ site.baseurl }}/gallery/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" style="height: 100%; width: 100%; object-fit: contain">
-
-  <br>
-  {% endfor %}
+<div class="gallery">
+	<div class="gallery__column">
+			<figure class="gallery__thumb">
+				<img src="{{ site.baseurl }}/gallery/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" class="gallery__image">
+				<figcaption class="gallery__caption">test</figcaption>
+			</figure>
+	</div>
+</div>
 </ul>
+
 <br>
 <br>
 <div>
