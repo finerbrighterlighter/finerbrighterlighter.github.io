@@ -13,21 +13,20 @@ description: "ENTER HERE"
     </span>
     Updates
   </h2>
-  
-{% assign photo_pages = site.pages | where: "layout", "photo_set" %}
-
-{% for photo_page in photo_pages reverse %}
+ 
+<ul>
+{% for post in site.updates %}
   <div class="item">
     <div class="meta">
-		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{photo_page.title }}</b></h2></a>
+		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  <div class="upper-row">
-        <div class="time"><i>{{ photo_page.time }}</i></div>
-		<div class="company">{{ photo_page.company }}</div>
+        <div class="time"><i>{{ post.time }}</i></div>
+		<div class="company">{{ post.company }}</div>
       </div><!--//upper-row-->
 	  
 	  <div class="lower-row">
 	  <ul>
-		<img src="{{ site.baseurl }}/gallery/{{ photo_page.photos.set }}-1.jpg" style="height: 100%; width: 100%; object-fit: contain" >
+		<img src="{{ site.baseurl }}/gallery/{{post.photos.set }}-1.jpg" style="height: 100%; width: 100%; object-fit: contain" >
 	  </ul>
 	  </div><!--//meta-->
 	  
@@ -35,5 +34,4 @@ description: "ENTER HERE"
 	</div>
   </div>
 {% endfor %}
-
-</section><!--//section-->
+</ul>
