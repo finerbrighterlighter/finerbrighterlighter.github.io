@@ -18,7 +18,7 @@
 		<div class="company">{{ photo_page.company }}</div>
       </div><!--//upper-row-->
 	  
-		{% if page.description %}
+		{% if photo_page.description %}
 		<div class="details" style="text-align: justify; text-justify: auto">
 			{{ photo_page.description | markdownify }}
 		</div><!--//details-->
@@ -26,5 +26,8 @@
 	
   </div><!--//item-->
   {% endfor %}
+ 
+<p><i>Read more of <a href="/updates"><b>my recent updates</b><a>.</i><p>
+
 
 </section><!--//section-->
