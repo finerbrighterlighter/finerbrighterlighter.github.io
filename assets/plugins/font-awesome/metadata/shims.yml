@@ -168,6 +168,12 @@ line-chart:
 linkedin:
   name: linkedin-in
   prefix: fab
+orcid:
+  name: orcid
+  prefix: fab
+scholar:
+  name: slideshare
+  prefix: fab
 linkedin-square:
   name: linkedin
   prefix: fab
