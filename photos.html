@@ -17,8 +17,7 @@ description: "ENTER HERE"
 {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
 
 {% for photo_page in photo_pages  %}
-<p> HEllo
-	{{photo_pages}}</p>
+	{{photo_page|stringformat:"i"}}
   <div class="item">
     <div class="meta">
 		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{photo_page.title }}</b></h2></a>
