@@ -15,8 +15,9 @@ description: "ENTER HERE"
   </h2>
   
 {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+{% print photo_pages %}
 
-{% for photo_page in photo_pages[::-1] %}
+{% for photo_page in photo_pages  %}
   <div class="item">
     <div class="meta">
 		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{photo_page.title }}</b></h2></a>
