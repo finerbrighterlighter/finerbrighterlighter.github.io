@@ -14,25 +14,11 @@ description: "ENTER HERE"
     Updates
   </h2>
  
-<ul>
-{% for post in site.updates %}
-  <div class="item">
-    <div class="meta">
-		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  <div class="upper-row">
-        <div class="time"><i>{{ post.time }}</i></div>
-		<div class="company">{{ post.company }}</div>
-      </div><!--//upper-row-->
-	  
-	  <div class="lower-row">
-	  <ul>
-		<img src="{{ site.baseurl }}/gallery/{{post.photos.set }}-1.jpg" style="height: 100%; width: 100%; object-fit: contain" >
-	  </ul>
-	  </div><!--//meta-->
-	  
-	  <br>
-	</div>
-  </div>
-{% endfor %}
-</ul>
+	<ul>
+
+	  {% for post in site.updates %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li><br>
+	  {% endfor %}
+	</ul>
+	
 </section><!--//section-->
