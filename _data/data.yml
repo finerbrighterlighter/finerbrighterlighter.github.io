@@ -9,20 +9,20 @@ sidebar:
     # Profile information
     name: Htun Teza
     tagline: Graduate Research Assistant
-    avatar: profile.jfif  #place a 100x100 picture inside /assets/general/ folder and provide the name of the file below 
+    avatar: profile.jfif  # place a 100x100 picture inside /assets/general/ folder and provide the name of the file below 
     
     # Sidebar links
     email: htun.tez@mahidol.edu 
     phone: (+66) 0-2201-0833
     timezone: Indochina Time (UTC+07:00)
-    timeis: ICT
-    citizenship: 
+    timeis: ICT # the name after https://time.is/
     website:  ceb-rama.org
-    linkedin: htunteza
-    orcid: 0000-0002-1076-9513
+    twitter:
+    orcid: 0000-0002-1076-9513 # only orcid 16 digits
+    scholar: 7waEOqcAAAAJ&hl=en # the key after https://scholar.google.com/citations?user=
     github: finerbrighterlighter
-    scholar: 7waEOqcAAAAJ&hl=en
     stack-overflow: 12473607/hteza # Number/Username, e.g. 123456/alandoe
+    linkedin: htunteza
     vcard: hteza.vcf #place a vcf file inside /assets/general/ folder and provide the name of the file below 
 
     languages:
