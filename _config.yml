@@ -30,13 +30,6 @@ compress_html: # - http://jch.penibelst.de/
   ignore:
     envs: development
 
-name: html to pdf
-uses: fifsky/html-to-pdf-action@master
-with:
-    htmlFile: ./print.html
-    outputFile: ./assets/docs/resume.pdf
-    pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-
 # Development Settings
 port: 4000
 host: 0.0.0.0
