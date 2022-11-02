@@ -67,5 +67,11 @@
     </li>
     {% endif %}
 	
+    {% if sidebar.cv %}
+    <li class="pdf"><i class="fas fa-file-pdf fa-fw"></i>
+      <a href="/assets/general/{{ sidebar.cv }}" target="_blank">CV file</a>
+    </li>
+    {% endif %}
+	
   </ul>
 </div><!--//contact-container-->
