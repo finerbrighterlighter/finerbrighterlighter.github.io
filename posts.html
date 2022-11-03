@@ -27,11 +27,12 @@ description: "ENTER HERE"
 	  
 		{% if page.description %}
 		<div class="details" style="text-align: justify; text-justify: auto">
-			{{ page.content.excerpt}}
+			{{content.excerpt}}
 		</div><!--//details-->
 		{% endif %}
 		
-		{% unless page.set==0 %}
+		{% assign num = page.photos.size %}
+		{% unless num==0 %}
 		<div class="lower-row">
 		<ul>
 			<img src="{{ site.baseurl }}/assets/photos/{{ photo_page.photos.set }}-1.jpg" style="height: 70%; width: 70%; object-fit: contain" >
