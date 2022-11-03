@@ -27,16 +27,17 @@ description: "ENTER HERE"
 	  
 		{% if page.description %}
 		<div class="details" style="text-align: justify; text-justify: auto">
-			{{ photo_page.excerpt | markdownify }}
+			{{ photo_page.description.excerpt | markdownify }}
 		</div><!--//details-->
 		{% endif %}
 		
-		
-	  <div class="lower-row">
-	  <ul>
-		<img src="{{ site.baseurl }}/assets/photos/{{ photo_page.photos.set }}-1.jpg" style="height: 70%; width: 70%; object-fit: contain" >
-	  </ul>
-	  </div><!--//meta-->
+		{% unless page.set==0 %}
+		<div class="lower-row">
+		<ul>
+			<img src="{{ site.baseurl }}/assets/photos/{{ photo_page.photos.set }}-1.jpg" style="height: 70%; width: 70%; object-fit: contain" >
+		</ul>
+		</div><!--//meta-->
+	  {% endunless %}
 
 	  <hr style="width:50%">
 	  
