@@ -25,13 +25,13 @@ description: "ENTER HERE"
 		<div class="company">{{ photo_page.company }}</div>
       </div><!--//upper-row-->
 	  
-		{% if page.description %}
+		{% if photo_page.description %}
 		<div class="details" style="text-align: justify; text-justify: auto">
-			{{content.excerpt}}
+			{{photo_page.content.excerpt}}
 		</div><!--//details-->
 		{% endif %}
 		
-		{% assign num = page.photos.size %}
+		{% assign num = photo_page.photos.size %}
 		{% unless num==0 %}
 		<div class="lower-row">
 		<ul>
