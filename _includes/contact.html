@@ -59,17 +59,17 @@
     <li class="linkedin"><i class="fab fa-linkedin fa-fw"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }} target="_blank"" target="_blank">LinkedIn</a>
     </li>
+	
     {% endif %}
-	 
-    {% if sidebar.vcard %}
-    <li class="pdf"><i class="fas fa-address-card fa-fw"></i>
-      <a href="/assets/general/{{ sidebar.vcard }}" target="_blank">vCard file</a>
+    {% if sidebar.cv %}
+    <li class="pdf"><i class="fas fa-file-pdf fa-fw"></i>
+      <a href="/assets/general/{{ sidebar.cv }}" target="_blank">Download CV</a>
     </li>
     {% endif %}
 	
-    {% if sidebar.cv %}
-    <li class="pdf"><i class="fas fa-file-pdf fa-fw"></i>
-      <a href="/assets/general/{{ sidebar.cv }}" target="_blank">CV file</a>
+    {% if sidebar.vcard %}
+    <li class="pdf"><i class="fas fa-address-card fa-fw"></i>
+      <a href="/assets/general/{{ sidebar.vcard }}" target="_blank">Add to Contacts</a>
     </li>
     {% endif %}
 	
