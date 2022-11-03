@@ -27,7 +27,7 @@ description: "ENTER HERE"
 	  
 		{% if page.description %}
 		<div class="details" style="text-align: justify; text-justify: auto">
-			{{ photo_page.description | markdownify }}
+			{{ photo_page.excerpt | markdownify }}
 		</div><!--//details-->
 		{% endif %}
 		
@@ -37,8 +37,9 @@ description: "ENTER HERE"
 		<img src="{{ site.baseurl }}/assets/photos/{{ photo_page.photos.set }}-1.jpg" style="height: 70%; width: 70%; object-fit: contain" >
 	  </ul>
 	  </div><!--//meta-->
+
+	  <hr style="width:50%">
 	  
-	  <br>
 	</div>
   </div>
 {% endfor %}
