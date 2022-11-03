@@ -4,9 +4,13 @@ title: Graduation Celebration
 permalink: /posts/ceb_grad/
 time: 18th October, 2022
 company: Mahidol University, Thailand
-description: "CEB-RAMA-MU hosted Graduation Cerlebration for alumni of 2020 and 2021 academic years. Although I chose not to attend the ceremonies hosted by Faculty of Medicine Ramathibodi Hospital and Mahidol University, I participated on this day as a Master of Science graduate of 2021.<!--more-->"
+description: "CEB-RAMA-MU hosted Graduation Cerlebration for alumni of 2020 and 2021 academic years. <!--more--> Although I chose not to attend the ceremonies hosted by Faculty of Medicine Ramathibodi Hospital and Mahidol University, I participated on this day as a Master of Science graduate of 2021."
 
 photos:
     set: ceb_grad
     size: 5
 ---
+
+CEB-RAMA-MU hosted Graduation Cerlebration for alumni of 2020 and 2021 academic years. 
+<!--more--> 
+Although I chose not to attend the ceremonies hosted by Faculty of Medicine Ramathibodi Hospital and Mahidol University, I participated on this day as a Master of Science graduate of 2021.
