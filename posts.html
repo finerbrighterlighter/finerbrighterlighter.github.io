@@ -24,10 +24,7 @@ description: "ENTER HERE"
         <div class="time"><i>{{ photo_page.time }}</i></div>
 		<div class="company">{{ photo_page.company }}</div>
       </div><!--//upper-row-->
-	  
-		<div class="photo_set" style="text-align: justify; text-justify: auto">
-			<article>{{photo_page.excerpt}}</article>
-		</div><!--//details-->
+
 		
 		{% assign num = photo_page.photos.size %}
 		{% unless num==0 %}
