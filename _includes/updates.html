@@ -7,7 +7,7 @@
     Updates
   </h2>
   
-{% assign photo_pages = site.pages | where: "layout", "photo_set" | sort: 'name' | reverse %}
+{% assign photo_pages = site.pages | where: "layout", "entries" | sort: 'name' | reverse %}
 
   {% for photo_page in photo_pages limit:1%}
   <div class="item">

@@ -1,5 +1,5 @@
 ---
-layout: photo_set
+layout: entries
 title: Htun Teza's personal story
 permalink: /posts/personal_story/
 time: 17th June, 2021
