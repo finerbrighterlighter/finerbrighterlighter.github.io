@@ -1,33 +1,9 @@
 ---
 layout: default
 ---
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.time}}</p>
 
-{% assign num = page.photos.size %}
-
-<h2>{{ page.title }}</h2>
-<br>
-
-{% if page.description %}
-<div class="details" style="text-align: justify; text-justify: auto">
-  {{ page.description | markdownify }}
-</div><!--//details-->
-{% endif %}
-
-<br>
-
-<ul>
-{% unless num == 0 %}
-  {% for i in (1..num) %}
-    <img src="{{ site.baseurl }}/assets/photos/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}" style="height: 100%; width: 100%; object-fit: contain">
-  <br>
-  {% endfor %} 
-{% endunless %}
-</ul>
-<br>
-<br>
-<div>
-  <li><a href="{{ site.baseurl }}/posts/" style="text-align: right; margin-left: auto; margin-right:0">View all posts.</a></li>
-</div>
-<div>
-  <li><a href="{{ site.baseurl }}/#" style="text-align: right; margin-left: auto; margin-right:0">Back to home page.</a></li>
+<div class="post">
+  {{ page.description }}
 </div>
