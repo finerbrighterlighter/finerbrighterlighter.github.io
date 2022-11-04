@@ -32,7 +32,7 @@ description: "ENTER HERE"
 		</div><!--//details-->
 		
 		{% assign imgtags = photo_page.content | split: '<img' %}
-		{% assing num = imgtags | minus:1 %}
+		{% assign num = imgtags | minus:1 %}
 		{% unless num==0 %}
 		<div class="lower-row">
 		<ul>
