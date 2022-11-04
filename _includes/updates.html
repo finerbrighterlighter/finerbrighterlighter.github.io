@@ -20,9 +20,9 @@
       </div><!--//upper-row-->
 	  
 		<div class="details" style="text-align: justify; text-justify: auto">
-		{% assign imgtags = entry.content | split: "<img" %}
+		{% assign divtag = entry.content | split: "<div" %}
 			</p>
-			{{ imgtags[0]| truncatewords: 80 }}
+			{{ divtag[0]| truncatewords: 80 }}
 			<p>
 		</div><!--//details-->
 		
