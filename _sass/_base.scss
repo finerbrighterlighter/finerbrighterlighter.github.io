@@ -277,7 +277,16 @@ p {
   }
 }
 
-#blog{}
+
+#posts{
+    margin-top: 30px;
+}
+
+#posts img{
+    display: block;
+    width: 100%;
+    margin-top: 20x;
+}
 
 #photos{
     margin-top: 30px;
@@ -286,15 +295,22 @@ p {
 #photos img{
     display: block;
     width: 100%;
-    margin-top: 9px;
+    margin-top: 6px;
 }
 
 @media (min-width: 500px){
-    #blog, #photos{
+    
+	#posts{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 0;
+    }
+	
+    #photos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 6px;
-
         margin-top: 0;
     }
 }
