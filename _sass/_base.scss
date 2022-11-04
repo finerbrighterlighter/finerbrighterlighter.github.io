@@ -277,6 +277,8 @@ p {
   }
 }
 
+#blog{}
+
 #photos{
     margin-top: 30px;
 }
@@ -288,7 +290,7 @@ p {
 }
 
 @media (min-width: 500px){
-    #photos{
+    #blog, #photos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 6px;
