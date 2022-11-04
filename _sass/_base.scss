@@ -285,25 +285,8 @@ p {
 #posts p{
     display: block;
     width: 100%;
-    margin-top: 15px;
-}
-
-#posts a:link {
-  color: green;
-}
-
-#posts a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-#posts a:hover {
-  color: blue;
-}
-
-#posts a:active {
-  color: red;
-  text-decoration: none;
+    margin-top: 30px;
+	text-align: justify;
 }
 
 #photos{
@@ -321,7 +304,7 @@ p {
 	#posts{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 15px;
+        grid-gap: 30px;
         margin-top: 0;
     }
 	
