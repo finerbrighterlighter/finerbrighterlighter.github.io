@@ -27,16 +27,16 @@ description: "ENTER HERE"
 
 		<div class="details" style="text-align: justify; text-justify: auto">
 			</p>
-			{{ photo_page.content | truncatewords: 20, "; *continued*" }}
+			{{ photo_page.content | truncatewords: 20, "; .... cont" }}
 			<p>
 		</div><!--//details-->
 		
-		{% assign imgtags = photo_page.content | split: '<img' %}
+		{% assign imgtags = photo_page.content | split: "<img" %}
 		{% assign num = imgtags | minus:1 %}
 		{% unless num==0 %}
 		<div class="lower-row">
 		<ul>
-			{{imgtags[2]}}
+			{{"<img" | append: {{imgtags[2]}}}}
 		</ul>
 		</div><!--//meta-->
 	  {% endunless %}
