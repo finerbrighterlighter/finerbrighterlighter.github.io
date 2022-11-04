@@ -24,9 +24,6 @@ sass:
 # Build settings
 compress-site: yes
 
-# markdown setting
-excerpt_separator: <!--more--> 
-
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
