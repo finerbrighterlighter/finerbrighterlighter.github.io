@@ -32,18 +32,6 @@ description: "ENTER HERE"
 			</p>
 		</div><!--//details-->
 		
-		{% assign imgtags = entry.content | split: "<img" %}
-		{% assign num = imgtags | minus:1 %}
-		{% unless num==0 %}
-		<div class="lower-row">
-		<ul>
-			{{"<img" | append: imgtags[1]}}
-		</ul>
-		</div><!--//meta-->
-	  {% endunless %}
-
-	  
-	  
 	</div>
   </div>
   <hr style="width:50%; border-top: 8px solid #bbb; border-radius: 5px">

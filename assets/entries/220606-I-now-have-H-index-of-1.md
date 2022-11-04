@@ -13,5 +13,5 @@ photos:
 After 3 years of joining my masters degree in Data Science, one of my research paper has been cited making me a researcher with h-index of 1.
 
 <div id="photos">
-	<img src="/assets/photos/h_index-1.jpg" title="Google Scholar showing citation count for the paper and H-index for Htun Teza profile" alt="Google Scholar showing citation count for the paper and H-index for Htun Teza profile" style="height: 70%; width: 70%; object-fit: contain"/>
+	<img src="/assets/photos/h_index-1.jpg" title="Google Scholar showing citation count for the paper and H-index for Htun Teza profile" alt="Google Scholar showing citation count for the paper and H-index for Htun Teza profile"/>
 </div>
