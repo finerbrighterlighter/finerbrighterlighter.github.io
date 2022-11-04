@@ -26,8 +26,9 @@ description: "ENTER HERE"
       </div><!--//upper-row-->
 
 		<div class="details" style="text-align: justify; text-justify: auto">
+			{% assign divtag = entry.content | split: "<div" %}
 			</p>
-			{{ entry.content | truncatewords: 30, ": .... cont'd."}}
+			{{ divtag[0]| truncatewords: 50 }}
 			<p>
 		</div><!--//details-->
 		
