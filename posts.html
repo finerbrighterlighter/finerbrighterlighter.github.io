@@ -23,12 +23,8 @@ description: "ENTER HERE"
 			<a href="{{ entry.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
 			
 			  <div class="upper-row">
-				<div class="company">{{ entry.company }}</div>
+				<div class="company">{{ entry.company }}<br>{{ entry.time }}</div>
 				</div>
-				
-			  <div class="upper-row">
-				<div class="company"><i>{{ entry.time }}</i></div>
-			  </div><!--//upper-row-->
 
 			{% assign divtag = entry.content | split: "<div" %}
 			<div class="details">
