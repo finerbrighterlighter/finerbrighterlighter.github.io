@@ -3,7 +3,7 @@ layout: photo_set
 title: Learning HTML
 permalink: /posts/learning_html/
 time: 10th May, 2022
-company: Personal
+company: Personal update
 
 photos:
     set: temp
