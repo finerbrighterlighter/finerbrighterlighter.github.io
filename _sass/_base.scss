@@ -288,23 +288,19 @@ p {
     margin-top: 15px;
 }
 
-/* unvisited link */
 #posts a:link {
   color: green;
 }
 
-/* visited link */
 #posts a:visited {
   color: black;
   text-decoration: none;
 }
 
-/* mouse over link */
 #posts a:hover {
   color: blue;
 }
 
-/* selected link */
 #posts a:active {
   color: red;
   text-decoration: none;
