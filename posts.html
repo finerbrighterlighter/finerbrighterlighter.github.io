@@ -14,24 +14,24 @@ description: "ENTER HERE"
     Posts
   </h2>
   
-{% assign photo_pages = site.pages | where: "layout", "entries" | sort: 'name' | reverse %}
+{% assign entries = site.pages | where: "layout", "entries" | sort: 'name' | reverse %}
  
-{% for photo_page in photo_pages %}
+{% for entry in entries %}
   <div class="item">
     <div class="meta">
-		<a href="{{ photo_page.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{photo_page.title }}</b></h2></a>
+		<a href="{{ entry.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
 	  <div class="upper-row">
-        <div class="time"><i>{{ photo_page.time }}</i></div>
-		<div class="company">{{ photo_page.company }}</div>
+        <div class="time"><i>{{ entry.time }}</i></div>
+		<div class="company">{{ entry.company }}</div>
       </div><!--//upper-row-->
 
 		<div class="details" style="text-align: justify; text-justify: auto">
 			</p>
-			{{ photo_page.content | truncatewords: 20, "; .... cont" }}
+			{{ entry.content | truncatewords: 20, "; .... cont" }}
 			<p>
 		</div><!--//details-->
 		
-		{% assign imgtags = photo_page.content | split: "<img" %}
+		{% assign imgtags = entry.content | split: "<img" %}
 		{% assign num = imgtags | minus:1 %}
 		{% unless num==0 %}
 		<div class="lower-row">
