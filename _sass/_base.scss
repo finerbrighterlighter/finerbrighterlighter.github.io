@@ -278,39 +278,22 @@ p {
 }
 
 
-#posts{
+.posts{
 }
 
-#posts p{
+.posts p{
     display: block;
     width: 100%;
     margin-top: 10px;
 	text-align: justify;
 }
 
-#photos{
+.photos{
     margin-top: 30px;
 }
 
-#photos img{
+.photos img{
     display: block;
     width: 100%;
     margin-top: 6px;
-}
-
-@media (min-width: 500px){
-    
-	#posts{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 30px;
-        margin-top: 0;
-    }
-	
-    #photos{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 6px;
-        margin-top: 0;
-    }
 }
