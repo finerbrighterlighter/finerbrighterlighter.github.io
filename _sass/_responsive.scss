@@ -42,20 +42,6 @@
 	grid-column: span 7;
     padding: 30px;
   }
-  
-  .posts{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-    margin-top: 0;
-  }
-	
-   .photos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 6px;
-    margin-top: 0;
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -68,20 +54,6 @@
   .main-wrapper {
 	grid-column: span 8;
     padding: 30px;
-  }
-  
-  .posts{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    margin-top: 0;
-  }
-	
-   .photos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 6px;
-    margin-top: 0;
   }
 }
 
