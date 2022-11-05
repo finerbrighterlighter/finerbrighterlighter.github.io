@@ -20,7 +20,7 @@ description: "ENTER HERE"
 	{% for entry in entries %}
 	  <div class="item">
 		<div class="meta">
-			<a href="{{ entry.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
+			<a href="{{ entry.url | prepend: site.baseurl }}#head"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
 			
 			  <div class="upper-row">
 				<div class="company">{{ entry.company }}<br>{{ entry.time }}</div>
