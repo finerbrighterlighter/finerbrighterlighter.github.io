@@ -43,7 +43,7 @@ I even thought about naming the newest entry as `1_foo.md`, `2_bar.md` and so on
 
 I started reading how to do so in `HTML`, of course, it is not a programming language. So, the common approach is using a `script` tag for `javascript`. Apparently it is <code>for  (var  i  =  arr.length  -  1;  i  >=  0;  i--)</code> in `JS`. However, my knowledge in `JS` stops at writing `public static void main`. But Michael's approach does not use `JS` loop, instead his syntax uses  <code>{% for i in arr %}</code>. 
 
-The loop looks pythonic, but I was confused what language even is that. On google search, it seems people do envolope `Django` within `HTML` blocks using  `{{ foo }}` or <code>{% bar %}</code>. I felt real smart back then btw, it makes sense right. A python-based language that uses <code>{% %}</code>, it **HAS** to be Django. I went to read the docs and the reverse seems simple enough. It is <code>{% for i in arr reversed %}</code>, That's all apparently.
+The loop looks pythonic, but I was confused what language even is that. On google search, it seems people do envolope `Django` within `HTML` blocks using  `{{ foo }}`. I felt real smart back then btw, it makes sense right. A python-based language that uses `{{ }}`, it **HAS** to be Django. I went to read the docs and the reverse seems simple enough. It is <code>{% for i in arr reversed %}</code>, That's all apparently.
 
 And as you can read from the section title, it did not work.
 
