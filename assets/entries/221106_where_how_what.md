@@ -43,13 +43,13 @@ I even thought about naming the newest entry as `1_foo.md`, `2_bar.md` and so on
 
 I started reading how to do so in `HTML`, of course, it is not a programming language. So, the common approach is using a `script` tag for `javascript`. Apparently it is <code>for  (var  i  =  arr.length  -  1;  i  >=  0;  i--)</code> in `JS`. However, my knowledge in `JS` stops at writing `public static void main`. But Michael's approach does not use `JS` loop, instead his syntax uses  <code>{% for i in arr %}</code>. 
 
-The loop looks pythonic, but I was confused what language even is that. On google search, it seems people do envolope `Django` within `HTML` blocks using  `{{ foo }}` or {% raw %}`{% bar %}`{% end raw %}. I felt real smart back then btw, it makes sense right. A python-based language that uses {% raw %}`{% %}`{% end raw %}, it **HAS** to be Django. I went to read the docs and the reverse seems simple enough. It is {% raw %}<code>{% for i in arr reversed %}</code>{% raw %}, That's all apparently.
+The loop looks pythonic, but I was confused what language even is that. On google search, it seems people do envolope `Django` within `HTML` blocks using  `{{ foo }}` or {% raw %}`{% bar %}`{% end raw %}. I felt real smart back then btw, it makes sense right. A python-based language that uses {% raw %}`{% %}`{% end raw %}, it **HAS** to be Django. I went to read the docs and the reverse seems simple enough. It is {% raw %}<code>{% for i in arr reversed %}</code>{% end raw %}, That's all apparently.
 
 And as you can read from the section title, it did not work.
 
 ## How to fix 
 
-Turns out, I was looking at the wrong language. The code was using `liquid` language within Jekyll itself, and the fix also was simple enough. It was {% raw %}<code>{% assign arr = site.pages | where: condition | sort: value | reverse %}</code>{% raw %}. It is just filter, sort and reverse the list. Simple af.
+Turns out, I was looking at the wrong language. The code was using `liquid` language within Jekyll itself, and the fix also was simple enough. It was {% raw %}<code>{% assign arr = site.pages | where: condition | sort: value | reverse %}</code>{% end raw %}. It is just filter, sort and reverse the list. Simple af.
 
 I was humbled. I added the *Posts* page, named entries in `YYMMDD_foo.md` format, called them, sorted them by name and then reversed the list order. Of course, now it works like magic, `221106_foo.md` is shown before `221006_bar.md`. Now that I know what language I am working on, I even added an *Updates* section on the home page. It shows the newest entry, i.e. first entry in the filtered list, then gives the link to the *Posts* page. The entries would be in similar `css-grid` to the images.
 
