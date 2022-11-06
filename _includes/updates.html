@@ -22,9 +22,8 @@
 	  
 		<div class="details" style="text-align: justify; text-justify: auto">
 		{% assign divtag = entry.content | split: "<div" %}
-		{% assign text = divtag[0] | split: "<div" %}
 			<p>
-			{{ text| truncatewords: 80 }}
+			{{ divtag[0] | truncatewords: 60, "//... cont'd."}}
 			</p>
 		</div><!--//details-->
 		
