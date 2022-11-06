@@ -1,6 +1,6 @@
 ---
 layout: entries
-title: Where, How and What
+title: Where before How and What
 permalink: /posts/where_how_what/
 time: 6th November, 2022
 company: Personal update
@@ -13,7 +13,7 @@ It has been another interesting week. I finished writing two manuscripts and the
 
 First, I would like the tabs to be in one combined page, instead of having to go in specific tabs. Then, I would like the pages to be responsive to specific browsing resolutions. Since the layout used tabs, they became like the classic story of butt-dialing albeit with the fingers.
 
-So, I dived back to Jekyll templates. My needs always have been simple, it is an online CV, a redundant *LinkedIn* if you may. The search was not long, I settled on one clean variation of it. It was made originally by **Xiaoying Riley** at [3rd Wave Media](http://themes.3rdwavemedia.com/) *<[@3rdwave_themes](https://twitter.com/3rdwave_themes)>*, then forked for Jekyll use by **Sharath Kumar** at [Webjeda](https://webjeda.com) *<[@webjeda](https://twitter.com/webjeda)>*. So, Kudos to both.
+So, I dived back to Jekyll templates. My needs always have been simple, it is an online CV, a redundant *LinkedIn* if you may. The search was not long, I settled on one clean variation of it. It was made originally by **Xiaoying Riley** at [3rd Wave Media](http://themes.3rdwavemedia.com/) *<[@3rdwave_themes](https://twitter.com/3rdwave_themes "3rd Wave Media | Twitter")>*, then forked for Jekyll use by **Sharath Kumar** at [Webjeda](https://webjeda.com) *<[@webjeda](https://twitter.com/webjeda "Webjeda| Twitter")>*. So, Kudos to both.
 
 The move was simple. Sharath has a straight forward approach of consolidating data in one long `YAML` file. Interestingly, `YAML` stands for both *Yet Another Markup Language* and *`YAML` Ain't Markup Language* at the same time. Different html files call the specific keys in the data documents. At the end, the html files are stacked for specific page, although current template only has one.
 
@@ -23,13 +23,13 @@ However, I lost the *Posts* page, which is a shame. I no longer use facebook or 
 
 ## The Hack
 
-Again, I need to remind everyone that I have never learnt `HTML` or applied it professionally before. So, my skills are largely limited on a [B-graded assignment project](https://github.com/finerbrighterlighter/AQ10_questionnaire) and of course, the previous webpage. And as a proud [Burmese](https://www.youtube.com/watch?v=o-i89wHCPlE) that I am, what I have to do has never been clearer; it is "`le Code des spaghettis`".
+Again, I need to remind everyone that I have never learnt `HTML` or applied it professionally before. So, my skills are largely limited on a [B-graded assignment project](https://github.com/finerbrighterlighter/AQ10_questionnaire "AQ10 Questionnaire | GitHub") and of course, the previous webpage. And as a proud [Burmese](https://www.youtube.com/watch?v=o-i89wHCPlE "Why Myanmar is a nation of hackers | TEDxInyaLake") that I am, what I have to do has never been clearer; it is "`le Code des spaghettis`".
 
 The post entries will still largely follow the previous version, Markdown files with `YAML` headers to be called when necessary. Images are added in a `css-grid` container with `img` tags so that we can avoid scrolling forever, *not that I would add that much photos*. The markdown entries will be read by a `HTML` file that rearrange `YAML` attributes and content. 
 
 Headers are given `id` so that the mobile users will not have to scroll down the *sidebar* block again and again each page. The grid was given a `minmax(400px, 1fr)` attribute so that the new columns will be added as long as the images can maintain a legible 400 pixels width. The page would have footers to go back to home page. All post entries will be shown in the [Posts](/posts#head) page. 
 
-The post pages would call all entries and list them down in uniform format. So, I adapted [this repo](https://github.com/michaelx/jekyll-photos) by Michael Xander  <[@michaxndr](https://twitter.com/michaxndr)> that create a bootstrapped gallery page by calling all markdown entries with a specific layout. As advertised, it is **dead simple** approach that fits in the `default` layout.
+The post pages would call all entries and list them down in uniform format. So, I adapted [this repo](https://github.com/michaelx/jekyll-photos "jekyll-photos | GitHub") by Michael Xander  <[@michaxndr](https://twitter.com/michaxndr)> that create a bootstrapped gallery page by calling all markdown entries with a specific layout. As advertised, it is **dead simple** approach that fits in the `default` layout.
 
 ## Problem
 
@@ -43,7 +43,7 @@ I even thought about naming the newest entry as `1_foo.md`, `2_bar.md` and so on
 
 I started reading how to do so in `HTML`, of course, it is not a programming language. So, the common approach is using a `script` tag for `javascript`. Apparently it is <code>for  (var  i  =  arr.length  -  1;  i  >=  0;  i--)</code> in `JS`. However, my knowledge in `JS` stops at writing `public static void main`. But Michael's approach does not use `JS` loop, instead his syntax uses  <code>{% for i in arr %}</code>. 
 
-The loop looks pythonic, but I was confused what language even is that. On google search, it seems people do envolope `Django` within `HTML` blocks using  `{{ foo }}`. I felt real smart back then btw, it makes sense right. A python-based language that uses `{% %}`, it **HAS** to be Django. I went to read the docs and the reverse seems simple enough. It is <code>{% for i in arr reversed %}</code>, That's all apparently.
+The loop looks pythonic, but I was confused what language even is that. On google search, it seems people do envolope `Django` within `HTML` blocks using  `{{ foo }}` or <code>{% bar %}</code>. I felt real smart back then btw, it makes sense right. A python-based language that uses <code>{% %}</code>, it **HAS** to be Django. I went to read the docs and the reverse seems simple enough. It is <code>{% for i in arr reversed %}</code>, That's all apparently.
 
 And as you can read from the section title, it did not work.
 
