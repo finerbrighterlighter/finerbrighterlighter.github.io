@@ -10,7 +10,7 @@ CEB-RAMA-MU hosted Graduation Cerlebration for alumni of 2020 and 2021 academic 
 
 Although I chose not to attend the ceremonies hosted by Faculty of Medicine Ramathibodi Hospital and Mahidol University, I participated on this day as a Master of Science graduate of 2021.
 
-<div id="gallery">
+<div id="photos">
 	<img src="/assets/photos/ceb_grad-1.jpg" title="Group photo with ISCB presenters, left to right: Napaphat Poprom, Suparee Boonmanunt, Ammarin Thakkinstian, Htun Teza, Wanchana Ponthongmak, Amarit Tansawet, Panu Looareesuwan" alt="Group photo with ISCB presenters, left to right: Napaphat Poprom, Suparee Boonmanunt, Ammarin Thakkinstian, Htun Teza, Wanchana Ponthongmak, Amarit Tansawet, Panu Looareesuwan"/>
 	<img src="/assets/photos/ceb_grad-2.jpg" title="Photo with main thesis advisor, left to right: Anuchate Pattanateepapon, Htun Teza" alt="Photo with main thesis advisor, left to right: Anuchate Pattanateepapon, Htun Teza" />
 	<img src="/assets/photos/ceb_grad-3.jpg" title="Group photos with Lectures and Graduates, I do not know half of them" alt="Group photos with Lectures and Graduates, I do not know half of them" />
