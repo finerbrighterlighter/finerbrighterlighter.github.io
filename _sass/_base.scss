@@ -3,7 +3,9 @@ body {
   font-family: "Trebuchet MS", Tahoma, sans-serif;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
