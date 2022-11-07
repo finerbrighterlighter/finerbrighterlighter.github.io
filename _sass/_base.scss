@@ -311,12 +311,13 @@ p {
     display: block;
     width: 100%;
     margin-top: 6px;
-	filter: grayscale(100%);
-	transition: filter 2s;
+	filter: grayscale(70%);
+	transition: filter 1s;
 }
 
 #photos img:hover {
 	filter:none;
+	transform: scale(1.3);
 }
 
 @media (min-width: 800px){
