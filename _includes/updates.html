@@ -16,9 +16,9 @@
 		<a href="{{ entry.url | prepend: site.baseurl }}#head"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
 	  
 
-		<div class="company">{{ entry.company }}</div>
-      
-		<div class="time"><i>{{ entry.time }}</i></div>
+			  <div class="upper-row">
+				<div class="company">{{ entry.company }}<br>{{ entry.time }}</div>
+				</div>
 
 	  
 		<div class="details" style="text-align: justify; text-justify: auto">
