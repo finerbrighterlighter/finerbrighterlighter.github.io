@@ -297,7 +297,7 @@ p {
 	grid-auto-rows: 0;
 	overflow: hidden;
     margin-top: 0;
-	column-gap: 40px;
+	column-gap: 60px;
 }
 
 #updates p{
@@ -318,7 +318,7 @@ p {
 	#posts{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 30px;
+        grid-gap: 60px;
         margin-top: 0;
     }
 	
