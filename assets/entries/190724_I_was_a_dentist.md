@@ -39,9 +39,6 @@ Just what the title says. These are photos from when I was a dentist. I am no lo
 	<img src="/assets/photos/bds_house (3).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
 	<img src="/assets/photos/bds_house (12).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
 	<img src="/assets/photos/bds_house (14).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
-</div>
-
-<div id="photos">
 	<img src="/assets/photos/bds_house (8).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/>
 	<img src="/assets/photos/bds_house (7).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/>
 	<img src="/assets/photos/bds_house (2).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
@@ -50,9 +47,6 @@ Just what the title says. These are photos from when I was a dentist. I am no lo
 	<img src="/assets/photos/bds_house (6).JPG" title="During Department of Pediatric Dentistry Assignment" alt="During Department of Pediatric Dentistry Assignment"/>
 	<img src="/assets/photos/bds_house (13).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/>
 	<img src="/assets/photos/bds_house (4).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
-</div>
-
-<div id="photos">
 	<img src="/assets/photos/bds_convo (1).JPG" title="Convocation" alt="Convocation"/>
 	<img src="/assets/photos/bds_convo (2).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
 	<img src="/assets/photos/bds_convo (3).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
