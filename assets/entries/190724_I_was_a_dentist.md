@@ -50,6 +50,6 @@ Just what the title says. These are photos from when I was a dentist. I am no lo
 	<img src="/assets/photos/bds_convo (1).JPG" title="Convocation" alt="Convocation"/>
 	<img src="/assets/photos/bds_convo (2).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
 	<img src="/assets/photos/bds_convo (3).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
-	<img src="/assets/photos/bds_convo (5).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
-	<img src="/assets/photos/bds_convo (4).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
+	<img src="/assets/photos/bds_convo (5).jpg" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
+	<img src="/assets/photos/bds_convo (4).jpg" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
 </div>
