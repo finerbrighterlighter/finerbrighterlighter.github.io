@@ -311,13 +311,9 @@ p {
     display: block;
     width: 100%;
     margin-top: 6px;
-	filter: grayscale(70%);
-	transition: filter 1s;
 }
 
 #photos img:hover {
-	filter:none;
-	transform: scale(1.3);
 }
 
 @media (min-width: 800px){
@@ -335,5 +331,16 @@ p {
         grid-gap: 6px;
         margin-top: 0;
     }
+	
+	#photos img{
+		filter: grayscale(70%);
+		transition: filter 2s transform 1.2s;
+	}
+
+	#photos img:hover {
+		filter:none;
+		transform: scale(1.3) rotate(0.01deg);
+		z-index: 999;
+	}
 	
 }
