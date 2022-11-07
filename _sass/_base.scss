@@ -309,21 +309,25 @@ p {
 	#updates{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 30px;
         margin-top: 0;
+		grid-template-rows:1fr;
+		grid-auto-rows: 0;
+		overflow-y: hidden;
+		justify-content: space-between;
+		width: 75%;
     }
 	
 	#posts{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 30px;
+        justify-content: space-between;
         margin-top: 0;
     }
 	
     #photos{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        grid-gap: 6px;
+        justify-content: space-between;
         margin-top: 0;
     }
 }
