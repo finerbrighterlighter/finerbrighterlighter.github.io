@@ -288,6 +288,12 @@ p {
 	text-align: justify;
 }
 
+#updates{
+}
+
+#updates p{
+}
+
 #photos{
     margin-top: 30px;
 }
@@ -300,6 +306,13 @@ p {
 
 @media (min-width: 800px){
     
+	#updates{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 30px;
+        margin-top: 0;
+    }
+	
 	#posts{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

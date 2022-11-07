@@ -9,7 +9,7 @@
   
 {% assign entries = site.pages | where: "layout", "entries" | sort: 'name' | reverse %}
 
-<div id="posts">
+<div id="updates">
   {% for entry in entries limit:2%}
   <div class="item">
     <div class="meta">
@@ -29,8 +29,8 @@
 		</div><!--//details-->
 		
 	</div><!--//item-->
-  {% endfor %}
-	</div>
+  </div>
+  {% endfor %}	
 </div>
 
 <p><i>Read more of <a href="/posts#head"><b>my recent posts</b><a>.</i><p>
