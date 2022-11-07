@@ -10,7 +10,7 @@
 {% assign entries = site.pages | where: "layout", "entries" | sort: 'name' | reverse %}
 
 <div id="updates">
-  {% for entry in entries}
+  {% for entry in entries limit:2 %}
   <div class="item">
     <div class="meta">
 		<a href="{{ entry.url | prepend: site.baseurl }}#head"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
