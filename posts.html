@@ -27,11 +27,11 @@ description: "ENTER HERE"
 				</div>
 
 			{% assign divtag = entry.content | split: "<div" %}
-			<div class="details">
-				<p>
-				{{ entry.excerpt }}
-				</p>
-			</div><!--//details-->	
+			{% assign paragraph = divtag[0] | split: "<h" %}
+			<p>
+			{{ paragraph[0] | truncatewords: 80, "//... cont'd."}}
+			</p>
+		</div><!--//details-->
 			<hr style="width:30%"/>
 		</div>
 	  </div>
