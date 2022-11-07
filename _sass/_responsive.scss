@@ -29,23 +29,23 @@
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .sidebar-wrapper {
+	grid-column: span 4;
+  }
+
+  .main-wrapper {
+	grid-column: span 6;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 30%;
-    margin-bottom: 0;
+  .sidebar-wrapper {
+	grid-column: span 3;
   }
 
-  .skillset .level-bar {
-    display: inline-block;
-    width: 70%;
-    float: left;
-    position: relative;
-    top: 1px;
+  .main-wrapper {
+	grid-column: span 7;
   }
 }
 
