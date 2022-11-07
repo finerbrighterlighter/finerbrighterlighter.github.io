@@ -330,11 +330,13 @@ p {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 6px;
         margin-top: 0;
+		overflow: hidden;
     }
 	
 	#photos img{
-		filter: grayscale(70%);
-		transition: filter 4s transform 2s;
+		filter: sepia(40%);
+		transition: filter 4s transform 2s ease-in-out;
+		
 	}
 
 	#photos img:hover {
