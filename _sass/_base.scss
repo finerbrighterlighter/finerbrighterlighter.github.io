@@ -289,6 +289,12 @@ p {
 }
 
 #updates{
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-rows: 1fr;
+	grid-auto-rows: 0;
+	overflow: hidden;
+    margin-top: 0;
 }
 
 #updates p{
@@ -305,14 +311,7 @@ p {
 }
 
 @media (min-width: 800px){
-    
-	#updates{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 30px;
-        margin-top: 0;
-    }
-	
+
 	#posts{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
