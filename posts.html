@@ -26,7 +26,7 @@ description: "ENTER HERE"
 				<div class="company">{{ entry.company }}<br>{{ entry.time }}</div>
 				</div>
 
-			{% assign divtag = entry.content | split: "<span />" %}
+			{% assign divtag = entry.content | split: "<span" %}
 			<div class="details">
 				<p>
 				{{ divtag[0] }}
