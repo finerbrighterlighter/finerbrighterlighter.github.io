@@ -6,7 +6,7 @@ time: 19th July, 2019
 company: University of Dental Medicine Yangon, Myanmar
 ---
 
-Just what the title says. These are photos from when I was a dentist. I am no longer a general practitioner, and my current field of work is growing further from it. So, they are here just to remind myself that I did do 6 years of Dental School.
+Just what the title says. These are photos from when I was a dentist. I am no longer a general practitioner, and my current field of work is growing further from it. So, they are here just to remind myself that I did do 6 years of Dental School. <span />
 
 ## Fourth Year of Coursework
 
