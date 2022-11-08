@@ -29,7 +29,7 @@ description: "ENTER HERE"
 			{% assign divtag = entry.content | split: "<div" %}
 			<div class="details">
 				<p>
-				{{ divtag[0]| truncatewords: 50, ".//... cont'd."}}
+				{{ entry.excerpt }}
 				</p>
 			</div><!--//details-->	
 			<hr style="width:30%"/>

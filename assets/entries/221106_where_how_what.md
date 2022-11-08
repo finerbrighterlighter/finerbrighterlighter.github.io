@@ -4,9 +4,10 @@ title: Where before How and What
 permalink: /posts/where_how_what/
 time: 6th November, 2022
 company: Personal update
+excerpt_separator: <!--end_excerpt-->
 ---
 
-It has been another interesting week. I finished writing two manuscripts and their revisions, so the waiting period begins. And I was not in the mood to train models for a surgery project so decision to overhaul the webpage was made. I know, [the last one](/posts/learning_html#head) served the purpose. It showed a summary of me, my Curriculum vitae (CV) and occasional posts, so what more can I ask? Well, I did have some issues in mind. 
+It has been another interesting week. I finished writing two manuscripts and their revisions, so the waiting period begins. And I was not in the mood to train models for a surgery project so decision to overhaul the webpage was made. I know, [the last one](/posts/learning_html#head) served the purpose. It showed a summary of me, my Curriculum vitae (CV) and occasional posts, so what more can I ask? Well, I did have some issues in mind. <!--end_excerpt-->
 
 
 ### What do I need
