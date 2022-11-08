@@ -22,10 +22,9 @@
 
 	  
 		<div class="details" style="text-align: justify; text-justify: auto">
-		{% assign divtag = entry.content | split: "<div" %}
-		{% assign paragraph = divtag[0] | split: "<h" %}
+		{% assign paragraph = entry.content | split: "<span" %}
 			<p>
-			{{ paragraph[0] | truncatewords: 80, "//... cont'd."}}
+			{{ paragraph[0] }}
 			</p>
 		</div><!--//details-->
 		

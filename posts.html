@@ -26,10 +26,10 @@ description: "ENTER HERE"
 				<div class="company">{{ entry.company }}<br>{{ entry.time }}</div>
 				</div>
 
-			{% assign divtag = entry.content | split: "<span" %}
+			{% assign paragraph = entry.content | split: "<span" %}
 			<div class="details">
 				<p>
-				{{ divtag[0] }}
+				{{ paragraph[0] }}
 				</p>
 			</div><!--//details-->	
 			<hr style="width:30%"/>
