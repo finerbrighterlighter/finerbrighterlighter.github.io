@@ -327,8 +327,9 @@ p {
     }
 	
     #photos{
-        display: grid;
+        display: grid;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		grid-auto-rows: 200px;
         gap: 10px;
 		grid-auto-flow: dense;
 		list-style-type: none;
