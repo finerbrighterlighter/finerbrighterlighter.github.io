@@ -327,9 +327,13 @@ p {
 	
     #photos{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 6px;
-        margin-top: 0;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+		grid-auto-flow: dense;
+    }
+
+    #photos li.landscape{
+		grid-column-end: span 2;
     }
 	
 	#photos img{
