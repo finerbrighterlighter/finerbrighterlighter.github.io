@@ -322,7 +322,7 @@ p {
 	#posts{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 60px;
+        gap: 60px;
         margin-top: 0;
     }
 	
@@ -332,7 +332,6 @@ p {
 		grid-auto-rows: 350px;
         gap: 10px;
 		grid-auto-flow: dense;
-		list-style-type: none;
     }
 
 	#photos img{
@@ -354,13 +353,14 @@ p {
     #photos{
 		--s: 23svw; /* control the size */
 		--g: 10px;  /* control the gap */
-		--f: 1.5;   /* control the scale factor */
+		--f: 0.5;   /* control the scale factor */
 		
         display: grid;
         gap: var(--g);
 		width: calc(3*var(--s) + 2*var(--g));
 		aspect-ratio: 1;
 		grid-template-columns: repeat(5,auto);
+		grid-auto-rows: auto;
     }
 	
 	#photos img{
@@ -370,7 +370,7 @@ p {
 		min-width: 100%;
 		object-fit: cover;
 		cursor: pointer;
-		transition: .5s ease-in-out;	
+		transition: .35s linear;	
 	}
 
 	#photos img:hover{
