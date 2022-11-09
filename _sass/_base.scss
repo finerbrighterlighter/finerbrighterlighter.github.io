@@ -337,7 +337,6 @@ p {
 	#photos img{
 		object-fit: cover;
 		width: 100%;
-		max-height: 100%;
 		
 	}
 	
@@ -362,7 +361,7 @@ p {
 		grid-template-columns: repeat(5,auto);
 		grid-auto-rows: auto;
     }
-	
+
 	#photos img{
 		width: 0;
 		height: 0;
@@ -373,6 +372,10 @@ p {
 		transition: .35s linear;	
 	}
 
+    #photos img.landscape{
+		grid-column-end: span 1;
+    }
+	
 	#photos img:hover{
 		width:  calc(var(--s)*var(--f));
 		height: max-content;
