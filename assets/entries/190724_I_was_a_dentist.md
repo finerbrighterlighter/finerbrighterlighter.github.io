@@ -11,45 +11,45 @@ Just what the title says. These are photos from when I was a dentist. I am no lo
 ## Fourth Year of Coursework
 
 <div id="photos">
-	<li><img src="/assets/photos/bds_fourth (3).JPG" title="Fresher Welcome 2017" alt="Fresher Welcome 2017"/></li>
-	<li><img src="/assets/photos/bds_fourth (4).JPG" title="After a mid-term test I probably bombed" alt="After a mid-term test I probably bombed"/></li>
-	<li><img src="/assets/photos/bds_fourth (1).JPG" title="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_fourth (2).JPG" title="Fresher Welcome 2017" alt="Fresher Welcome 2017"/></li>
+	<img src="/assets/photos/bds_fourth (3).JPG" title="Fresher Welcome 2017" alt="Fresher Welcome 2017"/>
+	<img src="/assets/photos/bds_fourth (4).JPG" title="After a mid-term test I probably bombed" alt="After a mid-term test I probably bombed"/>
+	<img src="/assets/photos/bds_fourth (1).JPG" title="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry"/>
+	<img class="landscape" src="/assets/photos/bds_fourth (2).JPG" title="Fresher Welcome 2017" alt="Fresher Welcome 2017"/>
 </div>
 
 ## Final Year of Coursework
 
 <div id="photos">
-	<li class="landscape"><img src="/assets/photos/bds_final (8).JPG" title="Fresher Welcome 2018" alt="Fresher Welcome 2018"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_final (1).JPG" title="Hospital of Oral and Maxillofacial Surgery" alt="Hospital of Oral and Maxillofacial Surgery"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_final (6).JPG" title="Department of Periodontology" alt="Department of Periodontology"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_final (3).JPG" title="Denture Fabrication by Department of Prosthodontics" alt="Denture Fabrication by Department of Prosthodontics"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_final (7).JPG" title="At the Prosthodontics workshop" alt="At the Prosthodontics workshop"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_final (4).JPG" title="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry"/></li>
-	<li><img src="/assets/photos/bds_final (5).JPG" title="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry"/></li>
-	<li><img src="/assets/photos/bds_final (2).JPG" title="At the Prosthodontics workshop" alt="At the Prosthodontics workshop"/></li>
+	<img class="landscape" src="/assets/photos/bds_final (8).JPG" title="Fresher Welcome 2018" alt="Fresher Welcome 2018"/>
+	<img class="landscape" src="/assets/photos/bds_final (1).JPG" title="Hospital of Oral and Maxillofacial Surgery" alt="Hospital of Oral and Maxillofacial Surgery"/>
+	<img class="landscape" src="/assets/photos/bds_final (6).JPG" title="Department of Periodontology" alt="Department of Periodontology"/>
+	<img class="landscape" src="/assets/photos/bds_final (3).JPG" title="Denture Fabrication by Department of Prosthodontics" alt="Denture Fabrication by Department of Prosthodontics"/>
+	<img class="landscape" src="/assets/photos/bds_final (7).JPG" title="At the Prosthodontics workshop" alt="At the Prosthodontics workshop"/>
+	<img class="landscape" src="/assets/photos/bds_final (4).JPG" title="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry"/>
+	<img src="/assets/photos/bds_final (5).JPG" title="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Thingangyun Township by Department of Precentive and Community Dentistry"/>
+	<img src="/assets/photos/bds_final (2).JPG" title="At the Prosthodontics workshop" alt="At the Prosthodontics workshop"/>
 </div>
 
 ## House Officer
 
 <div id="photos">
-	<li><img src="/assets/photos/bds_house (9).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/></li>
-	<li><img src="/assets/photos/bds_house (10).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/></li>
-	<li><img src="/assets/photos/bds_house (5).JPG" title="During Department of Periodontology Assignment" alt="During Department of Periodontology Assignment"/></li>
-	<li><img src="/assets/photos/bds_house (3).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/></li>
-	<li><img src="/assets/photos/bds_house (12).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/></li>
-	<li><img src="/assets/photos/bds_house (14).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_house (8).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_house (7).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_house (2).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_house (1).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_house (11).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/></li>
-	<li><img src="/assets/photos/bds_house (6).JPG" title="During Department of Pediatric Dentistry Assignment" alt="During Department of Pediatric Dentistry Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_house (13).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_house (4).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_convo (1).JPG" title="Convocation" alt="Convocation"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_convo (2).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/></li>
-	<li class="landscape"><img src="/assets/photos/bds_convo (3).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/></li>
-	<li><img src="/assets/photos/bds_convo (5).jpg" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/></li>
-	<li><img src="/assets/photos/bds_convo (4).jpg" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/></li>
+	<img src="/assets/photos/bds_house (9).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/>
+	<img src="/assets/photos/bds_house (10).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/>
+	<img src="/assets/photos/bds_house (5).JPG" title="During Department of Periodontology Assignment" alt="During Department of Periodontology Assignment"/>
+	<img src="/assets/photos/bds_house (3).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
+	<img src="/assets/photos/bds_house (12).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
+	<img src="/assets/photos/bds_house (14).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_house (8).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_house (7).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_house (2).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_house (1).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_house (11).JPG" title="During Hospital of Oral and Maxillofacial Surgery Assignment" alt="During Hospital of Oral and Maxillofacial Surgery Assignment"/>
+	<img src="/assets/photos/bds_house (6).JPG" title="During Department of Pediatric Dentistry Assignment" alt="During Department of Pediatric Dentistry Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_house (13).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_house (4).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
+	<img class="landscape" src="/assets/photos/bds_convo (1).JPG" title="Convocation" alt="Convocation"/>
+	<img class="landscape" src="/assets/photos/bds_convo (2).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
+	<img class="landscape" src="/assets/photos/bds_convo (3).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
+	<img src="/assets/photos/bds_convo (5).jpg" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
+	<img src="/assets/photos/bds_convo (4).jpg" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
 </div>

@@ -354,7 +354,7 @@ p {
     #photos{
 		--s: 23svw; /* control the size */
 		--g: 10px;  /* control the gap */
-		--f: 0.5;   /* control the scale factor */
+		--f: 1.5;   /* control the scale factor */
 		
         display: grid;
         gap: var(--g);
@@ -370,12 +370,10 @@ p {
 		min-width: 100%;
 		object-fit: cover;
 		cursor: pointer;
-		filter: blur(2px);
 		transition: .5s ease-in-out;	
 	}
 
 	#photos img:hover{
-		filter: blur(0px);
 		width:  calc(var(--s)*var(--f));
 		height: max-content;
 	}
