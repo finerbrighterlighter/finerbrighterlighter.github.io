@@ -306,6 +306,8 @@ p {
 #photos{
 	margin-top: 30px;
 	list-style-type: none;
+	width: 100%;
+    margin: 0 auto;
 }
 
 #photos img{
@@ -350,13 +352,12 @@ p {
 @media (min-width: 1200px){
 
     #photos{
-		--s: 23svw; /* control the size */
+		--s: 160px; /* control the size */
 		--g: 10px;  /* control the gap */
-		--f: 0.5;   /* control the scale factor */
+		--f: 2;   /* control the scale factor */
 		
         display: grid;
         gap: var(--g);
-		width: calc(3*var(--s) + 2*var(--g));
 		aspect-ratio: 1;
 		grid-template-columns: repeat(5,auto);
 		grid-auto-rows: auto;
@@ -388,3 +389,12 @@ p {
 
 }
 
+@media (min-width: 1500px){
+    #photos{
+		--s: 200px; }
+}
+
+@media (min-width: 2000px){
+    #photos{
+		--s: 290px; }
+}
