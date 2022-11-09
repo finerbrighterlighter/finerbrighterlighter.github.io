@@ -304,7 +304,8 @@ p {
 }
 
 #photos{
-    margin-top: 30px;
+	margin-top: 30px;
+	list-style-type: none;
 }
 
 #photos img{
@@ -330,6 +331,7 @@ p {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 10px;
 		grid-auto-flow: dense;
+		list-style-type: none;
     }
 
     #photos li.landscape{
@@ -339,6 +341,9 @@ p {
 	#photos img{
 		filter: sepia(40%);
 		transition: all 1s ease-in-out;
+		object-fit: cover;
+		width: 100%;
+		max-height: 100%;
 		
 	}
 
@@ -346,6 +351,7 @@ p {
 		filter:none;
 		transform: scale(1.5);
 		z-index: 999;
+		object-fit: none;
 	}
 	
 }
