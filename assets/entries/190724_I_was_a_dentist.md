@@ -10,7 +10,7 @@ Just what the title says. These are photos from when I was a dentist. I am no lo
 
 ## Fourth Year of Coursework
 
-<div id="photos">
+<div id="gallery">
 	<img src="/assets/photos/bds_fourth (3).JPG" title="Fresher Welcome 2017" alt="Fresher Welcome 2017"/>
 	<img src="/assets/photos/bds_fourth (4).JPG" title="After a mid-term test I probably bombed" alt="After a mid-term test I probably bombed"/>
 	<img src="/assets/photos/bds_fourth (1).JPG" title="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry"/>

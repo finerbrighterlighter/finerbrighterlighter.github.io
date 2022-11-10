@@ -310,13 +310,13 @@ p {
     margin: 0 auto;
 }
 
-#photos, #gallery img{
+#photos img, #gallery img{
     display: block;
     width: 100%;
     margin-top: 6px;
 }
 
-#photos img, #gallery img:hover {
+#photos img:hover, #gallery img:hover {
 }
 
 @media (min-width: 800px){
@@ -331,7 +331,7 @@ p {
     #photos, #gallery{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 10px;
+        gap: 5px;
 		grid-auto-flow: dense;
     }
 
@@ -352,13 +352,13 @@ p {
 
     #photos{
 		--s: 100px; /* control the size */
-		--g: 10px;  /* control the gap */
+		--g: 5px;  /* control the gap */
 		--f: 1;   /* control the scale factor */
 		
         display: grid;
         gap: var(--g);
 		width: calc(4*var(--s)+3*var(--g));
-		aspect-ratio: 1;
+		aspect-ratio: 1/0.7;
 		grid-template-columns: repeat(4,auto);
 		grid-auto-rows: auto;
 		overlow: hidden;
