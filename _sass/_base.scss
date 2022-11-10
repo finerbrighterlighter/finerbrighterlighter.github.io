@@ -303,20 +303,20 @@ p {
 #updates p{
 }
 
-#photos{
+#photos, #gallery{
 	margin-top: 30px;
 	list-style-type: none;
 	width: 100%;
     margin: 0 auto;
 }
 
-#photos img{
+#photos, #gallery img{
     display: block;
     width: 100%;
     margin-top: 6px;
 }
 
-#photos img:hover {
+#photos, #gallery img:hover {
 }
 
 @media (min-width: 800px){
@@ -354,10 +354,11 @@ p {
     #photos{
 		--s: 160px; /* control the size */
 		--g: 10px;  /* control the gap */
-		--f: 2;   /* control the scale factor */
+		--f: 1;   /* control the scale factor */
 		
         display: grid;
         gap: var(--g);
+		width: calc(4*var(--s)+3*var(--g));
 		aspect-ratio: 1;
 		grid-template-columns: repeat(4,auto);
 		grid-auto-rows: auto;
@@ -389,7 +390,8 @@ p {
 
 }
 
-@media (min-width: 1500px){
+
+/* @media (min-width: 1500px){
     #photos{
 		--s: 200px; }
 }
@@ -397,4 +399,4 @@ p {
 @media (min-width: 2000px){
     #photos{
 		--s: 290px; }
-}
+} */
