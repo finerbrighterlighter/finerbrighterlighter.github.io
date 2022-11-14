@@ -48,6 +48,8 @@ Just what the title says. These are photos from when I was a dentist. I am no lo
 	<img class="landscape" src="/assets/photos/bds_house (13).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/>
 	<img class="landscape" src="/assets/photos/bds_house (4).JPG" title="During Department of Precentive and Community Dentistry Assignment" alt="During Department of Precentive and Community Dentistry Assignment"/>
 	<img class="landscape" src="/assets/photos/bds_convo (1).JPG" title="Convocation" alt="Convocation"/>
+	<img src="/assets/photos/bds_convo (6).jpg" title="licensed to drill" alt="licensed to drill"/>
+	<img src="/assets/photos/bds_convo (7).jpg" title="licensed to practice dentistry" alt="licensed to practice dentistry"/>
 	<img class="landscape" src="/assets/photos/bds_convo (2).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
 	<img class="landscape" src="/assets/photos/bds_convo (3).JPG" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
 	<img src="/assets/photos/bds_convo (5).jpg" title="Somehow I walked a marathon" alt="Somehow I walked a marathon"/>
