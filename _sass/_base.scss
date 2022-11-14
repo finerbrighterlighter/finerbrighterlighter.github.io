@@ -53,6 +53,13 @@ p {
   a {
     color: #fff;
   }
+  .announce{
+    padding: 30px;
+    //background: darken($theme-color, 10%);
+    background-color: maroon;
+    text-align: center;
+    color: #fff;
+  }
   .profile-container {
     padding: 30px;
     //background: darken($theme-color, 10%);

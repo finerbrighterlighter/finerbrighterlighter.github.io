@@ -2,6 +2,13 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+	<div class="announce" style="display: table; font-size: 1.2em;margin:auto;background-color:maroon;">
+		<i class="fas fa-tint fa-fw" style="margin-right: 5px;"></i>
+		<a href="/blood" target="_blank" style=" font-weight: bold; font-family: ui-monospace;font-variant: small-caps;letter-spacing: 1.5px;text-decoration: overline underline double;text-underline-offset: 3px;">
+			Let's Donate Blood!!
+		</a>
+	</div>
+
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
