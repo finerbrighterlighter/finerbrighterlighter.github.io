@@ -164,7 +164,7 @@ publications:
         conference: "Journal Manuscript, Under Review (2021)"
         
       - title: "Real World Data in Ramathibodi Hospital"
-        link: "/assets/docs/realworlddata.pdf"
+        link: "https://htunteza.com/posts/ceb_rwd/#head"
         authors:  Thakkinstian, A., Lukkunaprasit, T., Ponthongmak, W. , Looaresuwan, P., <b>Teza, H.</b>
         conference: "Conference Speaker, Real World Data, Mahidol University, Bangkok, Thailand (2022)"
         
@@ -174,7 +174,7 @@ publications:
         conference: "Conference Poster, 43rd Annual Conference of Internation Society for Clinical Biostatistics, Newcastle University, Newcastle upon Tyne, United Kingdom (2022)"
         
       - title: "Big Cohort Data for NCDs (NCDs: Bridging the Gaps)"
-        link: "/assets/docs/mohammsc.pdf"
+        link: "https://htunteza.com/posts/moh_ncd/#head"
         authors: Thakkinstian, A., Lolak, S., Looaresuwan, P., <b>Teza, H.</b>
         conference: "Conference Speaker, 14th Ministry of Health - Academy of Medicine of Malaysia Scientific Meeting, National Institutes of Health, Selangor, Malaysia (2022)"
         
@@ -198,4 +198,4 @@ publications:
         authors: <b>Teza, H.</b>
         conference: "Descriptive Report, University of Dental Medicine Yangon, Yangon, Myanmar (2017)"                   
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    <i class="fas fa-cogs"> from Automatic <i class="fas fa-terminal"> to Intelligent <i class="fas fa-lightbulb-o">
