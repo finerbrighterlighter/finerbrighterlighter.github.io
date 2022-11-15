@@ -216,11 +216,17 @@ bld_cen:
         geo: "https://g.page/nbctrc?share"
         address: "1871 Henri Dunant Road, Pathum Wan, Bangkok, Thailand 10330"
         phone: "0 2263 9600-99, 0 2256 4300"
-        
-      
+              
       - name: "National Blood Center, Myanmar"
         link: "https://www.donatebloodmyanmar.org/"
         note: "in Burmese"
         geo: "https://goo.gl/maps/i6zzRPL9iyRkGQsd8"
         address: "97, Corner of Bogyoke Aung San Road and Shwedagon Pagoda Road, Latha, Yangon, Myanmar 11131"
         phone: "01 372 753"
+        
+      - name: "List of blood donation agencies"
+        link: "https://en.wikipedia.org/wiki/List_of_blood_donation_agencies"
+        note: "Wikipedia"
+        geo: "https://goo.gl/maps/i6zzRPL9iyRkGQsd8"
+        address: 
+        phone: 
