@@ -204,6 +204,7 @@ bld_cen:
     intro: 
     direction:
       - name: "Blood Bank, Ramathibodi Hospital"
+        alt: "โรงพยาบาลรามาธิบดี"
         link: "https://www.rama.mahidol.ac.th/patho/th/Laboratory/blood_bank"
         note: "in Thai"
         geo: "https://goo.gl/maps/BuxTjdq52jfdWp2f9"
@@ -211,6 +212,7 @@ bld_cen:
         phone: "0 2201 1219, 0 2201 1229"
         
       - name: "National Blood Center, Thai Red Cross Society"
+        alt: "ศูนย์บริการโลหิตแห่งชาติ"
         link: "https://blooddonationthai.com/"
         note: "in Thai"
         geo: "https://g.page/nbctrc?share"
@@ -218,6 +220,7 @@ bld_cen:
         phone: "0 2263 9600-99, 0 2256 4300"
               
       - name: "National Blood Center, Myanmar"
+        alt: "အမျိုးသားသွေးဌာန"
         link: "https://www.donatebloodmyanmar.org/"
         note: "in Burmese"
         geo: "https://goo.gl/maps/i6zzRPL9iyRkGQsd8"
@@ -225,6 +228,7 @@ bld_cen:
         phone: "01 372 753"
         
       - name: "List of blood donation agencies"
+        alt:
         link: "https://en.wikipedia.org/wiki/List_of_blood_donation_agencies"
         note: "Wikipedia"
         geo: "https://goo.gl/maps/i6zzRPL9iyRkGQsd8"
