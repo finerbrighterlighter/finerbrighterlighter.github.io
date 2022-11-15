@@ -32,13 +32,12 @@ description: "ENTER HERE"
     </div><!--//meta-->
 
     {% if bld_cen.address %}
-    <div class="details" style="text-align: justify;">
-      Address: {{ bld_cen.address }}
+    <div class="details">
+      <a href={{ bld_cen.geo }} title="Google Maps" target="_blank" >Address</a>: {{ bld_cen.address }}
 	  <br> Telephone: {{ bld_cen.phone }}
-	  <br><a href={{ bld_cen.geo }}  target="_blank">Map</a>
     </div><!--//address-->
     {% endif %}
-
+	<br>
   </div><!--//item-->
   {% endfor %}
  </div>
