@@ -25,12 +25,17 @@ description: "ENTER HERE"
       <div class="upper-row">
         <h3 class="job-title"><b>{{ bld_cen.name }}</b></h3>
       </div><!--//upper-row-->
-      <div class="company"><a href={{ bld_cen.link }}  target="_blank">{{ bld_cen.company }}</a> <i>( {{ bld_cen.note}} )</i></div>
+      <div class="company">
+		<a href={{ bld_cen.link }}  target="_blank">{{ bld_cen.link }}</a>
+		<i> ({{ bld_cen.note}})</i>
+		</div>
     </div><!--//meta-->
 
     {% if bld_cen.address %}
     <div class="details" style="text-align: justify;">
-      {{ bld_cen.address | markdownify }}
+      Address: {{ bld_cen.address }}
+	  <br> Telephone: {{ bld_cen.phone }}
+	  <br><a href={{ bld_cen.geo }}  target="_blank">Map</a>
     </div><!--//address-->
     {% endif %}
 

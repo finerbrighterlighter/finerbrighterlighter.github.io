@@ -206,10 +206,14 @@ bld_cen:
       - name: "National Blood Center, Thai Red Cross Society"
         link: "https://blooddonationthai.com/"
         note: "in Thai"
-        address: "1871, Henri Dunant Road, Pathum Wan, Bangkok, Kingdom of Thailand, 10330"
+        geo: "geo:13.73368,100.53258?z=19"
+        address: "1871, Henri Dunant Road, Pathum Wan, Bangkok, Thailand, 10330"
+        phone: "0 2263 9600-99, 0 2256 4300"
         
       
       - name: "National Blood Center, Myanmar"
         link: "https://www.donatebloodmyanmar.org/"
         note: "in Burmese"
-        address: "97, Corner of Bogyoke Aung San Road and Shwedagon Pagoda Road, Latha, Yangon, Republic of the Union of Myanmar, 11131"
+        geo: "geo:16.77911,96.15258?z=19"
+        address: "97, Corner of Bogyoke Aung San Road and Shwedagon Pagoda Road, Latha, Yangon, Myanmar, 11131"
+        phone: "01 372 753"
