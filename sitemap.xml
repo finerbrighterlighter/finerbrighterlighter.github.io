@@ -9,52 +9,92 @@
 
 <url>
   <loc>https://htunteza.com/</loc>
-  <lastmod>2022-11-02T05:29:34+00:00</lastmod>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://htunteza.com/assets/general/cv_htunteza_221102.pdf</loc>
-  <lastmod>2022-11-02T05:29:31+00:00</lastmod>
+  <loc>https://htunteza.com/blood/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/assets/general/cv_htunteza_221108.pdf</loc>
+  <lastmod>2022-11-15T07:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/blood_2022/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/where_how_what/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/learning_html/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://htunteza.com/posts/ceb_grad/</loc>
-  <lastmod>2022-11-02T05:29:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://htunteza.com/posts/</loc>
-  <lastmod>2022-11-02T05:29:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://htunteza.com/assets/docs/realworlddata.pdf</loc>
-  <lastmod>2022-11-02T05:29:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://htunteza.com/assets/docs/mohammsc.pdf</loc>
-  <lastmod>2022-11-02T05:29:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://htunteza.com/assets/docs/msc_thesis.pdf</loc>
-  <lastmod>2022-11-02T05:29:31+00:00</lastmod>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://htunteza.com/posts/ceb_rwd/</loc>
-  <lastmod>2022-11-02T05:29:34+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://htunteza.com/posts/iscb/</loc>
-  <lastmod>2022-11-02T05:29:34+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://htunteza.com/posts/moh_ncd/</loc>
-  <lastmod>2022-11-02T05:29:34+00:00</lastmod>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/assets/docs/msc_thesis.pdf</loc>
+  <lastmod>2022-11-15T07:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/assets/docs/realworlddata.pdf</loc>
+  <lastmod>2022-11-15T07:07:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/assets/docs/mohammsc.pdf</loc>
+  <lastmod>2022-11-15T07:07:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/h_index_of_1/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/personal_site/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/personal_story/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://htunteza.com/posts/I_was_a_dentist/</loc>
+  <lastmod>2022-11-15T07:07:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
