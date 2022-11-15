@@ -3,8 +3,7 @@
 
 	<div class="announce">
 		<a class="animate-charcter" href="/blood#head">
-			<i class="fas fa-tint fa-fw"></i>
-			<input type="text" id="randomText">
+			<i class="fas fa-tint fa-fw"></i><p id="banner"></p>
 		</a>
 	</div>
 
@@ -40,11 +39,14 @@
 </div><!--//sidebar-wrapper-->
 
 <script> 
-var texts = [
-  "Let's donate blood!!",
-  "It's in you to give!!",
-  "Red with life!!"
-];
+function randomtext() {
+    var randomtxt = [
+			"Let's donate blood!!",
+			"It's in you to give!!",
+			"Red with life!!"
+			];
+    return randomtxt[Math.floor((Math.random() * 3.99))];
+}
 
-document.getElementById("randomText").value = texts[Math.floor(Math.random()*texts.length)];
+document.getElementById("banner").innerHTML = randomtext();
 </script>
