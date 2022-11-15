@@ -2,13 +2,12 @@
 layout: default
 title: blood
 permalink: /blood/
-description: "ENTER HERE"
 ---
 
 <!--//address section-->
 {% assign bld_cens = site.data.data.bld_cen %}
 {% if bld_cens %}  
-<section class="section updates-section">
+<section id="head" class="section updates-section">
   <h2 id="head" class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -26,7 +25,7 @@ description: "ENTER HERE"
         <h3 class="job-title"><b>{{ bld_cen.name }}</b></h3>
       </div><!--//upper-row-->
       <div class="company">
-		<a href={{ bld_cen.link }}  target="_blank">{{ bld_cen.link }}</a>
+		<a href={{ bld_cen.link }}  target="_blank">Website</a>
 		<i> ({{ bld_cen.note}})</i>
 		</div>
     </div><!--//meta-->

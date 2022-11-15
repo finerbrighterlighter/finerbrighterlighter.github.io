@@ -203,7 +203,7 @@ bld_cen:
     title: Blood Donation Centres
     intro: 
     direction:
-      - name: "Blood Bank, Department of Pathology, Faculty of Medicine Ramathibodi Hospital, Mahidol University"
+      - name: "Blood Bank, Ramathibodi Hospital"
         link: "https://www.rama.mahidol.ac.th/patho/th/Laboratory/blood_bank"
         note: "in Thai"
         geo: "https://goo.gl/maps/BuxTjdq52jfdWp2f9"
