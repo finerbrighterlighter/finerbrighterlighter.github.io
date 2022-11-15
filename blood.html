@@ -5,6 +5,42 @@ permalink: /blood/
 description: "ENTER HERE"
 ---
 
+<!--//address section-->
+{% assign bld_cens = site.data.data.bld_cen %}
+{% if bld_cens %}  
+<section class="section updates-section">
+  <h2 id="head" class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-tint fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ bld_cens.title }}
+  </h2>
+
+<div id="posts">
+  {% for bld_cen in bld_cens.direction %}
+  <div class="item">
+
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title"><b>{{ bld_cen.name }}</b></h3>
+      </div><!--//upper-row-->
+      <div class="company"><a href={{ bld_cen.link }}  target="_blank">{{ bld_cen.company }}</a> <i>( {{ bld_cen.note}} )</i></div>
+    </div><!--//meta-->
+
+    {% if bld_cen.address %}
+    <div class="details" style="text-align: justify;">
+      {{ bld_cen.address | markdownify }}
+    </div><!--//address-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+ </div>
+</section>
+{% endif %}
+
+<!--//records section-->
 <section class="section updates-section">
   <h2 id="head" class="section-title">
     <span class="fa-stack fa-xs">
@@ -13,7 +49,6 @@ description: "ENTER HERE"
     </span>
     Blood Donation Records
   </h2>
-  
   
 <div id="gallery">
 	<img src="/assets/photos/blood_th9.jpg" title="Bag filled with Platelets" alt="Bag filled with Platelets"/>
@@ -24,3 +59,4 @@ description: "ENTER HERE"
 	<img src="/assets/photos/blood_mm2.JPG" title="The last four records in Myanmar" alt="The last four records in Myanmar"/>
 	<img src="/assets/photos/blood_mm1.JPG" title="The first ten records" alt="The first ten records"/>
 </div>
+</section>

@@ -403,16 +403,13 @@ p {
 .animate-charcter {
   animation: color-animation 1.5s linear infinite;
   --color-1: #ffffff;
-  --color-2: $theme-color;
-  --color-3: #660000;
+  --color-2: #660000;
 }
 
 @keyframes color-animation {
   0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
+  50%   {color: var(--color-1)}
+  51%   {color: var(--color-2)}
+  99%   {color: var(--color-2)}
   100%  {color: var(--color-1)}
 }

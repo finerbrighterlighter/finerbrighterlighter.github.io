@@ -199,3 +199,17 @@ publications:
         conference: "Descriptive Report, University of Dental Medicine Yangon, Yangon, Myanmar (2017)"                   
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+bld_cen:
+    title: Blood Donation Centres
+    intro: 
+    direction:
+      - name: "National Blood Center, Thai Red Cross Society"
+        link: "https://blooddonationthai.com/"
+        note: "in Thai"
+        address: "1871, Henri Dunant Road, Pathum Wan, Bangkok, Kingdom of Thailand, 10330"
+        
+      
+      - name: "National Blood Center, Myanmar"
+        link: "https://www.donatebloodmyanmar.org/"
+        note: "in Burmese"
+        address: "97, Corner of Bogyoke Aung San Road and Shwedagon Pagoda Road, Latha, Yangon, Republic of the Union of Myanmar, 11131"
