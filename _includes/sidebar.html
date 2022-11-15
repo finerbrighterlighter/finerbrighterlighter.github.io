@@ -4,7 +4,7 @@
 	<div class="announce">
 		<a class="animate-charcter" href="/blood#head">
 			<i class="fas fa-tint fa-fw"></i>
-			Let's Donate Blood!!
+			<input type="text" id="randomText">
 		</a>
 	</div>
 
@@ -38,3 +38,13 @@
   {% endif %}
 
 </div><!--//sidebar-wrapper-->
+
+<script> 
+var texts = [
+  "Let's donate blood!!",
+  "It's in you to give!!",
+  "Red with life!!"
+];
+
+document.getElementById("randomText").value = texts[Math.floor(Math.random()*texts.length)];
+</script>
