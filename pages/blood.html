@@ -22,12 +22,8 @@ permalink: /blood/
 
     <div class="meta">
       <div class="upper-row">
-        <h3 class="job-title"><b>{{ bld_cen.name }}</b></h3>
+        <h3 class="job-title"><a href={{ bld_cen.link }} target="_blank"><b>{{ bld_cen.name }}</b></a><i> ({{ bld_cen.note}})</i></h3>
       </div><!--//upper-row-->
-      <div class="company">
-		<a href={{ bld_cen.link }}  target="_blank">Website</a>
-		<i> ({{ bld_cen.note}})</i>
-		</div>
     </div><!--//meta-->
 
     {% if bld_cen.address %}
