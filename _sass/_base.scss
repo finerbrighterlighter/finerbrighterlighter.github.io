@@ -349,6 +349,7 @@ p {
 		object-fit: cover;
 		width: 100%;
 		margin-top: 0px;
+		transition: transform 1.5s;
 		
 	}
 	
@@ -356,6 +357,9 @@ p {
 		grid-column-end: span 2;
     }
 	
+	#gallery img:hover {
+		transform: scale(1.5)
+	}
 
 }
 
