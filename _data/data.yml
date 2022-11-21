@@ -148,9 +148,14 @@ publications:
     title: Works
     intro: 
     papers:
-      - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort "
+      - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
         link: "#"
-        authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Unwanatham, N., Thadanipon, K., Pattanateepapon, A., Attia, J., McKay, G.J., Thakkinstian, A.
+        authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Unwanatham, N., Thadanipon, K., Pattanateepapon, A., Thakkinstian, A.
+        conference: "Conference Poster, Under Review (2023)"
+
+      - title: "Transition probability between hypertension and associated complications: A Thai real-world clinical cohort"
+        link: "#"
+        authors:  <b>Teza, H.</b>, Boonmanunt, S., Unwanatham, N., Thadanipon, K., Pattanaprateep, O., Pattanateepapon, A., Attia, J., McKay, G.J., Thakkinstian, A.
         conference: "Journal Manuscript, Under Draft (2022)"
 
       - title: "External validation and revision of Penn incisional hernia prediction model: A retrospective cohort study"
