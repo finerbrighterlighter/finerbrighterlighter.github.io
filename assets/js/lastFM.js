@@ -22,14 +22,13 @@ function lastFM_request(method, username, API_key, number, elementID) {
 						var albumName  = track.album['\#text'];
 						var songName   = track.name;
 						var songURL    = track.url;
-						var imgURL     = track.image[1]['\#text']; // Image sizes go from 0 - 3
 
 						// prints link to song with artist and song name
-						element.innerHTML += '<li><a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a> ';
+						element.innerHTML += '<li><a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a>&nbsp&nbsp&nbsp';
 
 						if (track['\@attr'] && track['\@attr'].nowplaying !== ''){ 
 							element.innerHTML += '<img src="/assets/general/scrobbling.gif" alt="Now Playing" title="Now Playing" /></li>'
-						} else if (track['\@attr'] && track['\@attr'].nowplaying == ''){
+						} else {
 							element.innerHTML += '</li>'}
 					}
 				} else if (method == 'user.gettopartists') {
