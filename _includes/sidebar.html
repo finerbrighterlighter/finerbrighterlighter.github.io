@@ -32,12 +32,16 @@
 
   {% include language.html %}
   {% include interests.html %}
+  
+  <div id="recenttracks"></div>
 
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
 
 </div><!--//sidebar-wrapper-->
+
+<script src="{{site.baseurl}}/assets/js/lastFM.js"></script>
 
 <script> 
 function randomtext() {
