@@ -13,7 +13,6 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 				if (method == 'user.getrecenttracks') {
 					var total = obj.recenttracks['\@attr'].total;
-					element.innerHTML += '<p><a href="http://www.last.fm/user/' + username + '" target="_blank">' + username + '</a> has scrobbled <strong>' + total + '</strong> tracks total.</p>';
 
 					for (i = 0; i < number; i++) {	// Loop through responses
 						var track   = obj.recenttracks.track[i]; // references this specific track
@@ -26,12 +25,12 @@ function lastFM_request(method, username, API_key, number, elementID) {
 						var imgURL     = track.image[1]['\#text']; // Image sizes go from 0 - 3
 
 						// prints link to song with artist and song name
-						element.innerHTML += '<a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a> ';
+						element.innerHTML += '<li><a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a> ';
 
-						if (track['\@attr'] && track['\@attr'].nowplaying !== '') // if now playing, print now playing gif
-							element.innerHTML += '<img src="scrobbling.gif" alt="Now Playing" title="Now Playing" />';
-
-						element.innerHTML += '<br/>';
+						if (track['\@attr'] && track['\@attr'].nowplaying !== ''){ 
+							element.innerHTML += '<img src="/assets/general/scrobbling.gif" alt="Now Playing" title="Now Playing" /></li>'
+						} else if (track['\@attr'] && track['\@attr'].nowplaying == ''){
+							element.innerHTML += '</li>'}
 					}
 				} else if (method == 'user.gettopartists') {
 					for (i = 0; i < number; i++) {
@@ -47,4 +46,4 @@ function lastFM_request(method, username, API_key, number, elementID) {
 	xmlhttp.send(null); // Close connection
 }
 
-setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '1', 'recenttracks'), 5000);
+setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '5', 'recenttracks'), 5000);
