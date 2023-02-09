@@ -24,10 +24,10 @@ function lastFM_request(method, username, API_key, number, elementID) {
 						var songURL    = track.url;
 
 						// prints link to song with artist and song name
-						element.innerHTML += '<li><a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a>&nbsp&nbsp&nbsp';
+						element.innerHTML += '<li><a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a> ';
 
 						if (track['\@attr'] && track['\@attr'].nowplaying !== ''){ 
-							element.innerHTML += '<img src="/assets/general/scrobbling.gif" alt="Now Playing" title="Now Playing" />'
+							element.innerHTML += '&nbsp&nbsp&nbsp<img src="/assets/general/scrobbling.gif" alt="Now Playing" title="Now Playing" />'
 						
 						element.innerHTML += '</li>'}
 					}
