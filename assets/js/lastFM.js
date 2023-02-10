@@ -48,3 +48,4 @@ function lastFM_request(method, username, API_key, number, elementID) {
 }
 
 setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '5', 'recenttracks'), 5000);
+setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '1', 'lasttrack'), 5000);
