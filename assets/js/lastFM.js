@@ -25,7 +25,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 						// prints link to song with artist and song name
 						if(number == 1){
-							element.innerHTML +=  'last played; '
+							element.innerHTML +=  'last played: '
 						}else{
 							element.innerHTML +=  '<li>'
 						}
