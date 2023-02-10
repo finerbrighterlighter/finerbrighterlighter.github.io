@@ -26,13 +26,13 @@
     {% endif %}  
 	
     {% if sidebar.twitter %}
-    <li class="twitter"><i class="fab fa-twitter fa-fw"></i>
+    <li id="hideblock" class="twitter"><i class="fab fa-twitter fa-fw"></i>
       <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
     </li>
     {% endif %}
 	
     {% if sidebar.orcid %}
-    <li class="orcid"><i class="fas fa-graduation-cap fa-fw"></i>
+    <li id="hideblock" class="orcid"><i class="fas fa-graduation-cap fa-fw"></i>
       <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">ORCID</a>
     </li>
     {% endif %}
@@ -44,25 +44,25 @@
     {% endif %}
 	
     {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github fa-fw"></i>
+    <li id="hideblock" class="github"><i class="fab fa-github fa-fw"></i>
       <a href="http://github.com/{{ sidebar.github }}" target="_blank">Github</a>
     </li>
     {% endif %}
 
     {% if sidebar.stack-overflow %}
-    <li class="stack-overflow"><i class="fab fa-stack-overflow fa-fw"></i>
+    <li id="hideblock" class="stack-overflow"><i class="fab fa-stack-overflow fa-fw"></i>
       <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }} target="_blank"" target="_blank">Stackoverflow</a>
     </li>
     {% endif %}
 
 	{% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin fa-fw"></i>
+    <li id="hideblock" class="linkedin"><i class="fab fa-linkedin fa-fw"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }} target="_blank"" target="_blank">LinkedIn</a>
     </li>
 	
     {% endif %}
     {% if sidebar.cv %}
-    <li class="pdf"><i class="fas fa-file-pdf fa-fw"></i>
+    <li id="hideblock" class="pdf"><i class="fas fa-file-pdf fa-fw"></i>
       <a href="/assets/general/{{ sidebar.cv }}" target="_blank">Download CV</a>
     </li>
     {% endif %}
