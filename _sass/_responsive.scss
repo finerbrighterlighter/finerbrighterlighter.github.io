@@ -29,8 +29,15 @@
   
    #hideblock { 
     display: none; 
-  } 
-
+  }
+  
+   #showblock{
+	font-size: 0.8em;
+    text-transform: none;
+    font-weight: unset;
+    font-style: oblique;
+    list-style-type: "last played: ";
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
