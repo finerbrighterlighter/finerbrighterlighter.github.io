@@ -25,13 +25,13 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 						// prints link to song with artist and song name
 						if(number == 1){
-							element.innerHTML +=  'last played: '
+							element.innerHTML +=  '<a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener">last played: </a> '
 						}else{
 							element.innerHTML +=  '<li>'
 						}
 						
 						
-						element.innerHTML += '<a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a> ';
+						element.innerHTML += '&nbsp<a href="' + songURL + '" target="_blank" rel="noreferrer noopener">' + artistName + ' - ' + songName + '</a> ';
 
 						if (track['\@attr'] && track['\@attr'].nowplaying !== ''){ 
 							element.innerHTML += '&nbsp&nbsp&nbsp<img src="/assets/general/scrobbling.gif" alt="Now Playing" title="Now Playing" />'
