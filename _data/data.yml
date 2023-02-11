@@ -48,9 +48,6 @@ sidebar:
         - item: Goodreads
           link: "https://goodreads.com/user/show/154577593-fibrili"
           
-        - item: last.fm
-          link: "https://www.last.fm/user/fibrili"
-          
         - item: Most Played 2022
           link: "https://www.last.fm/user/fibrili/playlists/12562647"
         
@@ -206,8 +203,8 @@ publications:
         authors: <b>Teza, H.</b>
         conference: "Descriptive Report, University of Dental Medicine Yangon, Yangon, Myanmar (2017)"                   
 footer: >
-    Made with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
-    Mod with <i class="fas fa-frown"></i> by <a href="https://i.kym-cdn.com/entries/icons/mobile/000/016/546/hidethepainharold.jpg" target="_blank" rel="nofollow">Htun Teza</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
+    Modified with <i class="fas fa-frown"></i> by <a href="https://i.kym-cdn.com/entries/icons/mobile/000/016/546/hidethepainharold.jpg" target="_blank" rel="nofollow">Htun Teza</a>
 bld_cen:
     title: Blood Donation Centres
     intro: 
