@@ -42,7 +42,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
 					for (i = 0; i < number; i++) {
 						var album = obj.topalbums.album[i]; // references this specific artist
 						// console.log(artist);
-						element.innerHTML += "<a href='" + album.url + "' target='_blank' rel='noreferrer noopener'><img src='" + album.image[1]["#text"] + "' alt='" + album.name + "' /><a><br/>";
+						element.innerHTML += "<a href='" + album.url + "' target='_blank' rel='noreferrer noopener'><img src='" + album.image[1]["#text"] + "' alt='" + album.name + "' style="filter: grayscale(50%);"/><a>";
 					}
 				}
 			 }
@@ -53,4 +53,4 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '5', 'recenttracks'), 5000);
 setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '1', 'lasttrack'), 5000);
-setInterval(lastFM_request('user.gettopalbums',   'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '10', 'topalbums'),   5000);
+setInterval(lastFM_request('user.gettopalbums',   'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '20', 'topalbums'),   5000);
