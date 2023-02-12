@@ -1,5 +1,5 @@
 function lastFM_request(method, username, API_key, number, elementID) {
-	var lastFMurl = 'https://ws.audioscrobbler.com/2.0/?method=' + method + '&user=' + username + '&api_key=' + API_key + '&limit=' + number + '&format=json';
+	var lastFMurl = 'https://ws.audioscrobbler.com/2.0/?method=' + method + '&user=' + username + '&api_key=' + API_key + '&limit=' + number + '&period=1month&format=json';
 	var element   = document.getElementById(elementID);
 	var xmlhttp   = new XMLHttpRequest();
 
@@ -38,12 +38,11 @@ function lastFM_request(method, username, API_key, number, elementID) {
 						
 						element.innerHTML += '</li>'}
 					}
-				} else if (method == 'user.gettopartists') {
+				} else if (method == 'user.gettopalbums') {
 					for (i = 0; i < number; i++) {
-						var artist = obj.topartists.artist[i]; // references this specific artist
+						var album = obj.topalbums.album[i]; // references this specific artist
 						// console.log(artist);
-						element.innerHTML += "<img src='" + artist.image[1]["#text"] + "' alt='" + artist.name + "' />";
-						element.innerHTML += "<a href='" + artist.url + "' target='_blank' rel='noreferrer noopener'>" + artist.name + "</a> with " + artist.playcount + " plays.<br/>";
+						element.innerHTML += "<a href='" + album.url + "' target='_blank' rel='noreferrer noopener'><img src='" + album.image[1]["#text"] + "' alt='" + album.name + "' /><a><br/>";
 					}
 				}
 			 }
@@ -54,3 +53,4 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '5', 'recenttracks'), 5000);
 setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '1', 'lasttrack'), 5000);
+setInterval(lastFM_request('user.gettopalbums',   'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '10', 'topalbums'),   5000);
