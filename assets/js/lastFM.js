@@ -1,5 +1,5 @@
 function lastFM_request(method, username, API_key, number, elementID) {
-	var lastFMurl = 'https://ws.audioscrobbler.com/2.0/?method=' + method + '&user=' + username + '&api_key=' + API_key + '&limit=' + number + '&period=1month&format=json';
+	var lastFMurl = 'https://ws.audioscrobbler.com/2.0/?method=' + method + '&user=' + username + '&api_key=' + API_key + '&limit=' + number + '&period=7day&format=json';
 	var element   = document.getElementById(elementID);
 	var xmlhttp   = new XMLHttpRequest();
 
