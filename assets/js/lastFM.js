@@ -42,7 +42,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
 					for (i = 0; i < number; i++) {
 						var album = obj.topalbums.album[i]; // references this specific artist
 						// console.log(artist);
-						element.innerHTML += "<a href='" + album.url + "' target='_blank' rel='noreferrer noopener'><img src='" + album.image[1]["#text"] + "' title='" + album.artist.name + ' - ' + album.name + "' alt='" + album.artist.name + ' - ' + album.name + "' style='filter: grayscale(50%)';/>";
+						element.innerHTML += "<a href='" + album.url + "' target='_blank' rel='noreferrer noopener'><img src='" + album.image[1]["#text"] + "' title='" + album.artist.name + ' - ' + album.name + ' - ' + album.playcount + " plays' alt='" + album.artist.name + ' - ' + album.name + "' style='filter: grayscale(50%)';/>";
 					}
 				} else if (method == 'user.gettopartists') {
 					for (i = 0; i < number; i++) {
