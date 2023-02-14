@@ -44,6 +44,12 @@ function lastFM_request(method, username, API_key, number, elementID) {
 						// console.log(artist);
 						element.innerHTML += "<a href='" + album.url + "' target='_blank' rel='noreferrer noopener'><img src='" + album.image[1]["#text"] + "' title='" + album.artist.name + ' - ' + album.name + "' alt='" + album.artist.name + ' - ' + album.name + "' style='filter: grayscale(50%)';/><a>";
 					}
+				} else if (method == 'user.gettopartists') {
+					for (i = 0; i < number; i++) {
+						var artist = obj.topalbums.artist[i]; // references this specific artist
+						// console.log(artist);
+						element.innerHTML += "<a href='" + artist.url + "' target='_blank' rel='noreferrer noopener'><img src='" + artist.image[1]["#text"] + "' title='" + artist.name + ' - ' + artist.playcount + " plays' alt='" + artist.name + ' - ' + artist.playcount + " plays' style='filter: grayscale(50%)';/><a>";
+					}
 				}
 			 }
 		}
@@ -53,4 +59,5 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '5', 'recenttracks'), 5000);
 setInterval(lastFM_request('user.getrecenttracks', 'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '1', 'lasttrack'), 5000);
-setInterval(lastFM_request('user.gettopalbums',   'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '20', 'topalbums'),   5000);
+setInterval(lastFM_request('user.gettopalbums',   'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '10', 'topalbums'), 5000);
+setInterval(lastFM_request('user.gettopartists',   'fibrili', 'c0674923fe24ec9a2ec6b60ef3d73ff3', '10', 'topartists'), 5000);
