@@ -46,7 +46,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
 					}
 				} else if (method == 'user.gettopartists') {
 					for (i = 0; i < number; i++) {
-						var artist = obj.topalbums.artist[i]; // references this specific artist
+						var artist = obj.topartists.artist[i]; // references this specific artist
 						// console.log(artist);
 						element.innerHTML += "<a href='" + artist.url + "' target='_blank' rel='noreferrer noopener'><img src='" + artist.image[1]["#text"] + "' title='" + artist.name + ' - ' + artist.playcount + " plays' alt='" + artist.name + ' - ' + artist.playcount + " plays' style='filter: grayscale(50%)';/><a>";
 					}
