@@ -28,7 +28,7 @@ function getLastReadManga(number) {
       	const title = manga.title.userPreferred;
         const url = manga.siteUrl;
         const image= manga.coverImage.medium;
-        element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title + "' alt='" + title + "'style='filter: grayscale(50%)';/>";
+        element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title + "' alt='" + title + "'style='filter: grayscale(50%);width:64px;height:128px;object-fit:cover';/>";
       }
       
     })
