@@ -33,9 +33,13 @@
 
   {% include language.html %}
 
-  {% include LastFM.html %}
-  {% include unsplash.html %}
-  {% include anilist.html %}  
+	<div id ="hideblock">
+
+	{% include LastFM.html %}
+	{% include unsplash.html %}
+	{% include anilist.html %}  
+	</div><!--//sidebar-wrapper-->
+
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
