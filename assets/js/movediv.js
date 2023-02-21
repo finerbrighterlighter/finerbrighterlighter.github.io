@@ -10,9 +10,9 @@ const mediaQuery = window.matchMedia("(max-width: 767px)");
 // function to move the target element based on screen width
 function moveDiv() {
   if (mediaQuery.matches) {
-	  childDiv1.appendChild(targetElement);
-  } else {
 	  childDiv2.appendChild(targetElement);
+  } else {
+	  childDiv1.appendChild(targetElement);
   }
 }
 
