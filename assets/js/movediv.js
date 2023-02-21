@@ -1,5 +1,6 @@
 // get the div elements
-const childDiv1 = document.getElementById("destination");
+const childDiv1 = document.getElementById("childDiv1");
+const childDiv2 = document.getElementById("childDiv2");
 const targetElement = document.getElementById("targetElement");
 targetElement.classList.add("sidebar-wrapper");
 
@@ -10,6 +11,8 @@ const mediaQuery = window.matchMedia("(max-width: 767px)");
 function moveDiv() {
   if (mediaQuery.matches) {
 	  childDiv1.appendChild(targetElement);
+  } else{
+	  childDiv2.appendChild(targetElement);
   } 
 }
 
