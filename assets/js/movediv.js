@@ -1,6 +1,6 @@
 // get the div elements
-const parentDiv = document.getElementById("wrapper");
-const childDiv = document.getElementById("side-wrapper");
+const childDiv1 = document.getElementById("main-wrapper");
+const childDiv2 = document.getElementById("side-wrapper");
 const targetElement = document.getElementById("targetElement");
 targetElement.classList.add("sidebar-wrapper");
 
@@ -10,10 +10,9 @@ const mediaQuery = window.matchMedia("(max-width: 767px)");
 // function to move the target element based on screen width
 function moveDiv() {
   if (mediaQuery.matches) {
-	  childDiv.appendChild(targetElement);
+	  childDiv1.appendChild(targetElement);
   } else {
-	  parentDiv.appendChild(targetElement);
-    
+	  childDiv2.appendChild(targetElement);
   }
 }
 
