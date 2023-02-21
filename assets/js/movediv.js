@@ -11,7 +11,7 @@ const mediaQuery = window.matchMedia("(max-width: 767px)");
 function moveDiv() {
   if (mediaQuery.matches) {
 	  const header = document.createElement("h1");
-	  header.textContent = "Interest";
+	  header.innerHTML +=  '<div class="profile-container" style="padding: 10px;"><h2>Interest</h2></div>'
 	  targetElement.insertAdjacentElement("afterbegin", header);
 	  parentDiv.insertAdjacentElement("afterend", targetElement);
   } else{
