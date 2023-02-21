@@ -10,11 +10,21 @@ const mediaQuery = window.matchMedia("(max-width: 767px)");
 // function to move the target element based on screen width
 function moveDiv() {
   if (mediaQuery.matches) {
-	  const header = document.getElementById("mobiletitle");
-	  header.innerHTML +=  '<div class="profile-container" style="padding: 10px;"><h2>Interest</h2></div>'
-	  targetElement.insertAdjacentElement("afterbegin", header);
+	  const existingHeader = targetElement.querySelector("#interest");
+	  if (!existingHeader){
+		  const header = document.createElement("div");
+		  header.setAttribute("id", "interest");
+		  header.classList.add("profile-container")
+		  header.style.padding = "10px"
+		  header.innerHTML =  '<h2>Interest</h2>'
+		  targetElement.insertAdjacentElement("afterbegin", header);
+	  }  
 	  parentDiv.insertAdjacentElement("afterend", targetElement);
   } else{
+	  const existingHeader = targetElement.querySelector("#interest");
+	  if (existingHeader) {
+		  targetElement.removeChild(existingHeader);
+	  }
 	  childDiv1.appendChild(targetElement);
   } 
 }
