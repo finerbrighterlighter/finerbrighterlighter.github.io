@@ -1,6 +1,5 @@
 // get the div elements
-const childDiv1 = document.getElementById("main-wrapper");
-const childDiv2 = document.getElementById("side-wrapper");
+const childDiv1 = document.getElementById("destination");
 const targetElement = document.getElementById("targetElement");
 targetElement.classList.add("sidebar-wrapper");
 
@@ -10,10 +9,8 @@ const mediaQuery = window.matchMedia("(max-width: 767px)");
 // function to move the target element based on screen width
 function moveDiv() {
   if (mediaQuery.matches) {
-	  childDiv2.appendChild(targetElement);
-  } else {
 	  childDiv1.appendChild(targetElement);
-  }
+  } 
 }
 
 // call the function on load and whenever the screen width changes
