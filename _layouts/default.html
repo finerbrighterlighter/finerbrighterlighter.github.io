@@ -9,7 +9,7 @@ layout: compress
 {% include head.html %}
 
 <body>
-  <div class="wrapper">
+  <div id="parentDiv" class="wrapper">
     {% include sidebar.html %}
 
 	<div id="targetElement">
@@ -18,7 +18,7 @@ layout: compress
 		{% include anilist.html %}  
 	</div>
 	
-    <div id="childDiv1" class="main-wrapper">
+    <div class="main-wrapper">
         {{ content }}
     </div>
 
