@@ -16,7 +16,7 @@ function moveDiv() {
 		  header.setAttribute("id", "interest");
 		  header.style.padding = "10px"
 		  header.style.paddingLeft = "30px"
-		  header.innerHTML =  '<h3 style="font-weight: 500;"><span class="fa-stack fa-xs"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-headphones fa-stack-1x fa-inverse" style="color: #374e59;"></i> </span>INTERESTS</h3>'
+		  header.innerHTML =  '<h3 style="font-weight: 500;"><span class="fa-stack fa-xs" style="margin-right: 5px;"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-headphones fa-stack-1x fa-inverse" style="color: #374e59;"></i> </span>INTERESTS</h3>'
 		  targetElement.insertAdjacentElement("afterbegin", header);
 	  }  
 	  parentDiv.insertAdjacentElement("afterend", targetElement);
