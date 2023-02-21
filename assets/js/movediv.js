@@ -10,7 +10,7 @@ const mediaQuery = window.matchMedia("(max-width: 767px)");
 // function to move the target element based on screen width
 function moveDiv() {
   if (mediaQuery.matches) {
-	  const header = document.createElement("h1");
+	  const header = document.getElementById("mobiletitle");
 	  header.innerHTML +=  '<div class="profile-container" style="padding: 10px;"><h2>Interest</h2></div>'
 	  targetElement.insertAdjacentElement("afterbegin", header);
 	  parentDiv.insertAdjacentElement("afterend", targetElement);
