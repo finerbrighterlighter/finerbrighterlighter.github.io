@@ -12,7 +12,7 @@ function moveDiv() {
   if (mediaQuery.matches) {
 	  parentDiv.insertAdjacentElement("afterend", targetElement);
   } else{
-	  childDiv2.appendChild(targetElement);
+	  childDiv1.appendChild(targetElement);
   } 
 }
 
