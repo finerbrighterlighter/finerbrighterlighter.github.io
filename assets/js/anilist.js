@@ -36,10 +36,10 @@
 		const synonyms = work.synonyms;
 		if (title_en != null){
 			element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + title_en.replace(/'/g, '') + ", " + lang + ")' alt='" + title.replace(/'/g, '') + " (" + title_en.replace(/'/g, '') + ", " + lang +  ")';/>";
-		}else{
+		} else if (synonyms && synonyms.length > 0){
 			element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + synonyms[0].replace(/'/g, '') + ", " + lang + ")' alt='" + title.replace(/'/g, '') + " (" + synonyms[0].replace(/'/g, '') + ", " + lang +  ")';/>";
-		}
-        
+		} else {
+			element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + lang + ")' alt='" + title.replace(/'/g, '') + " (" + lang +  ")';/>";
       }
       
     })
