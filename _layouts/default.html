@@ -12,7 +12,11 @@ layout: compress
   <div id="parentDiv" class="wrapper">
     {% include sidebar.html %}
 
-
+	<div id="targetElement">
+		{% include LastFM.html %}
+		{% include unsplash.html %}
+		{% include anilist.html %}  
+	</div>
 	
     <div class="main-wrapper">
         {{ content }}
@@ -22,11 +26,7 @@ layout: compress
 
   {% include footer.html %}
 
-	<div id="targetElement">
-		{% include LastFM.html %}
-		{% include unsplash.html %}
-		{% include anilist.html %}  
-	</div>
+	
 
 {% include scripts.html %}
 </body>
