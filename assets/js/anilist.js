@@ -32,7 +32,12 @@
         const url = work.siteUrl;
 		const lang = work.countryOfOrigin;
         const image= work.coverImage.medium;
-        element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + title_en.replace(/'/g, '') + ", " + lang + ")' alt='" + title.replace(/'/g, '') + " (" + title_en.replace(/'/g, '') + ", " + lang +  ")';/>";
+		if (title_en != null){
+			element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + title_en.replace(/'/g, '') + ", " + lang + ")' alt='" + title.replace(/'/g, '') + " (" + title_en + ", " + lang.replace(/'/g, '') +  ")';/>";
+		}else{
+			element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + lang + ")' alt='" + title.replace(/'/g, '') + " (" + lang.replace(/'/g, '') +  ")';/>";
+		}
+        
       }
       
     })
