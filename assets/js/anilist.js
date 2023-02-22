@@ -38,4 +38,4 @@
   }
 
 setInterval(getLastRead("finer", "MANGA", 20, "last-read-manga"), 5000);
-setInterval(getLastRead("finer", "ANIME", 20, "last-read-anime"), 5000);
+setInterval(getLastRead("finer", "ANIME", 20, "last-watched-anime"), 5000);
