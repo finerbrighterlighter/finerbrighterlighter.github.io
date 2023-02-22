@@ -40,13 +40,9 @@
 			element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + synonyms[0].replace(/'/g, '') + ", " + lang + ")' alt='" + title.replace(/'/g, '') + " (" + synonyms[0].replace(/'/g, '') + ", " + lang +  ")';/>";
 		} else {
 			element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + lang + ")' alt='" + title.replace(/'/g, '') + " (" + lang +  ")';/>";
-      }
-      
-    })
-    .catch(error => {
-      console.error(error);
-    });
-  }
+		}
+	  }})}
+
 
 setInterval(getLastRead("finer", "MANGA", 20, "last-read-manga"), 5000);
 setInterval(getLastRead("finer", "ANIME", 20, "last-watched-anime"), 5000);
