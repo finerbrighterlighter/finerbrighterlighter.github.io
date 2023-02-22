@@ -11,8 +11,10 @@
             				medium
           				}
           				title {
-            				userPreferred
+            				romaji
+							english
           				}
+						countryOfOrigin
         				}
               }
             }
@@ -25,10 +27,12 @@
       const element = document.getElementById(elementID);
       for (i = 0; i < number; i++) {
       	const work = response.data.data.MediaListCollection.lists[0].entries[i].media;
-      	const title = work.title.userPreferred;
+      	const title = work.title.romaji;
+		const title_en = work.title.english;
         const url = work.siteUrl;
+		const lang = work.countryOfOrigin;
         const image= work.coverImage.medium;
-        element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title + "' alt='" + title + "';/>";
+        element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title + " (" + title_en + ", " + lang + ")' alt='" + title + " (" + title_en + ", " + lang +  ")';/>";
       }
       
     })
