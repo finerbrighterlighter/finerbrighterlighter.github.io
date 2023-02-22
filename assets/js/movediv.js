@@ -21,10 +21,10 @@ function moveDiv() {
 		  targetElement.insertAdjacentElement("afterbegin", header);
 	  }  
 	  if (!window.location.href.startsWith(hide_page)){
-		  targetElement.classList.replace(element.className, "sidebar-wrapper");
+		  targetElement.classList.replace(targetElement.className, "sidebar-wrapper");
 		  parentDiv.insertAdjacentElement("afterend", targetElement);
 	  } else{
-		  targetElement.classList.replace(element.className, "hideblock");
+		  targetElement.classList.replace(targetElement.className, "hideblock");
 	  }
 	  
   } else{
@@ -32,7 +32,7 @@ function moveDiv() {
 	  if (existingHeader) {
 		  targetElement.removeChild(existingHeader);
 	  }
-	  targetElement.classList.replace(element.className, "sidebar-wrapper");
+	  targetElement.classList.replace(targetElement.className, "sidebar-wrapper");
 	  childDiv1.appendChild(targetElement);
   } 
 }
