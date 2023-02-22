@@ -29,6 +29,8 @@
       	const work = response.data.data.MediaListCollection.lists[0].entries[i].media;
       	const title = work.title.romaji;
 		const title_en = work.title.english;
+		const title = title.replace(/'/g, '');
+		const title_en = title_en.replace(/'/g, '');
         const url = work.siteUrl;
 		const lang = work.countryOfOrigin;
         const image= work.coverImage.medium;
