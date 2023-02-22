@@ -29,12 +29,10 @@
       	const work = response.data.data.MediaListCollection.lists[0].entries[i].media;
       	const title = work.title.romaji;
 		const title_en = work.title.english;
-		const title_str = title.replace(/'/g, '');
-		const title_enstr = title_en.replace(/'/g, '');
         const url = work.siteUrl;
 		const lang = work.countryOfOrigin;
         const image= work.coverImage.medium;
-        element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title_str + " (" + title_enstr + ", " + lang + ")' alt='" + title_str + " (" + title_enstr + ", " + lang +  ")';/>";
+        element.innerHTML += "<a href='" + url + "' target='_blank' rel='noreferrer noopener'><img src='" + image + "' title='" + title.replace(/'/g, '') + " (" + title_en.replace(/'/g, '') + ", " + lang + ")' alt='" + title.replace(/'/g, '') + " (" + title_en.replace(/'/g, '') + ", " + lang +  ")';/>";
       }
       
     })
