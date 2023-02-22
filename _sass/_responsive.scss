@@ -26,19 +26,9 @@
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
-  
-   #hideblock { 
-    display: none; 
-  }
-  
-   #showblock{
-	font-size: 0.6em;
-    text-transform: none;
-    font-weight: unset;
-    font-style: oblique;
-    list-style-type: "last played: ";
-  }
+
 }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .sidebar-wrapper {
