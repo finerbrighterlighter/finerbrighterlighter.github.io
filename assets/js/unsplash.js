@@ -11,7 +11,7 @@ function getunsplash(username, accessKey, number, elementID){
 			const unsplashUrls = data.map((photo) => photo.links.html);
 			const photoUrls = data.map((photo) => photo.urls.thumb);
 			for (i = 0; i < number; i++) {
-				element.innerHTML += "<a href='" + unsplashUrls[i] + "' target='_blank' rel='noreferrer noopener'><img src='" + photoUrls[i] + "' title='" + time[i].split(/T/)[0] + "' alt='" +  time[i].split(/T/)[0]  + "'style='filter: grayscale(50%);width:64px;height:128px;object-fit:cover';/>";
+				element.innerHTML += "<a href='" + unsplashUrls[i] + "' target='_blank' rel='noreferrer noopener'><img src='" + photoUrls[i] + "' title='" + time[i].split(/T/)[0] + "' alt='" +  time[i].split(/T/)[0]  + "';/>";
 				}
 			})
 	.catch((error) => {

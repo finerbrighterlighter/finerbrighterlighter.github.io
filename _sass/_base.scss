@@ -329,6 +329,23 @@ p {
 #photos img:hover, #gallery img:hover {
 }
 
+#interest-grid{
+	display: grid;
+	object-fit: cover;
+	grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+	grid-template-rows: 1fr;
+	grid-auto-rows: 0;
+	overflow: hidden;
+}
+
+#interest-grid img{
+	filter: grayscale(50%);
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+}
+
 @media (min-width: 800px){
 
 	#posts{
