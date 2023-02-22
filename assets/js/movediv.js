@@ -1,4 +1,5 @@
 // get the div elements
+const hide_page = "https://htunteza.com/posts";
 const parentDiv = document.getElementById("parentDiv");
 const childDiv1 = document.getElementById("childDiv1");
 const targetElement = document.getElementById("targetElement");
@@ -29,6 +30,10 @@ function moveDiv() {
   } 
 }
 
-// call the function on load and whenever the screen width changes
-moveDiv();
-mediaQuery.addListener(moveDiv);
+if (!window.location.href.startsWith(hide_page)) {
+	// call the function on load and whenever the screen width changes
+	moveDiv();
+	mediaQuery.addListener(moveDiv);
+}
+
+
