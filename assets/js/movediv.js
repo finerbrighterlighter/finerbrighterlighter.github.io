@@ -20,20 +20,27 @@ function moveDiv() {
 		  header.innerHTML =  '<h3 style="font-weight: 500;"><span class="fa-stack fa-xs" style="margin-right: 5px;"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-headphones fa-stack-1x fa-inverse" style="color: #374e59;"></i> </span>INTERESTS</h3>'
 		  targetElement.insertAdjacentElement("afterbegin", header);
 	  }  
-	  parentDiv.insertAdjacentElement("afterend", targetElement);
+	  if (!window.location.href.startsWith(hide_page)){
+		  targetElement.classList.replace(element.className, "sidebar-wrapper");
+		  parentDiv.insertAdjacentElement("afterend", targetElement);
+	  } else{
+		  targetElement.classList.replace(element.className, "hideblock");
+	  }
+	  
   } else{
 	  const existingHeader = targetElement.querySelector("#interest");
 	  if (existingHeader) {
 		  targetElement.removeChild(existingHeader);
 	  }
+	  targetElement.classList.replace(element.className, "sidebar-wrapper");
 	  childDiv1.appendChild(targetElement);
   } 
 }
 
-if (!window.location.href.startsWith(hide_page)) {
-	// call the function on load and whenever the screen width changes
-	moveDiv();
-	mediaQuery.addListener(moveDiv);
-}
+
+// call the function on load and whenever the screen width changes
+moveDiv();
+mediaQuery.addListener(moveDiv);
+
 
 
