@@ -8,10 +8,11 @@ function getunsplash(username, accessKey, number, elementID){
 	.then((response) => response.json())
 		.then((data) => {
 			const time = data.map((photo) => photo.created_at);
+			const date = time.map(item => item.split(/T/)[0]);
 			const unsplashUrls = data.map((photo) => photo.links.html);
 			const photoUrls = data.map((photo) => photo.urls.thumb);
 			for (i = 0; i < number; i++) {
-				element.innerHTML += "<a href='" + unsplashUrls[i] + "' target='_blank' rel='noreferrer noopener'><img src='" + photoUrls[i] + "' title='" + time[i].split(/T/)[0] + "' alt='" +  time[i].split(/T/)[0]  + "';/>";
+				element.innerHTML += "<a href='" + unsplashUrls[i] + "' target='_blank' rel='noreferrer noopener'><img src='" + photoUrls[i] + "' title='" + date[i] + "' alt='" +  date[i] + "';/>";
 				}
 			})
 	}
