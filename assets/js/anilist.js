@@ -22,7 +22,9 @@
           }
         }
       `
-    })
+    }, {headers: {
+    'User-Agent': 'My Custom User Agent'
+  }})
     .then(response => {
       
       const element = document.getElementById(elementID);
