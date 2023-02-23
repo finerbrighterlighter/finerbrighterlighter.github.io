@@ -14,9 +14,6 @@ function getunsplash(username, accessKey, number, elementID){
 				element.innerHTML += "<a href='" + unsplashUrls[i] + "' target='_blank' rel='noreferrer noopener'><img src='" + photoUrls[i] + "' title='" + time[i].split(/T/)[0] + "' alt='" +  time[i].split(/T/)[0]  + "';/>";
 				}
 			})
-	.catch((error) => {
-		console.error("Error fetching data from Unsplash API:", error);
-		})
 	}
 
 setInterval(getunsplash("finerbrighterlighter", "bQGcIoNwvjNVym1Dr-50ReObTxnIU_D4_oMy6XgRIaM", 20, "latestimage"), 5000);
