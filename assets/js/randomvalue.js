@@ -20,5 +20,5 @@ const imageValues = ["profile (1).jfif", "profile (1).jpg", "profile (2).jpg", "
 const textElementId = "myText";
 const imageElementId = "myImage";
 
-updateElementWithRandomValues("banner", textValues, 2000, "text");
-updateElementWithRandomValues("profile", imageValues, 10000, "image");
+updateElementWithRandomValues("banner", textValues, 4000, "text");
+updateElementWithRandomValues("profile", imageValues, 20000, "image");
