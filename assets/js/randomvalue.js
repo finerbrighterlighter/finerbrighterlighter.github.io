@@ -16,10 +16,21 @@ function updateElement_interval(elementId, valuesArray, interval, type) {
 function updateElement_animation(elementId, containerId, valuesArray, animation, event) {
   const element = document.getElementById(elementId);
   const box = document.getElementById(containerId);
+  const textContainer = box.parentElement;
   
-  const randomIndex = Math.floor(Math.random() * valuesArray.length);
-  const randomValue = textArray[randomIndex];
-  element.innerHTML = randomValue;
+  if (textContainer.scrollWidth > textContainer.clientWidth && event.animationName === "scroll-text") {
+    const randomIndex = Math.floor(Math.random() * valuesArray.length);
+    const randomValue = textArray[randomIndex];
+    element.innerHTML = randomValue;
+  } else {
+    const randomIndex = Math.floor(Math.random() * array.length);
+    const randomIndex = Math.floor(Math.random() * valuesArray.length);
+    const randomValue = textArray[randomIndex];
+    element.innerHTML = randomValue;
+    textElement.style.animation = "none";
+  }
+  
+  
   box.style.animation = "scroll-text 5s linear infinite, color-animation 1s linear infinite";	  
 }
 
