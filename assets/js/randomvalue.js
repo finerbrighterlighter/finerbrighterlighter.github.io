@@ -29,5 +29,5 @@ const imageValues = ["profile (1).jfif", "profile (1).jpg", "profile (2).jpg", "
 
 updateElement_interval("profile", imageValues, 20000, "image");
 
-const textElement = document.getElementById("animate-charcter");
+const textElement = document.getElementById("banner-group");
 textElement.addEventListener("animationend", function(event) {updateElement_animation("banner", textValues, "scroll-text", event);});
