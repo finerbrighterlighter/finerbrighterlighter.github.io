@@ -426,7 +426,7 @@ p {
 }
 
 .animate-charcter {
-  animation: color-animation 1.5s linear infinite;
+  animation: scroll-text 5s linear infinite, color-animation 1s linear infinite;
   --color-1: #ffffff;
   --color-2: #660000;
 }
@@ -437,4 +437,14 @@ p {
   51%   {color: var(--color-2)}
   99%   {color: var(--color-2)}
   100%  {color: var(--color-1)}
+}
+
+
+@keyframes scroll-text {
+  0% {
+    left: 100%; /* Starts at the right edge of the container */
+  }
+  100% {
+    left: -100%; /* Ends at the left edge of the container minus the text width */
+  }
 }
