@@ -23,7 +23,6 @@ function updateElement_animation(elementId, containerId, valuesArray, animation,
     const randomValue = textArray[randomIndex];
     element.innerHTML = randomValue;
   } else {
-    const randomIndex = Math.floor(Math.random() * array.length);
     const randomIndex = Math.floor(Math.random() * valuesArray.length);
     const randomValue = textArray[randomIndex];
     element.innerHTML = randomValue;
