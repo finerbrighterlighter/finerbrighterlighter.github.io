@@ -20,4 +20,3 @@ const imageValues = ["profile (1).jfif", "profile (1).jpg", "profile (2).jpg", "
 
 updateElement_interval("profile", imageValues, 20000, "image");
 updateElement_interval("banner", textValues, 5000, "text");
-

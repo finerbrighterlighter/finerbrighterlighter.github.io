@@ -25,7 +25,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 						// prints link to song with artist and song name
 						if(number == 1){
-							element.innerHTML +=  '<a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener">last played: </a> '
+							element.innerHTML +=  '<i class="fas fa-music fa-fw"></i><a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener"> &nbsp;&nbsp; last played: </a> '
 						}else{
 							element.innerHTML +=  '<li>'
 						}

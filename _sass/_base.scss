@@ -54,6 +54,7 @@ p {
     color: #fff;
   }
   .announce{
+	overflow: hidden;
   	background: darken($theme-color, 20%);
 	padding: 10px;
 	text-align: center;
@@ -62,6 +63,11 @@ p {
 	font-weight: bolder;
 	font-size: 1.3em;
 	text-transform: uppercase;
+  }
+  .lasttrack{
+    font-size: 0.6em;
+    text-transform: none;
+    font-style: oblique;
   }
   .profile-container {
     padding: 30px;
@@ -430,8 +436,9 @@ p {
   overflow: hidden;
   white-space: nowrap;
   text-align: right;
-  padding-right: 100%;
-  animation: color-animation 1s linear infinite, scroll-text 5s linear infinite;
+  padding-right: 30%;
+  padding-left: 30%;
+  animation: color-animation 1s linear infinite, scroll-text 5s ease-out infinite;
   --color-1: #ffffff;
   --color-2: #660000;
 }
