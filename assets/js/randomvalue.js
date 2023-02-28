@@ -6,7 +6,7 @@ function updateElement_interval(elementId, valuesArray, interval, type) {
     const randomValue = valuesArray[randomIndex];
 
     if (type === "text") {
-      element.innerHTML = randomValue;
+      element.innerText = randomValue;
     } else if (type === "image") {
       element.src = "https://htunteza.com/assets/general/profiles/" +randomValue;
     }
@@ -19,5 +19,5 @@ const textValues = ["Let's donate blood","It's in you to give","Red with life","
 const imageValues = ["profile (1).jfif", "profile (1).jpg", "profile (2).jpg", "profile (3).jpg", "profile (4).jpg", "profile (5).jpg", "profile (6).jpg", "profile (7).jpg", "profile (8).jpg", "profile (9).jpg", "profile (10).jpg"];
 
 updateElement_interval("profile", imageValues, 20000, "image");
-updateElement_interval("banner", textValues, 20000, "text");
+updateElement_interval("banner", textValues, 5000, "text");
 
