@@ -14,7 +14,8 @@ sidebar:
     # Sidebar links
     email: htun.tez@mahidol.edu 
     phone: (+66) 0-2201-0833
-    timezone: Indochina Time (UTC+07:00)
+    timezone: Indochina Time 
+    time: UTC+07:00
     timeis: ICT # the name after https://time.is/
     website:  ceb-rama.org
     twitter:
