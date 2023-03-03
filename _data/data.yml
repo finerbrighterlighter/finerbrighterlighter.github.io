@@ -102,14 +102,14 @@ projects:
     title: Projects
     intro: 
     assignments:
-      - title: CEB Data Warehouse; Surgery Theme
-        link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/Surgery"
-        tagline: "Project funded by National Research Council of Thailand (NRCT)"
-        
       - title: CEB Data Warehouse; Hypertension Theme
         link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/HT"
         tagline: "Project funded by National Research Council of Thailand (NRCT)"
       
+      - title: CEB Data Warehouse; Surgery Theme
+        link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/Surgery"
+        tagline: "Project funded by National Research Council of Thailand (NRCT)"
+        
       - title: Clinical Prediction of Chronic Periodontitis
         link: "https://www.researchgate.net/project/Risk-Factor-based-Diagnosis-for-Chronic-Periodontitis-using-Machine-Learning-Models"
         tagline: "Author funded by Faculty of Medicine Ramathibodi Hospital and Faculty of Graduate Studies, Mahidol University"
@@ -203,6 +203,13 @@ bld_cen:
         geo: "https://goo.gl/maps/i6zzRPL9iyRkGQsd8"
         address: "97, Corner of Bogyoke Aung San Road and Shwedagon Pagoda Road, Latha, Yangon, Myanmar 11131"
         phone: "01 372 753"
+        
+      - name: "Thailand RH- Blood Donation"
+        link: "https://web.facebook.com/groups/1059111434217206"
+        note: "in English"
+        geo: 
+        address: "Bangkok; Chiang Mai; Koh Samui"
+        phone: "0955487022, 0909725565; 0935866141; 0935987415"
         
       - name: "List of blood donation agencies"
         link: "https://en.wikipedia.org/wiki/List_of_blood_donation_agencies"
