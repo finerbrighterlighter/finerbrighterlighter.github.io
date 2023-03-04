@@ -11,7 +11,7 @@ url: 'http://htunteza.com'
 description: Htun Teza is a Burmese Data Scientist, Research Assistant, Dentist, Music, Movie and Anime Enthusiast, currently based in Bangkok Thailand.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
-chrome_mobile_color: #3c5560 
+chrome_mobile_color: 243339 
 
 # Tracker
 analytics: #UA-83979019-1
