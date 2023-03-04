@@ -12,7 +12,7 @@ function getunsplash(username, accessKey, number, elementID){
 			const unsplashUrls = data.map((photo) => photo.links.html);
 			const photoUrls = data.map((photo) => photo.urls.thumb);
 			for (i = 0; i < number; i++) {
-				element.innerHTML += "<a href='" + unsplashUrls[i] + "' target='_blank' rel='noreferrer noopener'><img src='" + photoUrls[i] + "' title='" + date[i] + "' alt='" +  date[i] + "';/>";
+				element.innerHTML += "<a href='" + unsplashUrls[i] + "' target='_blank' rel='noreferrer noopener' style='height: 64px;'><img src='" + photoUrls[i] + "' title='" + date[i] + "' alt='" +  date[i] + "';/>";
 				}
 			})
 	}
