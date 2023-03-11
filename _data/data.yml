@@ -123,10 +123,6 @@ publications:
     title: Works
     intro: 
     papers:
-      - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
-        link: "#"
-        authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Thadanipon, K., Limpijankit, T., Pattanateepapon, A., Unwanatham, N., Thakkinstian, A.
-        conference: "Conference Poster, ISPOR—The Professional Society for Health Economics and Outcomes Research, Boston Convention & Exhibition Center, Boston, Massachusetts, United States of America (2023)"
 
       - title: "Evaluation of transitions from early hypertension to hypertensive chronic kidney disease, myocardial infarction, stroke and mortality: A Thai real-world data cohort"
         link: "#"
@@ -142,6 +138,11 @@ publications:
         link: "#"
         authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
         conference: "Journal Manuscript, Under Review (2021)"
+        
+      - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
+        link: "#"
+        authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Thadanipon, K., Limpijankit, T., Pattanateepapon, A., Unwanatham, N., Thakkinstian, A.
+        conference: "Conference Poster, ISPOR—The Professional Society for Health Economics and Outcomes Research, Boston Convention & Exhibition Center, Boston, Massachusetts, United States of America (2023)" 
         
       - title: "Real World Data in Ramathibodi Hospital"
         link: "https://htunteza.com/posts/ceb_rwd/#head"
