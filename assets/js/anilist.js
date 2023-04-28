@@ -45,4 +45,3 @@
 
 // one page only has 19 titles, so the last one will raise error
 setInterval(getLastRead("finer", "MANGA", 15, "last-read-manga"), 5000);
-setInterval(getLastRead("finer", "ANIME", 15, "last-watched-anime"), 5000);
