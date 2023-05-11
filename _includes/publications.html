@@ -19,7 +19,20 @@
   {% for publication in publications.papers %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></li>
+      <li>{{ publication.title }}
+        {% if publication.link %}
+        <a href="{{ publication.link }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|SOURCE</a>
+        {% endif %}
+        
+        {% if publication.fulltext %}
+        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|FULL TEXT</a>
+        {% endif %}
+
+        {% if publication.scholar %}
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|GOOGLE SCHOLAR</a>
+        {% endif %}
+
+      </li>
     {% else %}
       <li>{{ publication.title }}</li>
     {% endif %}
