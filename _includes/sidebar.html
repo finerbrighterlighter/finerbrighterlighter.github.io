@@ -1,38 +1,31 @@
 {% assign sidebar = site.data.data.sidebar %}
 <div id="childDiv1" class="sidebar-wrapper">
-
-	<div class="announce">
-		<div id="lasttrack" class="lasttrack"></div>
-		<a class="animate-charcter" href="/blood#head">
-			<i class="fas fa-tint fa-fw"></i>
-			<b id="banner">Give blood. Share life</b>
-		</a>
-	</div>
+  <div class="announce">
+    <div id="lasttrack" class="lasttrack"></div>
+    <a class="animate-charcter" href="/blood#head">
+      <i class="fas fa-tint fa-fw"></i>
+      <b id="banner">Give blood. Share life</b>
+    </a>
+  </div>
 
   <div class="profile-container">
-
     {% if sidebar.name %}
-    <img class="avatar" id="profile" src="https://htunteza.com/assets/general/profiles/profile (1).jfif" alt="profile picture"/>
-    {% endif %}
-
-    {% if sidebar.name %}
+    <img
+      class="avatar"
+      id="profile"
+      src="https://htunteza.com/assets/general/profiles/profile (1).jfif"
+      alt="profile picture"
+    />
+    {% endif %} {% if sidebar.name %}
     <a href="{{ site.baseurl }}/#"><h1 class="name">{{ sidebar.name }}</h1></a>
-    {% endif %}
-
-    {% if sidebar.tagline %}
+    {% endif %} {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
+  </div>
+  <!--//profile-container-->
 
-  </div><!--//profile-container-->
-
-  {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
+  {% include contact.html %} {% if sidebar.education %} {% include
+  education.html %} {% endif %} {% if sidebar.about %} {% include about.html %}
   {% endif %}
-
-  {% if sidebar.about %}
-    {% include about.html %}
-  {% endif %}
-
-</div><!--//sidebar-wrapper-->
+</div>
+<!--//sidebar-wrapper-->

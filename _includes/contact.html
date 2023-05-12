@@ -1,77 +1,88 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
-
     {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope fa-fw"></i>
+    <li class="email">
+      <i class="fas fa-envelope fa-fw"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
-    {% endif %}
-
-    {% if sidebar.phone %}
-    <li class="phone"><i class="fas fa-phone fa-fw"></i>
+    {% endif %} {% if sidebar.phone %}
+    <li class="phone">
+      <i class="fas fa-phone fa-fw"></i>
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
     </li>
-    {% endif %}
-
-    {% if sidebar.timezone %}
-    <li class="timezone"><i class="fas fa-clock fa-fw"></i>
-      <a href="https://time.is/{{ sidebar.timeis }}" target="_blank">{{ sidebar.timezone }}</a> (<span id="current_time">{{ sidebar.time }}</span>)
+    {% endif %} {% if sidebar.timezone %}
+    <li class="timezone">
+      <i class="fas fa-clock fa-fw"></i>
+      <a href="https://time.is/{{ sidebar.timeis }}" target="_blank"
+        >{{ sidebar.timezone }}</a
+      >
+      (<span id="current_time">{{ sidebar.time }}</span>)
     </li>
-    {% endif %}
-	
-	{% if sidebar.website %}
-    <li class="website"><i class="fas fa-globe-asia fa-fw"></i>
-      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+    {% endif %} {% if sidebar.website %}
+    <li class="website">
+      <i class="fas fa-globe-asia fa-fw"></i>
+      <a href="http://{{ sidebar.website }}" target="_blank"
+        >{{ sidebar.website }}</a
+      >
     </li>
-    {% endif %}  
-	
-    {% if sidebar.twitter %}
-    <li id="hideblock" class="twitter"><i class="fab fa-twitter fa-fw"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+    {% endif %} {% if sidebar.twitter %}
+    <li id="hideblock" class="twitter">
+      <i class="fab fa-twitter fa-fw"></i>
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank"
+        >{{ sidebar.twitter }}</a
+      >
     </li>
-    {% endif %}
-	
-    {% if sidebar.orcid %}
-    <li id="hideblock" class="orcid"><i class="fas fa-graduation-cap fa-fw"></i>
+    {% endif %} {% if sidebar.orcid %}
+    <li id="hideblock" class="orcid">
+      <i class="fas fa-graduation-cap fa-fw"></i>
       <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">ORCID</a>
     </li>
-    {% endif %}
-	
-    {% if sidebar.scholar %}
-    <li class="scholar"><i class="fas fa-graduation-cap fa-fw"></i>
-      <a href="https://scholar.google.com/citations?user={{ sidebar.scholar }}" target="_blank">Google Scholar</a>
+    {% endif %} {% if sidebar.scholar %}
+    <li class="scholar">
+      <i class="fas fa-graduation-cap fa-fw"></i>
+      <a
+        href="https://scholar.google.com/citations?user={{ sidebar.scholar }}"
+        target="_blank"
+        >Google Scholar</a
+      >
     </li>
-    {% endif %}
-	
-    {% if sidebar.github %}
-    <li id="hideblock" class="github"><i class="fab fa-github fa-fw"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">Github</a>
+    {% endif %} {% if sidebar.github %}
+    <li id="hideblock" class="github">
+      <i class="fab fa-github fa-fw"></i>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank"
+        >Github</a
+      >
     </li>
-    {% endif %}
+    {% endif %} {% if sidebar.stack-overflow %}
+    <li id="hideblock" class="stack-overflow">
+      <i class="fab fa-stack-overflow fa-fw"></i>
+      <a
+        href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}"
+        target="_blank"
+        >Stackoverflow</a
+      >
+    </li>
+    {% endif %} {% if sidebar.linkedin %}
+    <li id="hideblock" class="linkedin">
+      <i class="fab fa-linkedin fa-fw"></i>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank"
+        >LinkedIn</a
+      >
+    </li>
 
-    {% if sidebar.stack-overflow %}
-    <li id="hideblock" class="stack-overflow"><i class="fab fa-stack-overflow fa-fw"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">Stackoverflow</a>
-    </li>
-    {% endif %}
-
-	{% if sidebar.linkedin %}
-    <li id="hideblock" class="linkedin"><i class="fab fa-linkedin fa-fw"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">LinkedIn</a>
-    </li>
-	
-    {% endif %}
-    {% if sidebar.cv %}
-    <li id="hideblock" class="pdf"><i class="fas fa-file-pdf fa-fw"></i>
+    {% endif %} {% if sidebar.cv %}
+    <li id="hideblock" class="pdf">
+      <i class="fas fa-file-pdf fa-fw"></i>
       <a href="{{ sidebar.cv }}" target="_blank">Download CV</a>
     </li>
-    {% endif %}
-	
-    {% if sidebar.vcard %}
-    <li class="pdf"><i class="fas fa-address-card fa-fw"></i>
-      <a href="/assets/general/{{ sidebar.vcard }}" target="_blank">Add to Contacts</a>
+    {% endif %} {% if sidebar.vcard %}
+    <li class="pdf">
+      <i class="fas fa-address-card fa-fw"></i>
+      <a href="/assets/general/{{ sidebar.vcard }}" target="_blank"
+        >Add to Contacts</a
+      >
     </li>
     {% endif %}
-	
   </ul>
-</div><!--//contact-container-->
+</div>
+<!--//contact-container-->

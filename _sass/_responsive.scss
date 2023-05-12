@@ -26,25 +26,25 @@
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
-  
-  #hideblock { 
-    display: none; 
+
+  #hideblock {
+    display: none;
   }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .sidebar-wrapper {
-	grid-column: span 4;
+    grid-column: span 4;
   }
 
   .main-wrapper {
-	grid-column: span 6;
+    grid-column: span 6;
   }
-  
-  #showblock { 
-    display: none; 
-  } 
+
+  #showblock {
+    display: none;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -54,11 +54,11 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .sidebar-wrapper {
-	grid-column: span 3;
+    grid-column: span 3;
   }
 
   .main-wrapper {
-	grid-column: span 7;
+    grid-column: span 7;
   }
 }
 

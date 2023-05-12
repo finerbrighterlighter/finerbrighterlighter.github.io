@@ -1,7 +1,5 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
+{% assign projects = site.data.data.projects %} {% if projects %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -12,27 +10,23 @@
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
+    <p>{{ projects.intro }}</p>
+  </div>
+  <!--//intro-->
+  {% endif %} {% for project in projects.assignments %}
+  <div class="item">
+    <li class="project-title">
+      {% if project.link %}
+      <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+      {% else %} {{ project.title }} {% endif %}
+    </li>
 
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <li class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </li>
-
-      {% if project.tagline %}
-      <div class="project-tagline"><i>{{ project.tagline }}</i></div>
-      {% endif %}
-
-    </div><!--//item-->
+    {% if project.tagline %}
+    <div class="project-tagline"><i>{{ project.tagline }}</i></div>
+    {% endif %}
+  </div>
+  <!--//item-->
   {% endfor %}
-
-</section><!--//section-->
+</section>
+<!--//section-->
 {% endif %}

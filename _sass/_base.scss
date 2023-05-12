@@ -1,6 +1,7 @@
 /* ======= Base ======= */
 body {
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: $text-color-secondary;
   background: $smoky-white;
   font-weight: 400;
@@ -53,21 +54,21 @@ p {
   a {
     color: #fff;
   }
-  .announce{
-	overflow: hidden;
-  	background: darken($theme-color, 20%);
-	padding: 10px;
-	text-align: center;
-	color: #fff;
-	font-family: inherit;
-	font-weight: bolder;
-	font-size: 1.3em;
-	text-transform: uppercase;
-		.lasttrack{
-			font-size: 0.6em;
-			text-transform: none;
-			font-style: oblique;
-			}
+  .announce {
+    overflow: hidden;
+    background: darken($theme-color, 20%);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    .lasttrack {
+      font-size: 0.6em;
+      text-transform: none;
+      font-style: oblique;
+    }
   }
   .profile-container {
     padding: 30px;
@@ -98,12 +99,12 @@ p {
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     height: 200px;
     width: 200px;
     object-fit: cover;
     filter: grayscale(20%);
-	}
+  }
 
   .contact-list {
     .fas,
@@ -179,21 +180,21 @@ p {
       }
     }
   }
-  
-  .interest-grid{
-	display: grid;
-	object-fit: cover;
-	grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
-	grid-template-rows: 1fr;
-	grid-auto-rows: 0;
-	overflow: hidden;
-	img{
-		filter: grayscale(50%);
-		width: 64px;
-		height: 64px;
-		object-fit: cover;
-	}
- }
+
+  .interest-grid {
+    display: grid;
+    object-fit: cover;
+    grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+    grid-template-rows: 1fr;
+    grid-auto-rows: 0;
+    overflow: hidden;
+    img {
+      filter: grayscale(50%);
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+    }
+  }
 }
 
 .main-wrapper {
@@ -314,121 +315,121 @@ p {
   }
 }
 
-
-#posts{
+#posts {
 }
 
-#posts p{
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-	text-align: justify;
+#posts p {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  text-align: justify;
 }
 
-#updates{
-	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	grid-template-rows: 1fr;
-	grid-auto-rows: 0;
-	overflow: hidden;
+#updates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: 1fr;
+  grid-auto-rows: 0;
+  overflow: hidden;
+  margin-top: 0;
+  column-gap: 60px;
+}
+
+#updates p {
+}
+
+#photos,
+#gallery {
+  margin-top: 30px;
+  list-style-type: none;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#photos img,
+#gallery img {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+}
+
+#photos img:hover,
+#gallery img:hover {
+}
+
+@media (min-width: 800px) {
+  #posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 60px;
     margin-top: 0;
-	column-gap: 60px;
-}
+  }
 
-#updates p{
-}
+  #photos,
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 5px;
+    grid-auto-flow: dense;
+  }
 
-#photos, #gallery{
-	margin-top: 30px;
-	list-style-type: none;
-	width: 100%;
-    margin: 0 auto;
-}
-
-#photos img, #gallery img{
-    display: block;
+  #photos img,
+  #gallery img {
+    object-fit: cover;
     width: 100%;
-    margin-top: 6px;
+    margin-top: 0px;
+    transition: transform 1.5s;
+  }
+
+  #photos img.landscape,
+  #gallery img.landscape {
+    grid-column-end: span 2;
+  }
+
+  #gallery img:hover {
+    transform: scale(1.5);
+    z-index: 999;
+  }
 }
 
-#photos img:hover, #gallery img:hover {
-}
+@media (min-width: 1500px) {
+  #photos {
+    --s: 100px; /* control the size */
+    --g: 5px; /* control the gap */
+    --f: 1; /* control the scale factor */
 
-@media (min-width: 800px){
+    display: grid;
+    gap: var(--g);
+    width: calc(4 * var(--s)+3 * var(--g));
+    aspect-ratio: 1/0.7;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: auto;
+    overlow: hidden;
+  }
 
-	#posts{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 60px;
-        margin-top: 0;
-    }
-	
-    #photos, #gallery{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 5px;
-		grid-auto-flow: dense;
-    }
+  #photos img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.35s linear;
+  }
 
-	#photos img, #gallery img{
-		object-fit: cover;
-		width: 100%;
-		margin-top: 0px;
-		transition: transform 1.5s;
-		
-	}
-	
-    #photos img.landscape, #gallery img.landscape{
-		grid-column-end: span 2;
-    }
-	
-	#gallery img:hover {
-		transform: scale(1.5);
-		z-index:999;
-	}
+  #photos img.landscape {
+    grid-column-end: span 1;
+  }
 
-}
+  #photos img:hover {
+    width: calc(var(--s) * var(--f));
+    height: max-content;
+  }
 
-@media (min-width: 1500px){
-
-    #photos{
-		--s: 100px; /* control the size */
-		--g: 5px;  /* control the gap */
-		--f: 1;   /* control the scale factor */
-		
-        display: grid;
-        gap: var(--g);
-		width: calc(4*var(--s)+3*var(--g));
-		aspect-ratio: 1/0.7;
-		grid-template-columns: repeat(4,auto);
-		grid-auto-rows: auto;
-		overlow: hidden;
-    }
-
-	#photos img{
-		width: 0;
-		height: 0;
-		min-height: 100%;
-		min-width: 100%;
-		object-fit: cover;
-		cursor: pointer;
-		transition: .35s linear;	
-	}
-
-    #photos img.landscape{
-		grid-column-end: span 1;
-    }
-	
-	#photos img:hover{
-		width:  calc(var(--s)*var(--f));
-		height: max-content;
-	}
-	
-	#photos img.landscape:hover{
-		width:  max-content;
-		height: calc(var(--s)*var(--f));
-	}
-
+  #photos img.landscape:hover {
+    width: max-content;
+    height: calc(var(--s) * var(--f));
+  }
 }
 
 .readMorebtn {
@@ -451,21 +452,35 @@ p {
   text-align: right;
   padding-right: 30%;
   padding-left: 30%;
-  animation: color-animation 1s linear infinite, scroll-text 5s ease-out infinite;
+  animation: color-animation 1s linear infinite,
+    scroll-text 5s ease-out infinite;
   --color-1: #ffffff;
   --color-2: #660000;
 }
 
 @keyframes color-animation {
-  0%    {color: var(--color-1)}
-  50%   {color: var(--color-1)}
-  51%   {color: var(--color-2)}
-  99%   {color: var(--color-2)}
-  100%  {color: var(--color-1)}
+  0% {
+    color: var(--color-1);
+  }
+  50% {
+    color: var(--color-1);
+  }
+  51% {
+    color: var(--color-2);
+  }
+  99% {
+    color: var(--color-2);
+  }
+  100% {
+    color: var(--color-1);
+  }
 }
 
-
 @keyframes scroll-text {
-	from {transform: translateX(100%);}
-	to {transform: translateX(-100%);}
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
