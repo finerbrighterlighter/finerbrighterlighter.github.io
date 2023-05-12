@@ -431,6 +431,19 @@ p {
 
 }
 
+.readMorebtn {
+  color: #2e4049;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.readMorebtn:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .animate-charcter {
   display: inline-block;
   overflow: hidden;

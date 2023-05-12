@@ -22,11 +22,12 @@
     <br>
   </div>
 
-  {% for year in work.years %}
+  {% for year in work.years limit:2 %}
+  <div class="loop2">
   <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
   <ul class="fa-ul" style="margin-left:0;">
     {% for publication in year.papers %}
-    <div class="item">
+    <div class="item" tyle="margin-bottom: 20px; margin-top: 10px;">
       <li><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
       {% if publication.link %}
         
@@ -35,7 +36,7 @@
         {% endif %}
           
         {% if publication.fulltext %}
-        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|FULL TEXT</a>
+        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|MIRROR</a>
         {% endif %}
 
         {% if publication.scholar %}
@@ -55,8 +56,46 @@
   </ul>
   <br>  
   {% endfor %}
+
+  {% for year in work.years offset:2 %}
+  <div class="loop2 hidden">
+  <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
+  <ul class="fa-ul" style="margin-left:0;">
+    {% for publication in year.papers %}
+    <div class="item" tyle="margin-bottom: 20px; margin-top: 10px;">
+      <li><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
+      {% if publication.link %}
+        
+        {% if publication.link %}
+        <a href="{{ publication.link }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|SOURCE</a>
+        {% endif %}
+          
+        {% if publication.fulltext %}
+        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|MIRROR</a>
+        {% endif %}
+
+        {% if publication.scholar %}
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|GOOGLE SCHOLAR</a>
+        {% endif %}
+
+      {% else %}
+        </li>
+      {% endif %}
+      <div id="hideblock" class="publication-authors">{{ publication.authors }}</div>
+      <div class="publication-conference" style="font-size: 80%;">{{ publication.venue }}</div>
+    </div><!--//item-->
+    <div style="line-height:50%;">
+      <br>
+    </div>
+    {% endfor %}
+  </ul>
+  <br>  
+  </div>
+  {% endfor %}
+  <button id="readMore2" class="readMorebtn" onclick="togglePosts('.loop2', 'readMore2')"><b><i>Expand.</i></b></button>
 </section><!--//section-->
 
 {% endfor %}
 
 {% endif %}
+

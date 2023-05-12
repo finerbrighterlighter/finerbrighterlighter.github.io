@@ -9,7 +9,8 @@
     {{ experiences.title }}
   </h2>
 
-  {% for experience in experiences.info %}
+  {% for experience in experiences.info limit:2 %}
+  <div class="loop">
   <div class="item">
 
     <div class="meta">
@@ -28,10 +29,34 @@
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
-
+  </div>
   </div><!--//item-->
   {% endfor %}
 
+  {% for experience in experiences.info offset:2 %}
+  <div class="loop hidden">
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title"><b>{{ experience.role }}</b></h3>
+        <div class="time">{{ experience.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company"><a href={{ experience.link }}  target="_blank">{{ experience.company }}</a></div>
+
+    </div><!--//meta-->
+
+    {% if experience.details %}
+    <div id="hideblock" class="details" style="text-align: justify;">
+      {{ experience.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+  </div>
+  </div><!--//item-->
+  {% endfor %}
+<button id="readMore" class="readMorebtn" onclick="togglePosts('.loop', 'readMore')"><b><i>Expand.</i></b></button>
 </section><!--//section-->
 {% endif %}
 
