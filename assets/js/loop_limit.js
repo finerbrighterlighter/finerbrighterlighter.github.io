@@ -11,10 +11,10 @@ function togglePosts(div_id, btn_id) {
       } else {
         posts[i].classList.add("hidden");
       }
-      toggleBtn.innerHTML = "<b><i>Expand.</i></b>";
+      toggleBtn.innerHTML = "<b>[Expand +]</b>";
     } else {
       posts[i].classList.remove("hidden");
-      toggleBtn.innerHTML= "<b><i>Collapse.</i></b>";
+      toggleBtn.innerHTML= "<b>[Collapse -]</b>";
     }
   }
   isExpanded = !isExpanded;

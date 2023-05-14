@@ -9,9 +9,10 @@
       <i class="fas {{ work.icon }} fa-stack-1x fa-inverse"></i><!--//change icon here-->
     </span>
     {{ work.title }}
+    <button id="readMore2" class="hyperlink_blue" onclick="togglePosts('.loop2', 'readMore2')"><b>[Expand +]</b></button>
   </h2>
 
-  <span>
+  <span id="hideblock" >
     <i class="fa-li fa fas fa-newspaper" style="position:initial"></i>Academic Publication
     <i class="fa-li fa fas fa-chalkboard" style="position:initial"></i>Conference Proceeding/Poster
     <i class="fa-li fa fas fa-microphone-alt" style="position:initial"></i>Conference Speaking
@@ -29,18 +30,19 @@
     {% for publication in year.papers %}
     <div class="item" tyle="margin-bottom: 20px; margin-top: 10px;">
       <li><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
+        <span id="showblock"> <br> </span>
       {% if publication.link %}
         
         {% if publication.link %}
-        <a href="{{ publication.link }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|SOURCE</a>
+        <a href="{{ publication.link }}" target="_blank" class="hyperlink_blue">[SOURCE]</a>
         {% endif %}
           
         {% if publication.fulltext %}
-        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|FULL TEXT</a>
+        <a href="{{ publication.fulltext }}" target="_blank" class="hyperlink_blue">[FULL TEXT]</a>
         {% endif %}
 
         {% if publication.scholar %}
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|GOOGLE SCHOLAR</a>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" class="hyperlink_blue">[GOOGLE SCHOLAR]</a>
         {% endif %}
 
       {% else %}
@@ -64,18 +66,19 @@
     {% for publication in year.papers %}
     <div class="item" tyle="margin-bottom: 20px; margin-top: 10px;">
       <li><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
+        <span id="showblock"> <br> </span>
       {% if publication.link %}
         
         {% if publication.link %}
-        <a href="{{ publication.link }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|SOURCE</a>
+        <a href="{{ publication.link }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[SOURCE]</a>
         {% endif %}
           
         {% if publication.fulltext %}
-        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|FULL TEXT</a>
+        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[FULL TEXT]</a>
         {% endif %}
 
         {% if publication.scholar %}
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">|GOOGLE SCHOLAR</a>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[GOOGLE SCHOLAR]</a>
         {% endif %}
 
       {% else %}
@@ -92,7 +95,7 @@
   <br>  
   </div>
   {% endfor %}
-  <button id="readMore2" class="readMorebtn" onclick="togglePosts('.loop2', 'readMore2')"><b><i>Expand.</i></b></button>
+  
 </section><!--//section-->
 
 {% endfor %}

@@ -431,16 +431,17 @@ p {
 
 }
 
-.readMorebtn {
-  color: #2e4049;
+.hyperlink_blue {
+  color: blue;
   cursor: pointer;
   padding: 0;
   border: none;
   background: none;
+  font-size: 80%;
+  font-family: monospace, monospace;
 }
 
-.readMorebtn:hover {
-  color: black;
+.hyperlink_blue:hover {
   text-decoration: underline;
 }
 
