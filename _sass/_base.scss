@@ -238,6 +238,7 @@ p {
     right: 0;
     top: 0;
     color: $text-grey;
+    line-height: normal;
   }
   .company,
   .university {
@@ -440,6 +441,12 @@ p {
   background: none;
   font-size: 80%;
   font-family: monospace, monospace;
+}
+
+.hyperlink_blue.readmore{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .hyperlink_blue:hover {
