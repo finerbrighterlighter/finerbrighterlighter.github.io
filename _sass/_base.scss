@@ -441,16 +441,16 @@ p {
   background: none;
   font-size: 80%;
   font-family: monospace, monospace;
+  
+  :hover {
+    text-decoration: underline;
+  }
 }
 
 .hyperlink_blue.readmore{
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.hyperlink_blue:hover {
-  text-decoration: underline;
 }
 
 .animate-charcter {
