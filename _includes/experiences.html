@@ -6,6 +6,7 @@
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
     {{ experiences.title }}
+    <button id="readMore" class="hyperlink_blue" onclick="togglePosts('.loop', 'readMore')"><b>[Expand +]</b></button>
   </h2>
 
   {% for experience in experiences.info limit:2 %}
@@ -26,16 +27,16 @@
       </div>
       <!--//meta-->
 
-      {% if experience.details %}
-      <div id="hideblock" class="details" style="text-align: justify">
-        {{ experience.details | markdownify }}
-      </div>
-      <!--//details-->
-      {% endif %}
-    </div>
+    {% if experience.details %}
+    <div class="details" style="text-align: justify;">
+      {{ experience.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
   </div>
-  <!--//item-->
-  {% endfor %} {% for experience in experiences.info offset:2 %}
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for experience in experiences.info offset:2 %}
   <div class="loop hidden">
     <div class="item">
       <div class="meta">
@@ -63,13 +64,6 @@
   </div>
   <!--//item-->
   {% endfor %}
-  <button
-    id="readMore"
-    class="readMorebtn"
-    onclick="togglePosts('.loop', 'readMore')"
-  >
-    <b><i>Expand.</i></b>
-  </button>
-</section>
-<!--//section-->
+<button id="readMore" class="readMorebtn" onclick="togglePosts('.loop', 'readMore')"><b><i>Expand.</i></b></button>
+</section><!--//section-->
 {% endif %}
