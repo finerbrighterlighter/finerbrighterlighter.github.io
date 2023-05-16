@@ -209,8 +209,9 @@ works:
             icon: fas fa-newspaper
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
-  Modified with <i class="fas fa-frown"></i> by <a href="https://i.kym-cdn.com/entries/icons/mobile/000/016/546/hidethepainharold.jpg" target="_blank" rel="nofollow">Htun Teza</a>
+  Designed with <i class="fas fa-heart" style="color: #4B6A78;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | 
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> | 
+  Modified with <i class="fas fa-sad-tear" style="color: #4B6A78;"></i> by <a href="https://i.kym-cdn.com/entries/icons/mobile/000/016/546/hidethepainharold.jpg" target="_blank" rel="nofollow">Htun Teza</a>
 bld_cen:
   title: Blood Donation Centres
   intro:
