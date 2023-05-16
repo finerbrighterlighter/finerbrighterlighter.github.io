@@ -453,6 +453,22 @@ p {
   top: 0;
 }
 
+#work_div {
+  position: relative;
+}
+
+#legend-div {
+  display: none;
+  position: relative;
+  bottom: 50%;
+  transition: opacity 0.3s ease-in-out;
+  font-size:80%;
+  font-family: monospace, monospace;
+  color:grey;
+  border:1px dotted grey;
+  padding:0;
+}
+
 .animate-charcter {
   display: inline-block;
   overflow: hidden;

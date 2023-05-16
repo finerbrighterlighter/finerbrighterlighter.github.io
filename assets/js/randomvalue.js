@@ -36,6 +36,7 @@ const textValues = [
   "Safe Life Give Blood",
 ];
 
+/*
 const imageValues = [
   "profile (1).jfif",
   "profile (1).jpg",
@@ -50,5 +51,5 @@ const imageValues = [
   "profile (10).jpg",
 ];
 
-updateElement_interval("profile", imageValues, 20000, "image");
+updateElement_interval("profile", imageValues, 20000, "image");*/
 updateElement_interval("banner", textValues, 5000, "text");

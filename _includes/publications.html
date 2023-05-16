@@ -16,13 +16,7 @@
     </button>
   </h2>
 
-  <span id="hideblock" >
-    <i class="fa-li fa fas fa-newspaper" style="position:initial"></i>Academic Publication
-    <i class="fa-li fa fas fa-chalkboard" style="position:initial"></i>Conference Proceeding/Poster
-    <i class="fa-li fa fas fa-microphone-alt" style="position:initial"></i>Conference Speaking
-    <i class="fa-li fa fas fa-book" style="position:initial"></i>Dissertation/Descriptive Report
-  </span>
-  
+
   <div style="line-height:100%;">
     <br>
   </div>
@@ -32,8 +26,8 @@
   <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
   <ul class="fa-ul" style="margin-left:0;">
     {% for publication in year.papers %}
-    <div class="item" tyle="margin-bottom: 20px; margin-top: 10px;">
-      <li><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
+    <div class="item" style="margin-bottom: 20px; margin-top: 10px;">
+      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
         <span id="showblock"> <br> </span>
       {% if publication.link %}
         
@@ -68,8 +62,8 @@
   <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
   <ul class="fa-ul" style="margin-left:0;">
     {% for publication in year.papers %}
-    <div class="item" tyle="margin-bottom: 20px; margin-top: 10px;">
-      <li><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
+    <div class="item" style="margin-bottom: 20px; margin-top: 10px;">
+      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
         <span id="showblock"> <br> </span>
       {% if publication.link %}
         
