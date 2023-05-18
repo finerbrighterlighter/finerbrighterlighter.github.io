@@ -30,7 +30,11 @@ permalink: /blood/
 
     {% if bld_cen.address %}
     <div class="details">
+      {% if bld_cen.geo %}
       <a href={{ bld_cen.geo }} title="Google Maps" target="_blank" >Address</a>: {{ bld_cen.address }}
+      {% else %}
+      Address: {{ bld_cen.address }}
+      {% endif %}
 	  <br> Telephone: {{ bld_cen.phone }}
     </div><!--//address-->
     {% endif %}
