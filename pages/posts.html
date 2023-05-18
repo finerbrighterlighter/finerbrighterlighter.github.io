@@ -20,7 +20,8 @@ permalink: /posts/
 	{% for entry in entries %}
 	  <div class="item">
 		<div class="meta">
-			<a href="{{ entry.url | prepend: site.baseurl }}#head"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
+			<a id=""hideblock" href="{{ entry.url | prepend: site.baseurl }}"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
+			<a id="showblock" href="{{ entry.url | prepend: site.baseurl }}#head"><h2 class="job-title"><b>{{entry.title }}</b></h2></a>
 			
 			  <div class="upper-row">
 				<div class="company">{{ entry.company }}<br>{{ entry.time }}</div>
