@@ -8,7 +8,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
     API_key +
     "&limit=" +
     number +
-    "&period=7day&format=json";
+    "&period=1month&format=json";
   var element = document.getElementById(elementID);
   var xmlhttp = new XMLHttpRequest();
 
