@@ -34,6 +34,7 @@ const textValues = [
   "Blood donation is an act of solidarity",
   "Join the effort and save lives",
   "Safe Life Give Blood",
+  "Give blood, give plasma, share life, share often.",
 ];
 
 /*
