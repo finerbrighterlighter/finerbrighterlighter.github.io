@@ -46,6 +46,13 @@
         >Google Scholar</a
       >
     </li>
+    {% endif %} {% if sidebar.mastodon %}
+    <li id="hideblock" class="twitter">
+      <i class="fab fa-mastodon fa-fw"></i>
+      <a rel="me" href="https://hachyderm.io/@{{ sidebar.mastodon }}" target="_blank"
+        >Mastodon @ hachyderm</a
+      >
+    </li>
     {% endif %} {% if sidebar.github %}
     <li id="hideblock" class="github">
       <i class="fab fa-github fa-fw"></i>
