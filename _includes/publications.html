@@ -27,7 +27,7 @@
   <ul class="fa-ul" style="margin-left:0;">
     {% for publication in year.papers %}
     <div class="item" style="margin-bottom: 20px; margin-top: 10px;">
-      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
+      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" title="{{ publication.legend }}" style="position:initial" ></i>{{ publication.title }}
         <span id="showblock"> <br> </span>
       {% if publication.link %}
         
@@ -63,7 +63,7 @@
   <ul class="fa-ul" style="margin-left:0;">
     {% for publication in year.papers %}
     <div class="item" style="margin-bottom: 20px; margin-top: 10px;">
-      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" style="position:initial"></i>{{ publication.title }}
+      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" title="{{ publication.legend }}" style="position:initial"></i>{{ publication.title }}
         <span id="showblock"> <br> </span>
       {% if publication.link %}
         

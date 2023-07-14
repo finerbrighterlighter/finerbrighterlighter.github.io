@@ -126,10 +126,20 @@ works:
     years:
       - year: 2023
         papers:
+
+          - title: "Study Visit and Information Exchange with Siriraj Informatics and Data Innovation Center (SiData+) and Faculty of Medicine, Chulalongkorn University"
+            link: "https://htunteza.com/posts/siraraj_data/#head"
+            authors: Thakkinstian, A., Pattanateepapon, A., Looaresuwan, P., Ponthongmak, W. , <b>Teza, H.</b>
+            icon: fas fa-microphone-alt
+            legend: Conference Speaking
+            venue: "Mahidol University, Bangkok, Thailand"
+            fulltext: "https://www.rama.mahidol.ac.th/ceb/gallery/2023/StudyVisitSiData%2BandCU%29"
+
           - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
             link: "https://www.ispor.org/heor-resources/presentations-database/presentation/intl2023-3667/123145"
             authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Thadanipon, K., Limpijankit, T., Pattanateepapon, A., Unwanatham, N., Thakkinstian, A.
             icon: fas fa-chalkboard
+            legend: Conference Poster
             venue: "ISPOR—The Professional Society for Health Economics and Outcomes Research, Boston Convention & Exhibition Center, Boston, Massachusetts, United States"
             fulltext: "/assets/docs/2023_Hypertension and Its Associated Complications A Thai Real-World Clinical Cohort.pdf"
 
@@ -137,6 +147,7 @@ works:
             link: "http://doi.org/10.3389/fcvm.2023.1170010"
             authors: <b>Teza, H.</b>, Boonmanunt, S., Unwanatham, N., Thadanipon, K., Limpijankit, T., Pattanaprateep, O., Pattanateepapon, A., McKay, G.J., Attia, J., Thakkinstian, A.
             icon: fas fa-newspaper
+            legend: Academic Publication
             venue: "Frontiers in Cardiovascular Medicine"
             fulltext: "/assets/docs/2023_Evaluation of transitions from early hypertension to hypertensive chronic kidney disease, coronary artery disease, stroke and mortality a Thai real-world data cohort.pdf"
             scholar: "IjCSPb-OGe4C"
@@ -147,13 +158,15 @@ works:
             link: "https://htunteza.com/posts/ceb_rwd/#head"
             authors: Thakkinstian, A., Lukkunaprasit, T., Ponthongmak, W. , Looaresuwan, P., <b>Teza, H.</b>
             icon: fas fa-microphone-alt
-            venue: "Real World Data, Mahidol University, Bangkok, Thailand"
+            legend: Conference Speaking
+            venue: "Mahidol University, Bangkok, Thailand"
             fulltext: "https://www.rama.mahidol.ac.th/ceb/content/20oct2022-1012"
 
           - title: "Screening models for Periodontitis"
             link: "http://doi.org/10.13140/RG.2.2.20986.77764"
             authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
             icon: fas fa-chalkboard
+            legend: Conference Poster
             venue: "43rd Annual Conference of International Society for Clinical Biostatistics, Newcastle University, Newcastle upon Tyne, United Kingdom"
             fulltext: "/assets/docs/2022_Screening models for Periodontitis.pdf"
 
@@ -161,6 +174,7 @@ works:
             link: "https://htunteza.com/posts/moh_ncd/#head"
             authors: Thakkinstian, A., Lolak, S., Looaresuwan, P., <b>Teza, H.</b>
             icon: fas fa-microphone-alt
+            legend: Conference Speaking
             venue: "14th Ministry of Health - Academy of Medicine of Malaysia Scientific Meeting, National Institutes of Health, Selangor, Malaysia"
             fulltext: "/assets/docs/mohammsc.pdf"
 
@@ -170,6 +184,7 @@ works:
             link: "https://www.researchgate.net/publication/351563629_Clinical_Prediction_of_Chronic_Periodontitis"
             authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., Thakkinstian, A.
             icon: fas fa-chalkboard
+            legend: Conference Proceeding
             venue: "The 7th Regional Conference on Graduate Research 2021, Sripatum University, Khon Kaen, Thailand"
             fulltext: "/assets/docs/2021_Clinical Prediction of Chronic Periodontitis.pdf"
             scholar: "d1gkVwhDpl0C"
@@ -179,6 +194,7 @@ works:
             authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
             icon: fas fa-book
             venue: "Mahidol University, Bangkok, Thailand"
+            legend: Post-graduate Dissertation
             fulltext: "/assets/docs/2021_Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning Models.pdf"
             scholar: "qjMakFHDy7sC"
 
@@ -189,6 +205,7 @@ works:
             authors: Thway, A.M., <b>Teza, H.</b>, Win, T.T., Htun, Y.M., Aung, M.M., Win, Y.N., Tun, K.M.
             icon: fas fa-newspaper
             venue: "Medrxiv"
+            legend: Academic Preprint
             fulltext: "/assets/docs/2020_Epidemiological characteristics of SARS-COV-2 in Myanmar.pdf"
             scholar: "u-x6o8ySG0sC"
 
@@ -196,6 +213,7 @@ works:
         papers:
           - title: "Assessment of Oral Health Status in Taung-Tha Township, Myingyan District, Mandalay Division, Myanmar : A Cross-sectional Descriptive Study"
             icon: fas fa-book
+            legend: Descriptive Report
             authors: <b>Teza, H.</b>
             venue: "University of Dental Medicine Yangon, Yangon, Myanmar"
 
@@ -204,10 +222,12 @@ works:
           - title: "External validation and revision of Penn incisional hernia prediction model: A retrospective cohort study"
             authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
             icon: fas fa-newspaper
+            legend: Academic Manuscript
 
           - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
             authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
             icon: fas fa-newspaper
+            legend: Academic Manuscript
 
 footer: >
   Designed with <i class="fas fa-heart" style="color: #4B6A78;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | 
