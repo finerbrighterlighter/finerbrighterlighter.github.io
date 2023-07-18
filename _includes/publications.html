@@ -25,65 +25,61 @@
   <div class="loop2">
   <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
   <ul class="fa-ul" style="margin-left:0;">
-    {% for publication in year.papers %}
+    {% for paper in year.papers %}
     <div class="item" style="margin-bottom: 20px; margin-top: 10px;">
-      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" title="{{ publication.legend }}" style="position:initial" ></i>{{ publication.title }}
+      <li class="work_div"><i class="fa-li fa {{ paper.icon }}" title="{{ paper.legend }}" style="position:initial" ></i>
+        {{ paper.title }}
         <span id="showblock"> <br> </span>
-      {% if publication.link %}
-        
-        {% if publication.link %}
-        <a href="{{ publication.link }}" target="_blank" class="hyperlink_blue">[SOURCE]</a>
-        {% endif %}
-          
-        {% if publication.fulltext %}
-        <a href="{{ publication.fulltext }}" target="_blank" class="hyperlink_blue">[FULL TEXT]</a>
+
+        {% if paper.scholar %}
+          <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ paper.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[GOOGLE SCHOLAR]</a>
         {% endif %}
 
-        {% if publication.scholar %}
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" class="hyperlink_blue">[GOOGLE SCHOLAR]</a>
+        {% if paper.sources %}
+          {% for source in paper.sources %}
+          <a href="{{ source.url }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;text-transform:uppercase;">[{{ source.text }}]</a>
+          {% endfor %}
         {% endif %}
 
-      {% else %}
         </li>
-      {% endif %}
-      <div id="hideblock" class="publication-authors">{{ publication.authors }}</div>
-      <div class="publication-conference" style="font-size: 80%;">{{ publication.venue }}</div>
-    </div><!--//item-->
-    <div style="line-height:50%;">
-      <br>
+
+        <div class="paper-authors">{{ paper.authors }}</div>
+        <div class="paper-conference" style="font-size: 80%;">{{ paper.venue }}</div>
+      </div><!--//item-->
+      <div style="line-height:50%;">
+        <br>
+      </div>
+      {% endfor %}
+    </ul>
+    <br>  
     </div>
     {% endfor %}
-  </ul>
-  <br>  
-  {% endfor %}
 
   {% for year in work.years offset:2 %}
   <div class="loop2 hidden">
   <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
   <ul class="fa-ul" style="margin-left:0;">
-    {% for publication in year.papers %}
+    {% for paper in year.papers %}
     <div class="item" style="margin-bottom: 20px; margin-top: 10px;">
-      <li class="work_div"><i class="fa-li fa {{ publication.icon }}" title="{{ publication.legend }}" style="position:initial"></i>{{ publication.title }}
+      <li class="work_div">
+        <i class="fa-li fa {{ paper.icon }}" title="{{ paper.legend }}" style="position:initial"></i>
+        {{ paper.title }}
         <span id="showblock"> <br> </span>
-      {% if publication.link %}
-        
-        {% if publication.link %}
-        <a href="{{ publication.link }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[SOURCE]</a>
-        {% endif %}
-          
-        {% if publication.fulltext %}
-        <a href="{{ publication.fulltext }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[FULL TEXT]</a>
+
+        {% if paper.scholar %}
+          <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ paper.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[GOOGLE SCHOLAR]</a>
         {% endif %}
 
-        {% if publication.scholar %}
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=7waEOqcAAAAJ:{{ publication.scholar }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;">[GOOGLE SCHOLAR]</a>
+        {% if paper.sources %}
+          {% for source in paper.sources %}
+          <a href="{{ source.url }}" target="_blank" style="color:blue;font-size:80%;font-family: monospace, monospace;text-transform:uppercase;">[{{ source.text }}]</a>
+          {% endfor %}
         {% endif %}
 
-      {% else %}
-        </li>
-      {% endif %}
-      <div id="hideblock" class="publication-authors">{{ publication.authors }}</div>
-      <div class="publication-conference" style="font-size: 80%;">{{ publication.venue }}</div>
+      </li>
+
+      <div id="hideblock" class="paper-authors">{{ paper.authors }}</div>
+      <div class="paper-conference" style="font-size: 80%;">{{ paper.venue }}</div>
     </div><!--//item-->
     <div style="line-height:50%;">
       <br>

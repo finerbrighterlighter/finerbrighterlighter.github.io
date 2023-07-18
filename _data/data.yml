@@ -73,7 +73,7 @@ experiences:
       company: Mahidol University, Thailand
       link: "https://en.wikipedia.org/wiki/Mahidol_University"
       details: |
-        Affiliated under the Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I did my postgraduate research regarding Severe Periodontitis in Thai population. Factors affecting development of the condition were studied, and four screening models were developed using statistical and machine learning classification models.
+        Affiliated under the Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I did my postgraduate research regarding Severe Periodontitis in Thai population under the supervision of [Professor Dr. Ammarin Thakkinstian](https://www.scopus.com/authid/detail.uri?authorId=6602111727) and [Dr. Anuchate Pattanateepapon](https://www.scopus.com/authid/detail.uri?authorId=57193164364). Factors affecting development of the condition were studied, and four screening models were developed using statistical and machine learning classification models.
         <br>
 
     - role: House Officer
@@ -113,11 +113,11 @@ projects:
       tagline: "Project funded by National Research Council of Thailand (NRCT)"
 
     - title: Clinical Prediction of Chronic Periodontitis
-      link: "https://www.researchgate.net/project/Risk-Factor-based-Diagnosis-for-Chronic-Periodontitis-using-Machine-Learning-Models"
+      link: 
       tagline: "Author funded by Faculty of Medicine Ramathibodi Hospital and Faculty of Graduate Studies, Mahidol University"
 
     - title: Epidemiology of SARS-COV-2 in Myanmar
-      link: "https://www.researchgate.net/project/Epidemiology-of-SARS-CoV-2-in-Myanmar"
+      link: 
       tagline: "No funding sought"
 
 works:
@@ -128,79 +128,112 @@ works:
         papers:
 
           - title: "CEB data warehouse showcase"
-            link: "https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_12-7-66.pdf"
-            authors: Looaresuwan, P., Ponthongmak, W., Looaresuwan, P., <b>Teza, H.</b>, Ratanatharathom, C., Faramnuayphol, P.
             icon: fas fa-microphone-alt
             legend: Conference Speaking
+            authors: Looaresuwan, P., Ponthongmak, W., Looaresuwan, P., <b>Teza, H.</b>, Ratanatharathom, C., Faramnuayphol, P.
             venue: "Ramathibodi International Academic Conference (RIAC 2023), Mahidol University, Bangkok, Thailand"
-            fulltext: "https://www.rama.mahidol.ac.th/ceb/gallery/2023/StudyVisitSiData%2BandCU%29"
+            sources:
+              - text: schedule
+                url: https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_12-7-66.pdf
 
           - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
-            link: "https://www.ispor.org/heor-resources/presentations-database/presentation/intl2023-3667/123145"
-            authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Thadanipon, K., Limpijankit, T., Pattanateepapon, A., Unwanatham, N., Thakkinstian, A.
             icon: fas fa-chalkboard
             legend: Conference Poster
+            authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Thadanipon, K., Limpijankit, T., Pattanateepapon, A., Unwanatham, N., Thakkinstian, A.
             venue: "ISPOR—The Professional Society for Health Economics and Outcomes Research, Boston Convention & Exhibition Center, Boston, Massachusetts, United States"
-            fulltext: "/assets/docs/2023_Hypertension and Its Associated Complications A Thai Real-World Clinical Cohort.pdf"
+            sources:
+              - text: abstract
+                url: "https://www.ispor.org/heor-resources/presentations-database/presentation/intl2023-3667/123145"
+              
+              - text: mirror
+                url: "/assets/docs/2023_Hypertension and Its Associated Complications A Thai Real-World Clinical Cohort.pdf"
+            
 
           - title: "Evaluation of transitions from early hypertension to hypertensive chronic kidney disease, coronary artery disease, stroke and mortality: A Thai real-world data cohort"
-            link: "http://doi.org/10.3389/fcvm.2023.1170010"
-            authors: <b>Teza, H.</b>, Boonmanunt, S., Unwanatham, N., Thadanipon, K., Limpijankit, T., Pattanaprateep, O., Pattanateepapon, A., McKay, G.J., Attia, J., Thakkinstian, A.
             icon: fas fa-newspaper
             legend: Academic Publication
+            authors: <b>Teza, H.</b>, Boonmanunt, S., Unwanatham, N., Thadanipon, K., Limpijankit, T., Pattanaprateep, O., Pattanateepapon, A., McKay, G.J., Attia, J., Thakkinstian, A.
             venue: "Frontiers in Cardiovascular Medicine"
-            fulltext: "/assets/docs/2023_Evaluation of transitions from early hypertension to hypertensive chronic kidney disease, coronary artery disease, stroke and mortality a Thai real-world data cohort.pdf"
             scholar: "IjCSPb-OGe4C"
+            sources:
+              - text: fulltext
+                url: "http://doi.org/10.3389/fcvm.2023.1170010"
+              
+              - text: mirror
+                url: "/assets/docs/2023_Evaluation of transitions from early hypertension to hypertensive chronic kidney disease, coronary artery disease, stroke and mortality a Thai real-world data cohort.pdf"
 
       - year: 2022
         papers:
 
           - title: "Screening models for Periodontitis"
-            link: "http://doi.org/10.13140/RG.2.2.20986.77764"
-            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
             icon: fas fa-chalkboard
             legend: Conference Poster
+            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
             venue: "43rd Annual Conference of International Society for Clinical Biostatistics, Newcastle University, Newcastle upon Tyne, United Kingdom"
-            fulltext: "/assets/docs/2022_Screening models for Periodontitis.pdf"
+            sources:
+              - text: poster
+                url: "http://doi.org/10.13140/RG.2.2.20986.77764"
+              
+              - text: mirror
+                url: "/assets/docs/2022_Screening models for Periodontitis.pdf"
+            
 
           - title: "Big Cohort Data for NCDs (NCDs: Bridging the Gaps)"
-            link: "https://htunteza.com/posts/moh_ncd/#head"
-            authors: Thakkinstian, A., Lolak, S., Looaresuwan, P., <b>Teza, H.</b>
             icon: fas fa-microphone-alt
             legend: Conference Speaking
+            authors: Thakkinstian, A., Lolak, S., Looaresuwan, P., <b>Teza, H.</b>
             venue: "14th Ministry of Health - Academy of Medicine of Malaysia Scientific Meeting, National Institutes of Health, Selangor, Malaysia"
-            fulltext: "/assets/docs/mohammsc.pdf"
+            sources:
+              - text: event details
+                url: "https://htunteza.com/posts/moh_ncd/#head"
+              
+              - text: mirror
+                url: "/assets/docs/mohammsc.pdf"
+            
 
       - year: 2021
         papers:
           - title: "Clinical Prediction of Chronic Periodontitis"
-            link: "https://www.researchgate.net/publication/351563629_Clinical_Prediction_of_Chronic_Periodontitis"
-            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., Thakkinstian, A.
             icon: fas fa-chalkboard
             legend: Conference Proceeding
+            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., Thakkinstian, A.
             venue: "The 7th Regional Conference on Graduate Research 2021, Sripatum University, Khon Kaen, Thailand"
-            fulltext: "/assets/docs/2021_Clinical Prediction of Chronic Periodontitis.pdf"
             scholar: "d1gkVwhDpl0C"
+            sources:
+              - text: fulltext
+                url: "https://www.researchgate.net/publication/351563629_Clinical_Prediction_of_Chronic_Periodontitis"
+              
+              - text: mirror
+                url: "/assets/docs/2021_Clinical Prediction of Chronic Periodontitis.pdf"
 
           - title: "Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning Models"
-            link: "https://www.rama.mahidol.ac.th/ceb/sites/default/files/public/pdf/Thesis/2019_Htun%20Teza.pdf"
-            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
             icon: fas fa-book
-            venue: "Mahidol University, Bangkok, Thailand"
             legend: Post-graduate Dissertation
-            fulltext: "/assets/docs/2021_Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning Models.pdf"
+            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Thakkinstian, A.
+            venue: "Mahidol University, Bangkok, Thailand"
             scholar: "qjMakFHDy7sC"
+            sources:
+              - text: fulltext
+                url: "https://www.rama.mahidol.ac.th/ceb/sites/default/files/public/pdf/Thesis/2019_Htun%20Teza.pdf"
+              
+              - text: mirror
+                url: "/assets/docs/2021_Risk-factor based Diagnosis for Chronic Periodontitis using Machine Learning Models.pdf"
 
       - year: 2020
         papers:
-          - title: "Epidemiological characteristics of SARS-COV-2 in Myanmar"
-            link: "https://doi.org/10.1101/2020.08.02.20166504"
-            authors: Thway, A.M., <b>Teza, H.</b>, Win, T.T., Htun, Y.M., Aung, M.M., Win, Y.N., Tun, K.M.
+          - title: "Epidemiological characteristics of SARS-COV-2 in Myanmar" 
             icon: fas fa-newspaper
-            venue: "Medrxiv"
             legend: Academic Preprint
-            fulltext: "/assets/docs/2020_Epidemiological characteristics of SARS-COV-2 in Myanmar.pdf"
+            authors: Thway, A.M., <b>Teza, H.</b>, Win, T.T., Htun, Y.M., Aung, M.M., Win, Y.N., Tun, K.M.
+            venue: "Medrxiv"
             scholar: "u-x6o8ySG0sC"
+            sources:
+              - text: fulltext
+                url: "https://doi.org/10.1101/2020.08.02.20166504"
+              
+              - text: mirror
+                url: "/assets/docs/2020_Epidemiological characteristics of SARS-COV-2 in Myanmar.pdf"
+            
 
       - year: 2017
         papers:
@@ -213,14 +246,14 @@ works:
       - year: Under Review
         papers:
           - title: "External validation and revision of Penn incisional hernia prediction model: A retrospective cohort study"
-            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
             icon: fas fa-newspaper
             legend: Academic Manuscript
+            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
 
           - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
-            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
             icon: fas fa-newspaper
             legend: Academic Manuscript
+            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
 
 footer: >
   Designed with <i class="fas fa-heart" style="color: #4B6A78;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | 
