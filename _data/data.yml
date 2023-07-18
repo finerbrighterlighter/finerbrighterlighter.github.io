@@ -139,7 +139,7 @@ works:
           - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
             icon: fas fa-chalkboard
             legend: Conference Poster
-            authors: Pattanaprateep, O., <b>Teza, H.</b>, Boonmanunt, S., Thadanipon, K., Limpijankit, T., Pattanateepapon, A., Unwanatham, N., Thakkinstian, A.
+            authors: <b>Teza, H.</b>, Pattanaprateep, O., Boonmanunt, S., Thadanipon, K., Limpijankit, T., Pattanateepapon, A., Unwanatham, N., Thakkinstian, A.
             venue: "ISPOR—The Professional Society for Health Economics and Outcomes Research, Boston Convention & Exhibition Center, Boston, Massachusetts, United States"
             sources:
               - text: poster
