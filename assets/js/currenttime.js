@@ -1,5 +1,6 @@
-function getTime(elementID, timezone, format, value) {
+function getTime(elementID, format, value) {
   element = document.getElementById(elementID);
+  var timezone = element.value;
   const date = new Date();
   const options = {
     timeZone: timezone,
@@ -17,6 +18,6 @@ function getTime(elementID, timezone, format, value) {
   element.innerText = result;
 }
 
-setInterval(getTime("timezone", "Asia/Bangkok", true, "timezone"), 1000);
-setInterval(getTime("current_time", "Asia/Bangkok", true, "CurTime"), 1000); // Refresh time 
+getTime("timezone", true, "timezone");
+setInterval(getTime("current_time", true, "CurTime"), 1000); // Refresh time 
 

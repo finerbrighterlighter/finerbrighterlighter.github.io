@@ -14,7 +14,7 @@ sidebar:
   # Sidebar links
   email: htun.tez@mahidol.edu
   phone: (+66) 0-2201-0833
-  timezone: Asia/Bangkok
+  timezone: Asia/Bangkok # IANA tz database name, e.g. America/New_York
   time: UTC+07:00
   timeis: ICT # the name after https://time.is/
   website: ceb-rama.org
