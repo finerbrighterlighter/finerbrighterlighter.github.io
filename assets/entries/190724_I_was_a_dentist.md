@@ -8,16 +8,16 @@ company: University of Dental Medicine Yangon, Myanmar
 
 Just what the title says. These are photos from when I was a dentist. I am no longer a general practitioner, and my current field of work is growing further from it. So, they are here just to remind myself that I did do 6 years of Dental School. <span />
 
-## Fourth Year of Coursework
+#### Fourth Year of Coursework
 
-<div id="gallery">
+<div id="photos">
 	<img src="/assets/photos/bds_fourth (3).JPG" title="Fresher Welcome 2017" alt="Fresher Welcome 2017"/>
 	<img src="/assets/photos/bds_fourth (4).JPG" title="After a mid-term test I probably bombed" alt="After a mid-term test I probably bombed"/>
 	<img src="/assets/photos/bds_fourth (1).JPG" title="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry" alt="Community Field Trip to Taungtha Township by Department of Precentive and Community Dentistry"/>
 	<img class="landscape" src="/assets/photos/bds_fourth (2).JPG" title="Fresher Welcome 2017" alt="Fresher Welcome 2017"/>
 </div>
 
-## Final Year of Coursework
+#### Final Year of Coursework
 
 <div id="photos">
 	<img class="landscape" src="/assets/photos/bds_final (8).JPG" title="Fresher Welcome 2018" alt="Fresher Welcome 2018"/>
@@ -30,7 +30,7 @@ Just what the title says. These are photos from when I was a dentist. I am no lo
 	<img src="/assets/photos/bds_final (2).JPG" title="At the Prosthodontics workshop" alt="At the Prosthodontics workshop"/>
 </div>
 
-## House Officer
+#### House Officer
 
 <div id="photos">
 	<img src="/assets/photos/bds_house (9).JPG" title="During Department of Oral Medicine Assignment" alt="During Department of Oral Medicine Assignment"/>

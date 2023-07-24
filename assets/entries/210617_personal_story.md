@@ -7,3 +7,7 @@ company: Mahidol University, Thailand
 ---
 
 I was asked to share [my experience](https://www.rama.mahidol.ac.th/ceb/content/htun-tezas-personal-story "CEB-RAMA-MU") of being a data science student in Department of Clinical Epidemiology and Biostatistics, coming from a biomedical background rather than computer science. <span />
+
+<div id="gallery">
+	<img src="/assets/photos/personal_story-1.jpg" title="Poster" alt="Poster"/>
+</div>
