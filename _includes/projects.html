@@ -6,32 +6,57 @@
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
+    <button
+      id="readMore2"
+      class="hyperlink_blue readmore"
+      onclick="togglePosts('.loop2', 'readMore2', 3)"
+    >
+      <b>[Expand +]</b>
+    </button>
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-    <p>{{ projects.intro }}</p>
+  {% for project in projects.assignments limit:3 %}
+  <div class="loop2">
+    <div class="item">
+      <li class="project-title" style="font-family: Josefin Sans, sans-serif";>
+
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank" >{{ project.title }}</a>
+        {% else %} {{ project.title }} {% endif %}
+
+      </li>
+
+      {% if project.role %}
+      <div class="project-tagline" style="padding-bottom: 5px;">{{ project.role }}</div>
+      {% endif %}
+
+      {% if project.tagline %}
+      <div class="project-tagline" style="font-size: 80%";><i>{{ project.tagline }}</i></div>
+      {% endif %}
+    </div>
+    <!--//item-->
   </div>
-  <!--//intro-->
-  {% endif %} {% for project in projects.assignments %}
-  <div class="item">
-    <li class="project-title" style="font-family: Josefin Sans, sans-serif";>
+  {% endfor %} {% for project in projects.assignments offset:3 %}
+  <div class="loop2 hidden">
+    <div class="item">
+      <li class="project-title" style="font-family: Josefin Sans, sans-serif";>
 
-      {% if project.link %}
-      <a href="{{ project.link }}" target="_blank" >{{ project.title }}</a>
-      {% else %} {{ project.title }} {% endif %}
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank" >{{ project.title }}</a>
+        {% else %} {{ project.title }} {% endif %}
 
-    </li>
+      </li>
 
-    {% if project.role %}
-    <div class="project-tagline" id="hideblock" style="padding-bottom: 5px;">{{ project.role }}</div>
-    {% endif %}
+      {% if project.role %}
+      <div class="project-tagline" style="padding-bottom: 5px;">{{ project.role }}</div>
+      {% endif %}
 
-    {% if project.tagline %}
-    <div class="project-tagline" style="font-size: 80%";><i>{{ project.tagline }}</i></div>
-    {% endif %}
-  </div>
+      {% if project.tagline %}
+      <div class="project-tagline" style="font-size: 80%";><i>{{ project.tagline }}</i></div>
+      {% endif %}
+    </div>
   <!--//item-->
+  </div>
   {% endfor %}
 </section>
 <!--//section-->

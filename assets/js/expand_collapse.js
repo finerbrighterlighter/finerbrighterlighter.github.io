@@ -1,7 +1,6 @@
-var numPostsToShow = 2;
 var isExpanded = false;
 
-function togglePosts(div_id, btn_id) {
+function togglePosts(div_id, btn_id, numPostsToShow) {
   var posts = document.querySelectorAll(div_id);
   var toggleBtn = document.getElementById(btn_id);
   for (var i = 0; i < posts.length; i++) {

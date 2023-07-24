@@ -106,8 +106,8 @@ projects:
 
     - title: Thailand Health AI Datathon 2023
       link: "https://datathonthailand.org/"
-      role: "As Data Manager for Faculty of Medicine Ramathibodi Hospital"
-      tagline:
+      role: "As Data Manager"
+      tagline: "for Faculty of Medicine Ramathibodi Hospital"
 
     - title: CEB Data Warehouse; Hypertension Theme
       link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/HT"

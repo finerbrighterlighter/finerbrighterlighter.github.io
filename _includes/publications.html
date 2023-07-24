@@ -8,9 +8,9 @@
     </span>
     {{ work.title }}
     <button 
-      id="readMore2" 
+      id="readMore3" 
       class="hyperlink_blue readmore" 
-      onclick="togglePosts('.loop2', 'readMore2')"
+      onclick="togglePosts('.loop3', 'readMore3', 2)"
       >
         <b>[Expand +]</b>
     </button>
@@ -22,7 +22,7 @@
   </div>
 
   {% for year in work.years limit:2 %}
-  <div class="loop2">
+  <div class="loop3">
   <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
   <ul class="fa-ul" style="margin-left:0;">
     {% for paper in year.papers %}
@@ -56,7 +56,7 @@
     {% endfor %}
 
   {% for year in work.years offset:2 %}
-  <div class="loop2 hidden">
+  <div class="loop3 hidden">
   <li style="list-style-type: none;padding: 0;margin: 0;"><b>{{ year.year }}</b></li>
   <ul class="fa-ul" style="margin-left:0;">
     {% for paper in year.papers %}
