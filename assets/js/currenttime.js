@@ -1,6 +1,6 @@
-function getTime(elementID, format, value) {
+function getTime(elementID, format) {
   element = document.getElementById(elementID);
-  var timezone = element.value;
+  var timezone = element.textContent;
   const date = new Date();
   const options = {
     timeZone: timezone,
@@ -10,14 +10,8 @@ function getTime(elementID, format, value) {
     minute: "numeric",
   };
   const formattedTime = date.toLocaleString("en-US", options);
-  if (value=="CurTime"){
-  	var result = formattedTime.split("M")[0] + "M";
-  } else if (value=="timezone"){
-  	var result = formattedTime.split("M")[1];
-  }
-  element.innerText = result;
+  console.log(formattedTime)
+  element.textContent = formattedTime.split("M")[1] + " (" + formattedTime.split("M")[0] + "M)";
 }
 
-getTime("timezone", true, "timezone");
-setInterval(getTime("current_time", true, "CurTime"), 1000); // Refresh time 
-
+setInterval(getTime("timezone", true), 1000); // Refresh time 

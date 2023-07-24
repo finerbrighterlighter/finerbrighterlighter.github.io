@@ -10,17 +10,16 @@
       <i class="fas fa-phone fa-fw"></i>
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
     </li>
-    {% endif %} {% if sidebar.timezone %}
+    {% endif %} {% if sidebar.area %}
     <li class="timezone">
       <i class="fas fa-clock fa-fw"></i>
-      <a href="https://time.is/{{ sidebar.timeis }}" target="_blank" id="timezone"
-        >{{ sidebar.timezone }}</a
+      <a href="https://time.is/{{ sidebar.location }}" target="_blank" id="timezone" title="{{ sidebar.location }}"
+        >{{ sidebar.area }}/{{ sidebar.location }}</a
       >
-      (<span id="current_time">{{ sidebar.time }}</span>)
     </li>
     {% endif %} {% if sidebar.website %}
     <li class="website">
-      <i class="fas fa-globe-asia fa-fw"></i>
+      <i class="fas fa-globe-{{ sidebar.area }} fa-fw"></i>
       <a href="http://{{ sidebar.website }}" target="_blank"
         >{{ sidebar.website }}</a
       >
