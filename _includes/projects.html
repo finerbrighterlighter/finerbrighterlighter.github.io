@@ -15,14 +15,20 @@
   <!--//intro-->
   {% endif %} {% for project in projects.assignments %}
   <div class="item">
-    <li class="project-title">
+    <li class="project-title" style="font-family: Josefin Sans, sans-serif";>
+
       {% if project.link %}
-      <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+      <a href="{{ project.link }}" target="_blank" >{{ project.title }}</a>
       {% else %} {{ project.title }} {% endif %}
+
     </li>
 
+    {% if project.role %}
+    <div class="project-tagline" id="hideblock" style="padding-bottom: 5px;">{{ project.role }}</div>
+    {% endif %}
+
     {% if project.tagline %}
-    <div class="project-tagline"><i>{{ project.tagline }}</i></div>
+    <div class="project-tagline" style="font-size: 80%";><i>{{ project.tagline }}</i></div>
     {% endif %}
   </div>
   <!--//item-->

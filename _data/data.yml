@@ -106,23 +106,26 @@ projects:
 
     - title: Thailand Health AI Datathon 2023
       link: "https://datathonthailand.org/"
-      tagline: "As Data Manager for Faculty of Medicine Ramathibodi Hospital"
+      role: "As Data Manager for Faculty of Medicine Ramathibodi Hospital"
+      tagline:
 
     - title: CEB Data Warehouse; Hypertension Theme
       link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/HT"
-      tagline: "As Data Manager and Principal Investigator; funded by National Research Council of Thailand (NRCT)"
+      role: "As Data Manager and Principal Investigator"
+      tagline: "funded by National Research Council of Thailand (NRCT)"
 
     - title: CEB Data Warehouse; Surgery Theme
       link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/Surgery"
-      tagline: "As Data Manager and Co Investigator; funded by National Research Council of Thailand (NRCT)"
+      role: "As Data Manager and Co Investigator"
+      tagline: "funded by National Research Council of Thailand (NRCT)"
 
     - title: Clinical Prediction of Chronic Periodontitis
-      link: 
-      tagline: "As Principal Investigator; funded by Faculty of Medicine Ramathibodi Hospital and Faculty of Graduate Studies, Mahidol University"
+      role: "As Principal Investigator"
+      tagline: "funded by Faculty of Medicine Ramathibodi Hospital and Faculty of Graduate Studies, Mahidol University"
 
     - title: Epidemiology of SARS-COV-2 in Myanmar
-      link: 
-      tagline: "As Data Curator; No funding sought"
+      role: "As Data Curator and Co Investigator"
+      tagline: "No funding sought"
 
 works:
   - title: Works
@@ -134,7 +137,7 @@ works:
           - title: "CEB data warehouse showcase"
             icon: fas fa-microphone-alt
             legend: Conference Speaking
-            authors: Looaresuwan, P., Ponthongmak, W., Looaresuwan, P., <b>Teza, H.</b>, Ratanatharathom, C., Faramnuayphol, P.
+            authors: Looaresuwan, P., Ponthongmak, W., <b>Teza, H.</b>, Ratanatharathom, C., Faramnuayphol, P.
             venue: "Ramathibodi International Academic Conference (RIAC 2023), Mahidol University, Bangkok, Thailand"
             sources:
               - text: schedule
