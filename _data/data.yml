@@ -133,6 +133,12 @@ works:
       - year: 2023
         papers:
 
+          - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
+            icon: fas fa-newspaper
+            legend: Academic Manuscript
+            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
+            venue: "The Surgeon; Journal of the Royal Colleges of Surgeons of Edinburgh and Ireland"
+
           - title: "CEB data warehouse showcase"
             icon: fas fa-microphone-alt
             legend: Conference Speaking
@@ -251,10 +257,6 @@ works:
 
       - year: Under Review
         papers:
-          - title: "External validation and revision of Penn incisional hernia prediction model: A retrospective cohort study"
-            icon: fas fa-newspaper
-            legend: Academic Manuscript
-            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., Thakkinstian, A.
 
           - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
             icon: fas fa-newspaper
