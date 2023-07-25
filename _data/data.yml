@@ -138,6 +138,9 @@ works:
             legend: Academic Manuscript
             authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., McKay, G., Attia, J., Sumritpradit, P., Thakkinstian, A.
             venue: "The Surgeon; Journal of the Royal Colleges of Surgeons of Edinburgh and Ireland"
+            sources:
+              - text: preproof
+                url: "/assets/docs/2023_External validation and revision of Penn incisional hernia prediction model A large-scale retrospective cohort of abdominal operations.pdf"
 
           - title: "CEB data warehouse showcase"
             icon: fas fa-microphone-alt
