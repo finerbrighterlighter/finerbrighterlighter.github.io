@@ -12,8 +12,8 @@ This project in particular was memorable for me that my responsibility was solel
 
 While the original model yielded fair performance with our dataset, we updated the model to improved discrimination and calibration performance. While it is a given that both the original and revised model require additional validation and necessary revision for other populations, we hope our study would help identify patients at increased risk of incisional hernia and provide improved clinical care for those in need of targeted intervention.
 
-The abstract and full text will be online in a few weeks, and mirrored on this site. If you are interested in working on this cohort, requests for access can be directed to https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Submittheproposal.
+The abstract and full text will be online in a few weeks, and mirrored on this site. If you are interested in working on this cohort, requests for access can be directed [here](https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Submittheproposal).
 
 <div id="gallery">
-	<img src="/assets/photos/second_publication1.jpeg” title="Acceptance Email" alt="Acceptance Email"/>
+	<img src="/assets/photos/second_publication1.jpeg" title="Acceptance Email" alt="Acceptance Email"/>
 </div>
