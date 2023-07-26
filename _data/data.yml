@@ -25,7 +25,7 @@ sidebar:
   stack-overflow: 12473607/hteza # Number/Username, e.g. 123456/alandoe
   linkedin: htunteza
   vcard: hteza.vcf #place a vcf file inside /assets/general/ folder and provide the name of the file below
-  cv: "https://www.rama.mahidol.ac.th/ceb/sites/default/files/public/pdf/cv/2022/06-2022/Htun%20%2827%20June%202022%29.pdf"
+  cv: "assets/general/CV_htunteza_230726.pdf"
 
   languages:
     title: Languages
@@ -136,7 +136,7 @@ works:
           - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
             icon: fas fa-newspaper
             legend: Academic Manuscript
-            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., McKay, G., Attia, J., Sumritpradit, P., Thakkinstian, A.
+            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., McKay, G.J., Attia, J., Sumritpradit, P., Thakkinstian, A.
             venue: "The Surgeon; Journal of the Royal Colleges of Surgeons of Edinburgh and Ireland"
             sources:
               - text: preproof
