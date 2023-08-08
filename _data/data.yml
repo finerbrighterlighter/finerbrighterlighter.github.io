@@ -141,7 +141,10 @@ works:
             authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., McKay, G.J., Attia, J., Sumritpradit, P., Thakkinstian, A.
             venue: "The Surgeon"
             sources:
-              - text: preproof
+              - text: fulltext
+                url: "https://doi.org/10.1016/j.surge.2023.07.008"
+
+              - text: proof
                 url: "/assets/docs/2023_External validation and revision of Penn incisional hernia prediction model A large-scale retrospective cohort of abdominal operations.pdf"
 
           - title: "CEB data warehouse showcase"
