@@ -140,6 +140,7 @@ works:
             legend: Academic Manuscript
             authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., McKay, G.J., Attia, J., Sumritpradit, P., Thakkinstian, A.
             venue: "The Surgeon"
+            scholar: "zYLM7Y9cAGgC"
             sources:
               - text: fulltext
                 url: "https://doi.org/10.1016/j.surge.2023.07.008"
