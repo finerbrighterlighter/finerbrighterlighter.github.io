@@ -18,12 +18,12 @@ sidebar:
   location: bangkok # the name after https://time.is/
   website: ceb-rama.org
   twitter:
-  mastodon: fine
+  mastodon: 
   orcid: 0000-0002-1076-9513 # only orcid 16 digits
-  scholar: 7waEOqcAAAAJ&hl=en # the key after https://scholar.google.com/citations?user=
-  github: finerbrighterlighter
-  stack-overflow: 12473607/hteza # Number/Username, e.g. 123456/alandoe
-  linkedin: htunteza
+  scholar:  # the key after https://scholar.google.com/citations?user=
+  github: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  linkedin: 
   vcard: hteza.vcf #place a vcf file inside /assets/general/ folder and provide the name of the file below
   cv: "assets/general/CV_htunteza_230726.pdf"
 
