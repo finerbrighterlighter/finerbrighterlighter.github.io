@@ -17,6 +17,7 @@ sidebar:
   area: asia # IANA tz database name, e.g. America/New_York
   location: bangkok # the name after https://time.is/
   website: ceb-rama.org
+  websitename: CEB-RAMA-MU
   twitter:
   mastodon: 
   orcid: 0000-0002-1076-9513 # only orcid 16 digits
