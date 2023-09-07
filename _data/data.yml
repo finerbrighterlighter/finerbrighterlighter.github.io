@@ -111,12 +111,12 @@ projects:
       role: "As Data Manager"
       tagline: "for Faculty of Medicine Ramathibodi Hospital"
 
-    - title: CEB Data Warehouse; Hypertension Theme
+    - title: CEB Data Warehouse's Hypertension Theme
       link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/HT"
       role: "As Data Manager and Co Investigator"
       tagline: "funded by National Research Council of Thailand (NRCT)"
 
-    - title: CEB Data Warehouse; Surgery Theme
+    - title: CEB Data Warehouse's Surgery Theme
       link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/Surgery"
       role: "As Data Manager and Co Investigator"
       tagline: "funded by National Research Council of Thailand (NRCT)"
