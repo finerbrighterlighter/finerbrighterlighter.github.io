@@ -1,5 +1,20 @@
 <head>
-  <title>{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  
+  {% capture description %}
+  {% if page.url contains '/posts' %}
+    {% if page.url != '/posts' and page.url != '/posts/' and page.url != '/posts/#head' %}
+      {{ page.content | split: '<span' | first | markdownify | strip_html }}
+    {% else %}
+      Explore my passions and professional journey. Discover my interests, accomplishments, and career milestones, as I share the story of my diverse experiences and achievements.
+    {% endif %}
+  {% else %}
+    Htun Teza is a Burmese Data Scientist, Research Assistant and Dentist: currently based in Bangkok Thailand.
+  {% endif %}
+  {% endcapture %}
+
+  <meta name="description" content="{{description | strip}}">
+  <meta name="author" content="Htun Teza" />
 
   <!-- Meta -->
   <meta charset="utf-8" />
@@ -8,11 +23,6 @@
   {% endif%}
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Htun Teza is a Burmese Data Scientist, Research Assistant and Dentist: currently based in Bangkok Thailand."
-  />
-  <meta name="author" content="Htun Teza" />
   <meta name="application-name" content="&nbsp;" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="-1" />

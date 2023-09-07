@@ -5,7 +5,7 @@ site.data.data.sidebar.education %}
 
   {% for graduation in education.info %}
   <div class="item">
-    <h4 class="degree">{{ graduation.degree }}</h4>
+    <h4 class="degree"><a href="{{ graduation.diploma }}" target="_blank">{{ graduation.degree }}</a></h4>
     <h5 class="meta">
       <a href="{{ graduation.link }}" target="_blank">
         {{ graduation.university }}
