@@ -44,7 +44,7 @@ function getLastRead(username, media, number, elementID) {
           element.innerHTML +=
             "<a href='" +
             url +
-            "' target='_blank' rel='noreferrer noopener' style='height: 64px;'><img src='" +
+            "' target='_blank' rel='noreferrer noopener' style='height: 64px;'  loading='lazy' decoding='async'><img src='" +
             image +
             "' title='" +
             title.replace(/'/g, "") +
@@ -63,7 +63,7 @@ function getLastRead(username, media, number, elementID) {
           element.innerHTML +=
             "<a href='" +
             url +
-            "' target='_blank' rel='noreferrer noopener' style='height: 64px;'><img src='" +
+            "' target='_blank' rel='noreferrer noopener' style='height: 64px;'  loading='lazy' decoding='async'><img src='" +
             image +
             "' title='" +
             title.replace(/'/g, "") +
@@ -82,7 +82,7 @@ function getLastRead(username, media, number, elementID) {
           element.innerHTML +=
             "<a href='" +
             url +
-            "' target='_blank' rel='noreferrer noopener' style='height: 64px;'><img src='" +
+            "' target='_blank' rel='noreferrer noopener' style='height: 64px;'  loading='lazy' decoding='async'><img src='" +
             image +
             "' title='" +
             title.replace(/'/g, "") +
@@ -99,4 +99,4 @@ function getLastRead(username, media, number, elementID) {
 }
 
 // one page only has 19 titles, so the last one will raise error
-setInterval(getLastRead("finer", "MANGA", 15, "last-read-manga"), 5000);
+setInterval(getLastRead("finer", "MANGA", 10, "last-read-manga"), 5000);

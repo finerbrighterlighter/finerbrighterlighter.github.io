@@ -67,7 +67,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
               element.innerHTML +=
                 "<a href='" +
                 album.url +
-                "' target='_blank' rel='noreferrer noopener' style='height: 64px;'><img src='" +
+                "' target='_blank' rel='noreferrer noopener' style='height: 64px;' loading='lazy' decoding='async'><img src='" +
                 album.image[1]["#text"] +
                 "' title='" +
                 album.artist.name +
