@@ -10,7 +10,6 @@ function getTime(elementID, format) {
     minute: "numeric",
   };
   const formattedTime = date.toLocaleString("en-US", options);
-  console.log(formattedTime)
   element.textContent = formattedTime.split("M")[1] + " (" + formattedTime.split("M")[0] + "M)";
 }
 

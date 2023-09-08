@@ -30,7 +30,7 @@ permalink: /posts/
 			{% assign paragraph = entry.content | split: "<span" %}
 			<div class="details">
 				<p>
-				{{ paragraph[0] }}
+				{{ paragraph[0] | strip_html }}
 				</p>
 			</div><!--//details-->	
 			<hr style="width:30%"/>

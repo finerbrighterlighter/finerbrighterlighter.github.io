@@ -25,7 +25,7 @@
 		<div class="details" style="text-align: justify; text-justify: auto">
 		{% assign paragraph = entry.content | split: "<span" %}
 			<p>
-			{{ paragraph[0] }}
+			{{ paragraph[0]  | strip_html }}
 			</p>
 		</div><!--//details-->
 		
