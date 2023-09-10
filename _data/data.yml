@@ -64,7 +64,8 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Graduate Research Assistant (ผู้ช่วยวิจัย)
+    - role: Graduate Research Assistant
+      role_lan: ผู้ช่วยวิจัย
       time: 2021 - Present
       company: Mahidol University, Thailand
       link: "https://en.wikipedia.org/wiki/Mahidol_University"
@@ -72,7 +73,8 @@ experiences:
         Affiliated under the Data Science and Clinical Informatics division of Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodi Hospital; I perform data extraction, cleaning and engineering of electronic medical records to research ready datasets. I am responsible for two themes under the [CEB Data Warehouse project](https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Overview); Hypertension and Surgery. 
         <br>
 
-    - role: Graduate Student Researcher (นักศึกษาปริญญาโท)
+    - role: Graduate Student Researcher
+      role_lan: นักศึกษาปริญญาโท
       time: 2019 - 2021
       company: Mahidol University, Thailand
       link: "https://en.wikipedia.org/wiki/Mahidol_University"
@@ -81,6 +83,7 @@ experiences:
         <br>
 
     - role: House Officer
+      role_lan: အလုပ်သင်သွားဆရာဝန်
       time: 2018 - 2018
       company: University of Dental Medicine Yangon, Myanmar
       link: "https://en.wikipedia.org/wiki/University_of_Dental_Medicine,_Yangon"
@@ -97,6 +100,7 @@ experiences:
         <br>
 
     - role: Undergraduate Research Assistant
+      role_lan: အလုပ်သင်သွားဆရာဝန်
       time: 2018 - 2018
       company: University of Dental Medicine Yangon, Myanmar
       link: "https://en.wikipedia.org/wiki/University_of_Dental_Medicine,_Yangon"

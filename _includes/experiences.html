@@ -26,7 +26,9 @@
         <!--//upper-row-->
 
         <div class="company">
-          <a href="{{" experience.link }} target="_blank"
+          {% if experience.role_lan %}
+          <i id="hideblock">{{experience.role_lan}} at </i> {% endif %}
+          <a href={{ experience.link }} target="_blank"
             >{{ experience.company }}</a
           >
         </div>
@@ -53,7 +55,9 @@
         <!--//upper-row-->
 
         <div class="company">
-          <a href="{{" experience.link }} target="_blank"
+          {% if experience.role_lan %}
+          <i id="hideblock">{{experience.role_lan}} at </i> {% endif %}
+          <a href={{ experience.link }} target="_blank"
             >{{ experience.company }}</a
           >
         </div>
