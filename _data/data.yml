@@ -142,6 +142,16 @@ works:
       - year: 2023
         papers:
 
+          - title: "CEB data warehouse showcase"
+            icon: fas fa-microphone-alt
+            legend: Conference Speaking
+            authors: Looaresuwan, P., Ponthongmak, W., <b>Teza, H.</b>, Ratanatharathom, C., Saowaprut, P., Wabina, RS
+            venue: "Ramathibodi International Academic Conference (RIAC 2023), Bangkok Marriott Marquis Queen’s Park, Bangkok, Thailand"
+            sources:
+              - text: schedule
+                url: https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_12-7-66.pdf
+
+
           - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
             icon: fas fa-newspaper
             legend: Academic Manuscript
@@ -157,15 +167,6 @@ works:
 
               - text: proof
                 url: "/assets/docs/2023_External validation and revision of Penn incisional hernia prediction model A large-scale retrospective cohort of abdominal operations.pdf"
-
-          - title: "CEB data warehouse showcase"
-            icon: fas fa-microphone-alt
-            legend: Conference Speaking
-            authors: Looaresuwan, P., Ponthongmak, W., <b>Teza, H.</b>, Ratanatharathom, C., Faramnuayphol, P.
-            venue: "Ramathibodi International Academic Conference (RIAC 2023), Bangkok Marriott Marquis Queen’s Park, Bangkok, Thailand"
-            sources:
-              - text: schedule
-                url: https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_12-7-66.pdf
 
           - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
             icon: fas fa-chalkboard
