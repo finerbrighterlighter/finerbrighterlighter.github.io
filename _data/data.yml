@@ -149,7 +149,11 @@ works:
             venue: "Ramathibodi International Academic Conference (RIAC 2023), Bangkok Marriott Marquis Queen’s Park, Bangkok, Thailand"
             sources:
               - text: schedule
-                url: https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_12-7-66.pdf
+                url: /assets/docs/RIAC2023/RIAC2023_itinerary.pdf
+              - text: slides1
+                url: /assets/docs/RIAC2023/RIAC2023_hypertension.pdf
+              - text: slides2
+                url: /assets/docs/RIAC2023/RIAC2023_imputation.pdf
 
 
           - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
@@ -222,7 +226,7 @@ works:
               - text: event details
                 url: "https://htunteza.com/posts/moh_ncd/#head"
               
-              - text: mirror
+              - text: slides
                 url: "/assets/docs/mohammsc.pdf"
             
 
