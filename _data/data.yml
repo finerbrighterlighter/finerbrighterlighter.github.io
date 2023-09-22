@@ -149,7 +149,7 @@ works:
             venue: "Ramathibodi International Academic Conference (RIAC 2023), Bangkok Marriott Marquis Queen’s Park, Bangkok, Thailand"
             sources:
               - text: schedule
-                url: /assets/docs/RIAC2023/RIAC2023_itinerary.pdf
+                url: https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_4-9-23.pdf
               - text: slides1
                 url: /assets/docs/RIAC2023/RIAC2023_hypertension.pdf
               - text: slides2
