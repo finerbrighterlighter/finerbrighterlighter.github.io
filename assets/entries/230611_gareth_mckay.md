@@ -4,6 +4,7 @@ title: Dr. Gareth J McKay's visit
 permalink: /posts/dr_gareth_mckay_visit/
 time: 11th June, 2023
 company: Mahidol University, Thailand
+image: /assets/photos/gareth_mckay-6.jpg
 ---
 
 CEB-RAMA-MU hosted a visiting scholar and a frequent collaborator of the department, Dr. Gareth J Mckay from Queen's University Belfast. <span /> Dr. McKay has co-authored over thirty papers with different working groups of CEB since 2011.

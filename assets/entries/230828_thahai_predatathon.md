@@ -4,6 +4,7 @@ title: Thailand Health AI Pre Datathon Workshop
 permalink: /posts/thahai_predatathon/
 time: 28th August, 2023
 company: Khon Kaen University, Thailand
+image: /assets/photos/thahai_predatathon-3.jpg
 ---
 
 [Khon Kaen University](https://kku.ac.th/), in collaboration with the [Faculty of Medicine Ramathibodi Hospital](https://www.rama.mahidol.ac.th/) and [Faculty of Medicine Siriraj Hospital](https://si.mahidol.ac.th/) at [Mahidol University](https://mahidol.ac.th/), is hosting the first [Thailand Health AI Datathon](https://web.facebook.com/thaidatathon2023) from October 3 to 6, 2023. According to Professor [Feng Menglin](https://www.mornin-feng.com/) from the National University of Singapore, this will be the 50th Health AI Datathon in the world. <span />

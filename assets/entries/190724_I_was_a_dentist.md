@@ -4,6 +4,7 @@ title: I was a dentist
 permalink: /posts/I_was_a_dentist/
 time: 19th July, 2019
 company: University of Dental Medicine Yangon, Myanmar
+image: /assets/photos/bds_house (8).JPG
 ---
 
 Just what the title says. These are photos from when I was a dentist. I am no longer a general practitioner, and my current field of work is growing further from it. So, they are here just to remind myself that I did do 6 years of Dental School. <span />
