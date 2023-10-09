@@ -1,6 +1,13 @@
 <head>
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   
+  {% capture title %}
+  {% if page.title %}
+    {{ page.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+  {% endcapture %}
+
   {% capture description %}
   {% if page.url contains '/posts' %}
     {% if page.url != '/posts' and page.url != '/posts/' and page.url != '/posts/#head' %}
@@ -15,9 +22,36 @@
   {% endif %}
   {% endcapture %}
 
+  {% capture image %}
+  {% if page.image %}
+    {{ page.image }}
+  {% else %}
+    /assets/general/profiles/profile%20(1).jfif
+  {% endif %}
+  {% endcapture %}
+
+  {% capture type %}
+  {% if page.url contains '/posts' %}
+    {% if page.url != '/posts' and page.url != '/posts/' and page.url != '/posts/#head' %}
+      article
+    {% else %}
+      website
+    {% endif %}
+  {% else %}
+    website
+  {% endif %}
+  {% endcapture %}
+
+  <title>{{title}}</title>
   <meta name="description" content="{{description | strip}}">
   <meta name="author" content="Htun Teza" />
-
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{title | strip}}" />
+  <meta property="og:description" content="{{description | strip}}" />
+  <meta property="og:image" content="{{image  | strip}}" />
+  <meta property="og:type" content="{{type  | strip}}" />
+  
   <!-- Meta -->
   <meta charset="utf-8" />
   {% if site.chrome_mobile_color %}

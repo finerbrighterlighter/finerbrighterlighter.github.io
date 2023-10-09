@@ -4,6 +4,7 @@ title: Thailand Health AI Conference & Datathon 2023
 permalink: /posts/thahai_datathon/
 time: 3rd-6th October, 2023
 company: Khon Kaen University, Thailand
+image: /assets/photos/THAI_datathon/mentors-3.WEBP
 ---
 
 With the support of the Faculty of Medicine Ramathibodi Hospital and Khon Kaen University, I had the privilege of participating in the [Thailand Health AI Conference and Datathon 2023](https://web.archive.org/web/20231006064810/https://datathonthailand.org/), held from October 3rd to 6th. My involvement in curating one of the event's cohorts earned me an invitation to share my experiences and provide guidance as a mentor. <span /> 
