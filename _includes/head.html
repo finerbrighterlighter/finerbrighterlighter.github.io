@@ -42,6 +42,15 @@
   {% endif %}
   {% endcapture %}
 
+  {% assign home = "https://htunteza.com" %}
+  {% capture url %}
+  {% if page.permalink %}
+    {{ home }}{{ page.permalink }}
+  {% else %}
+    {{ home }}
+  {% endif %}
+  {% endcapture %}
+
   <title>{{title}}</title>
   <meta name="description" content="{{description | strip}}">
   <meta name="author" content="Htun Teza" />
@@ -50,6 +59,7 @@
   <meta property="og:title" content="{{title | strip}}" />
   <meta property="og:description" content="{{description | strip}}" />
   <meta property="og:image" content="{{image  | strip}}" />
+  <meta property="og:url" content="{{url  | strip}}" />
   <meta property="og:type" content="{{type  | strip}}" />
   
   <!-- Meta -->
