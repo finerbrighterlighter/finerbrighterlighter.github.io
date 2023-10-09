@@ -22,14 +22,6 @@
   {% endif %}
   {% endcapture %}
 
-  {% capture image %}
-  {% if page.image %}
-    {{ page.image }}
-  {% else %}
-    /assets/general/profiles/profile%20(1).jfif
-  {% endif %}
-  {% endcapture %}
-
   {% capture type %}
   {% if page.url contains '/posts' %}
     {% if page.url != '/posts' and page.url != '/posts/' and page.url != '/posts/#head' %}
@@ -43,6 +35,14 @@
   {% endcapture %}
 
   {% assign home = "https://htunteza.com" %}
+  {% capture image %}
+  {% if page.image %}
+    {{ home }}{{ page.image }}
+  {% else %}
+    /assets/general/profiles/profile%20(1).jfif
+  {% endif %}
+  {% endcapture %}
+
   {% capture url %}
   {% if page.permalink %}
     {{ home }}{{ page.permalink }}
