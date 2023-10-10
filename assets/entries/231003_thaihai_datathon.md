@@ -117,3 +117,5 @@ My hope is that every participant derived as much enjoyment and fulfillment from
 </div>
 <br/><br/>
 
+See the recap of the event [here](https://www.youtube.com/watch?v=wCVkSGJEu30) (*in Thai*).
+
