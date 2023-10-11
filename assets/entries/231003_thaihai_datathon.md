@@ -88,17 +88,17 @@ The mentors of the Datathon consistently emphasized the need to exercise caution
 
 #### Mentorship
 
-In the realm of mentorship, Dr. Michael G. Moley emerged as a beacon of inspiration for me. With a lifelong career as a clinician and ophthalmologist, Dr. Moley embarked on a recent journey into the realm of real-world data research. I had the privilege of shadowing him as a local mentor for his team, and I was profoundly impressed by his open-minded approach, despite his extensive experience in medical practice and research. Dr. Moley readily acknowledged that real-world data research is a rapidly evolving field, and he remained humble about the extent of his knowledge. Consequently, he was not only willing but eager to listen to the diverse ideas and perspectives that his team brought to the table.
+In the realm of mentorship, Dr. Michael G. Morley emerged as a beacon of inspiration for me. With a lifelong career as a clinician and ophthalmologist, Dr. Morley embarked on a recent journey into the realm of real-world data research. I had the privilege of shadowing him as a local mentor for his team, and I was profoundly impressed by his open-minded approach, despite his extensive experience in medical practice and research. Dr. Morley readily acknowledged that real-world data research is a rapidly evolving field, and he remained humble about the extent of his knowledge. Consequently, he was not only willing but eager to listen to the diverse ideas and perspectives that his team brought to the table.
 
 <div id="gallery">
 	<img class="landscape" src="/assets/photos/THAI_datathon/mentors-5.webp" title="with Dr Michael Morley" alt="with Dr Michael Morley"/>
 </div>
 <br/><br/>
 
-Dr. Moley's team consisted entirely of enthusiastic but early-stage researchers, which initially presented a notable lack of direction on the first day of the Datathon. However, Dr. Moley swiftly stepped in to discern the team's objectives and establish a framework that allowed them to develop the information necessary to fulfill those objectives. He wholeheartedly valued the incremental progress his team made, no matter how modest it might have seemed. Driven by his powerful positive reinforcement, his team, including myself, found ourselves motivated to achieve our best.
+Dr. Morley's team consisted entirely of enthusiastic but early-stage researchers, which initially presented a notable lack of direction on the first day of the Datathon. However, Dr. Morley swiftly stepped in to discern the team's objectives and establish a framework that allowed them to develop the information necessary to fulfill those objectives. He wholeheartedly valued the incremental progress his team made, no matter how modest it might have seemed. Driven by his powerful positive reinforcement, his team, including myself, found ourselves motivated to achieve our best.
 <br/><br/>
 
-At the culmination of the Datathon, Dr. Moley's guidance and leadership bore fruit as his team secured the second runner-up position. This experience of mentoring a group of undergraduate computer engineers, coupled with Dr. Moley's profound influence, left me contemplating unexplored desires within myself. It sparked a question about whether I had uncovered a latent aspiration to become a lecturer, further fueling my commitment to the path of mentorship and education.
+At the culmination of the Datathon, Dr. Morley's guidance and leadership bore fruit as his team secured the second runner-up position. This experience of mentoring a group of undergraduate computer engineers, coupled with Dr. Morley's profound influence, left me contemplating unexplored desires within myself. It sparked a question about whether I had uncovered a latent aspiration to become a lecturer, further fueling my commitment to the path of mentorship and education.
 
 <div id="gallery">
 	<img class="landscape" src="/assets/photos/THAI_datathon/Team_HT-4.webp" title="Team Hypertension 4" alt="Team Hypertension 4"/>
