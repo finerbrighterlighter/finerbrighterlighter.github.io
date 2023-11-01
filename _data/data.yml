@@ -142,6 +142,22 @@ works:
       - year: 2023
         papers:
 
+          - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
+            icon: fas fa-newspaper
+            legend: Academic Manuscript
+            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
+            venue: " JMIR Formative Research"
+            scholar:
+            sources:
+              - text: pubmed
+                url: 
+
+              - text: fulltext
+                url: "https://doi.org/10.2196/48351"
+
+              - text: proof
+                url: 
+
           - title: "CEB data warehouse showcase"
             icon: fas fa-microphone-alt
             legend: Conference Speaking
@@ -169,7 +185,7 @@ works:
               - text: fulltext
                 url: "https://doi.org/10.1016/j.surge.2023.07.008"
 
-              - text: proof
+              - text: corrected proof
                 url: "/assets/docs/2023_External validation and revision of Penn incisional hernia prediction model A large-scale retrospective cohort of abdominal operations.pdf"
 
           - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
@@ -284,11 +300,6 @@ works:
 
       - year: Under Review
         papers:
-
-          - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
-            icon: fas fa-newspaper
-            legend: Academic Manuscript
-            authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
 
 footer: >
   Designed with <i class="fas fa-heart" style="color: #4B6A78;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | 
