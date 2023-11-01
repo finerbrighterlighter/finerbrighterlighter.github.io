@@ -149,14 +149,8 @@ works:
             venue: " JMIR Formative Research"
             scholar:
             sources:
-              - text: pubmed
-                url: 
-
-              - text: fulltext
+              - text: fulltext (not activated)
                 url: "https://doi.org/10.2196/48351"
-
-              - text: proof
-                url: 
 
           - title: "CEB data warehouse showcase"
             icon: fas fa-microphone-alt
@@ -185,7 +179,7 @@ works:
               - text: fulltext
                 url: "https://doi.org/10.1016/j.surge.2023.07.008"
 
-              - text: corrected proof
+              - text: mirror
                 url: "/assets/docs/2023_External validation and revision of Penn incisional hernia prediction model A large-scale retrospective cohort of abdominal operations.pdf"
 
           - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
