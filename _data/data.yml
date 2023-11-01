@@ -151,6 +151,9 @@ works:
             sources:
               - text: fulltext (not activated)
                 url: "https://doi.org/10.2196/48351"
+              - text: Preprint
+                url: "https://preprints.jmir.org/preprint/48351"
+
               - text: mirror
                 url: "/assets/docs/2023_ Development of Risk Prediction Models for Severe Periodontitis in a Thai Population Statistical and Machine-Learning Approaches.pdf"
 
