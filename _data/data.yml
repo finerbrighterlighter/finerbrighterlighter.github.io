@@ -142,7 +142,7 @@ works:
       - year: 2023
         papers:
 
-          - title: "Development of Risk Prediction Models by Statistical and Machine Learning approaches for Severe Periodontitis in a Thai Population"
+          - title: "Development of Risk Prediction Models for Severe Periodontitis in a Thai Population: Statistical and Machine-Learning Approaches"
             icon: fas fa-newspaper
             legend: Academic Manuscript
             authors: <b>Teza, H.</b>, Pattanateepapon, A., Lertpimonchai, A., Vathesatogkit, P., McKay, G.J., Attia, J., Thakkinstian, A.
