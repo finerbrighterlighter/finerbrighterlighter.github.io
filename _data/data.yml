@@ -149,13 +149,13 @@ works:
             venue: " JMIR Formative Research"
             scholar:
             sources:
-              - text: fulltext (not activated)
+              - text: fulltext
                 url: "https://doi.org/10.2196/48351"
               - text: Preprint
                 url: "https://preprints.jmir.org/preprint/48351"
 
               - text: mirror
-                url: "/assets/docs/2023_ Development of Risk Prediction Models for Severe Periodontitis in a Thai Population Statistical and Machine-Learning Approaches.pdf"
+                url: "/assets/docs/2023_Development of Risk Prediction Models for Severe Periodontitis in a Thai Population Statistical and Machine-Learning Approaches.pdf"
 
           - title: "CEB data warehouse showcase"
             icon: fas fa-microphone-alt
@@ -164,11 +164,11 @@ works:
             venue: "Ramathibodi International Academic Conference (RIAC 2023), Bangkok Marriott Marquis Queen’s Park, Bangkok, Thailand"
             sources:
               - text: schedule
-                url: https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_4-9-23.pdf
+                url: "https://riac.onvirtual-meeting.com/Scientific%20Program%20RIAC2023_4-9-23.pdf"
               - text: slides1
-                url: /assets/docs/RIAC2023/RIAC2023_hypertension.pdf
+                url: "/assets/docs/RIAC2023/RIAC2023_hypertension.pdf"
               - text: slides2
-                url: /assets/docs/RIAC2023/RIAC2023_imputation.pdf
+                url: "/assets/docs/RIAC2023/RIAC2023_imputation.pdf"
 
 
           - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
