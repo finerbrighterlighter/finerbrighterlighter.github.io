@@ -26,7 +26,7 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   linkedin: 
   vcard: hteza.vcf #place a vcf file inside /assets/general/ folder and provide the name of the file below
-  cv: "assets/general/CV_htunteza_230907.pdf"
+  cv: "assets/general/cv_htunteza.pdf"
 
   languages:
     title: Languages
