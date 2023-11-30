@@ -114,6 +114,7 @@ My hope is that every participant derived as much enjoyment and fulfillment from
 
 <div id="gallery">
 	<img class="landscape" src="/assets/photos/THAI_datathon/Team_HT-2.webp" title="Team Hypertension 2" alt="Team Hypertension 2"/>
+	<img class="landscape" src="/assets/photos/THAI_datathon/cert_datathon.webp" title="Certificate of Mentorship" alt="Certificate of Mentorship"/>
 </div>
 <br/><br/>
 
