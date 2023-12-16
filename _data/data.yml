@@ -149,10 +149,11 @@ works:
             venue: " JMIR Formative Research"
             scholar:
             sources:
+              - text: pubmed
+                url: "https://pubmed.ncbi.nlm.nih.gov/38096008/"
+
               - text: fulltext
                 url: "https://doi.org/10.2196/48351"
-              - text: Preprint
-                url: "https://preprints.jmir.org/preprint/48351"
 
               - text: mirror
                 url: "/assets/docs/2023_Development of Risk Prediction Models for Severe Periodontitis in a Thai Population Statistical and Machine-Learning Approaches.pdf"
