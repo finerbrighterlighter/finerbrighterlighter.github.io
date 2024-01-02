@@ -47,9 +47,9 @@ function lastFM_request(method, username, API_key, number, elementID) {
               '&nbsp<a href="' +
               songURL +
               '" target="_blank" rel="noreferrer noopener">' +
-              artistName +
+              artistName.replace(/'/g, '"') +
               " - " +
-              songName +
+              songName.replace(/'/g, '"') +
               "</a> ";
 
             if (track["@attr"] && track["@attr"].nowplaying !== "") {
@@ -70,13 +70,13 @@ function lastFM_request(method, username, API_key, number, elementID) {
                 "' target='_blank' rel='noreferrer noopener' style='height: 64px;' loading='lazy' decoding='async'><img src='" +
                 album.image[1]["#text"] +
                 "' title='" +
-                album.artist.name +
+                album.artist.name.replace(/'/g, '"') + // single quotes mean something here, so single quotes in string are replaced by double quotes
                 " - " +
-                album.name +
+                album.name.replace(/'/g, '"') +
                 " - " +
                 album.playcount +
                 " plays' alt='" +
-                album.artist.name +
+                album.artist.name.replace(/'/g, '"') +
                 " - " +
                 album.name +
                 "';/>";
@@ -92,11 +92,11 @@ function lastFM_request(method, username, API_key, number, elementID) {
               "' target='_blank' rel='noreferrer noopener'><img src='" +
               artist.image[1]["#text"] +
               "' title='" +
-              artist.name +
+              artist.name.replace(/'/g, '"') +
               " - " +
               artist.playcount +
               " plays' alt='" +
-              artist.name +
+              artist.name.replace(/'/g, '"') +
               " - " +
               artist.playcount +
               " plays';/>";
