@@ -112,6 +112,12 @@ projects:
   title: Projects
   assignments:
 
+    - title: Development of database for cohort of hypertensive patients in multi-institutions
+      link:
+      role: "As Data Manager and Co Investigator"
+      tagline: Collboration across Ramathibodi Hospital, Siriraj Hospital, Faculty of Medicine, *Mahidol University* and Srinagarind Hospital, Faculty of Medicine, *Khon Kaen University*
+
+
     - title: Thailand Health AI Datathon 2023
       link: "https://web.archive.org/web/20231006064810/https://datathonthailand.org/"
       role: "As Data Manager and Local Mentor"
