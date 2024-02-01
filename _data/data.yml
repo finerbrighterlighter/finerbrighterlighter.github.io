@@ -114,7 +114,7 @@ projects:
 
     - title: Development of multi-center cohort for hypertensive patients
       link:
-      role: "As Data Manager and Co Investigator"
+      role: "As Data Manager"
       tagline: "Collboration across Ramathibodi Hospital and Siriraj Hospital of Mahidol University, Srinagarind Hospital of Khon Kaen University"
 
     - title: Uncertainty-aware Missing Data Inputation methods for Real World Data
