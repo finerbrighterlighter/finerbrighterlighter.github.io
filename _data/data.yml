@@ -149,6 +149,25 @@ works:
   - title: Works
     icon: fa-file-alt
     years:
+      - year: 2024
+        papers:
+
+          - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
+            icon: fas fa-newspaper
+            legend: Academic Manuscript
+            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., McKay, G.J., Attia, J., Sumritpradit, P., Thakkinstian, A.
+            venue: "Surgeon"
+            scholar: "zYLM7Y9cAGgC"
+            sources:
+              - text: pubmed
+                url: "https://pubmed.ncbi.nlm.nih.gov/37558540/"
+
+              - text: fulltext
+                url: "https://doi.org/10.1016/j.surge.2023.07.008"
+
+              - text: mirror
+                url: "/assets/docs/2023_External validation and revision of Penn incisional hernia prediction model A large-scale retrospective cohort of abdominal operations.pdf"
+
       - year: 2023
         papers:
 
@@ -180,23 +199,6 @@ works:
                 url: "/assets/docs/RIAC2023/RIAC2023_hypertension.pdf"
               - text: slides2
                 url: "/assets/docs/RIAC2023/RIAC2023_imputation.pdf"
-
-
-          - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
-            icon: fas fa-newspaper
-            legend: Academic Manuscript
-            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Pattanateepapon, A., Piebpien, P., Poprom, N., Techaponsatorn, S., McKay, G.J., Attia, J., Sumritpradit, P., Thakkinstian, A.
-            venue: "Surgeon"
-            scholar: "zYLM7Y9cAGgC"
-            sources:
-              - text: pubmed
-                url: "https://pubmed.ncbi.nlm.nih.gov/37558540/"
-
-              - text: fulltext
-                url: "https://doi.org/10.1016/j.surge.2023.07.008"
-
-              - text: mirror
-                url: "/assets/docs/2023_External validation and revision of Penn incisional hernia prediction model A large-scale retrospective cohort of abdominal operations.pdf"
 
           - title: "Hypertension and Its Associated Complications: A Thai Real-World Clinical Cohort"
             icon: fas fa-chalkboard
