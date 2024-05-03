@@ -1,11 +1,9 @@
 const clientId = '9828398c3af61bce1a65a58d2e4d5f16e365486b27efb125a87d699c590467b4'; // Replace this with your actual Client ID
-const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 const apiUrl = `https://api.trakt.tv/users/{username}/watched/{type}`;
 const tmdbApiKey = 'a92e5943352e9146b887de7d871ee4aa'; // Replace this with your actual TMDb API key
 
 
 async function fetchData(username, type) {
-    // const url = `${proxyUrl}${apiUrl.replace('{username}', username).replace('{type}', type)}`;
     const url = `${apiUrl.replace('{username}', username).replace('{type}', type)}`;
     const response = await fetch(url, {
         headers: {
