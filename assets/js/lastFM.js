@@ -108,25 +108,5 @@ function lastFM_request(method, username, API_key, number, elementID) {
   xmlhttp.send(null); // Close connection
 }
 
-setInterval(
-  function() {
-  lastFM_request(
-    "user.getrecenttracks",
-    "fibrili",
-    "c0674923fe24ec9a2ec6b60ef3d73ff3",
-    "1",
-    "lasttrack"
-  );},
-  30000
-);
-setInterval(
-  function() {
-  lastFM_request(
-    "user.gettopalbums",
-    "fibrili",
-    "c0674923fe24ec9a2ec6b60ef3d73ff3",
-    "10",
-    "topalbums"
-  );},
-  30000
-);
+lastFM_request("user.getrecenttracks","fibrili","c0674923fe24ec9a2ec6b60ef3d73ff3","1", "lasttrack");
+lastFM_request("user.gettopalbums","fibrili","c0674923fe24ec9a2ec6b60ef3d73ff3","10","topalbums");
