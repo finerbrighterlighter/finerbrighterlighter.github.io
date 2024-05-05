@@ -117,7 +117,7 @@ setInterval(
     "1",
     "lasttrack"
   );},
-  5000
+  30000
 );
 setInterval(
   function() {
@@ -128,5 +128,5 @@ setInterval(
     "10",
     "topalbums"
   );},
-  5000
+  30000
 );
