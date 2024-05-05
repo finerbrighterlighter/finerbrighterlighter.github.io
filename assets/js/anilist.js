@@ -99,4 +99,4 @@ function getLastRead(username, media, number, elementID) {
 }
 
 // one page only has 19 titles, so the last one will raise error
-setInterval(function(){getLastRead("finer", "MANGA", 10, "last-read-manga");}, 5000);
+getLastRead("finer", "MANGA", 10, "last-read-manga");
