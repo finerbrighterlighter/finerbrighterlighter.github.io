@@ -120,7 +120,7 @@ async function displayShows(shows, number, elementID) {
     }
 }
 
-setInterval(loadWatchedData('hteza', 10, 'last-watched'), 5000);
+setInterval(function(){loadWatchedData('hteza', 10, 'last-watched');}, 30000);
 /*
 document.addEventListener('DOMContentLoaded', function() {
     loadWatchedData('hteza', 10, 'last-watched');
