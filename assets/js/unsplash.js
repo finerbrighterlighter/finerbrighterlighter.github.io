@@ -26,12 +26,4 @@ function getunsplash(username, accessKey, number, elementID) {
     });
 }
 
-setInterval(
-  getunsplash(
-    "finerbrighterlighter",
-    "bQGcIoNwvjNVym1Dr-50ReObTxnIU_D4_oMy6XgRIaM",
-    10,
-    "latestimage"
-  ),
-  5000
-);
+getunsplash("finerbrighterlighter","bQGcIoNwvjNVym1Dr-50ReObTxnIU_D4_oMy6XgRIaM",10,"latestimage");
