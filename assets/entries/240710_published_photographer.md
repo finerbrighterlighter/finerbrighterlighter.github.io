@@ -3,7 +3,7 @@ layout: entries
 title: Published Photographer
 permalink: /posts/published_photographer/
 time: 10th July, 2024
-company: 
+company: Personal Update
 image: /assets/photos/published_photographer/cover.webp
 ---
 
