@@ -8,7 +8,7 @@ function getLastRead(username, media, number, elementID) {
         username +
         `" , type: ` +
         media +
-        `, sort: [UPDATED_TIME_DESC]) {
+        `, status:CURRENT, sort: [UPDATED_TIME_DESC]) {
             lists {
               entries {
                 media {

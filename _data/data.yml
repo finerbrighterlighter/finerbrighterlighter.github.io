@@ -320,6 +320,15 @@ works:
 
       - year: Under Review
         papers:
+          - title: "Effects of sodium-glucose cotransporter-2 inhibitors on chronic kidney disease progression: A multi-state parametric survival model"
+            icon: fas fa-newspaper
+            legend: Academic Publication
+            authors: Tansawet, A., Numthavaj, P., <b>Teza, H.</b>, Boongird, S., et al.
+          
+          - title: "Uncertainty Aware Approach for Multiple Imputation Using Conventional and Machine Learning Models: A Real-World Data Study"
+            icon: fas fa-newspaper
+            legend: Academic Publication
+            authors: Wabina, R.S., <b>Teza, H.</b>, et al.
 
 footer: >
   Designed with <i class="fas fa-heart" style="color: #4B6A78;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | 
