@@ -157,8 +157,17 @@ works:
             legend: Academic Manuscript
             authors: Tansawet, A., Looareesuwan, P., <b>Teza, H.</b>, Boongrid, S., McKay, G.J., Attia, J., Pattanaprateep, O., Thakkinstian, A.
             venue: "Diabetology & Metabolic Syndrome"
-            scholar: 
+            scholar: "Y0pCki6q_DkC" 
             sources:
+              - text: pubmed
+                url: 
+
+              - text: fulltext
+                url: "https://doi.org/10.1186/s13098-024-01522-6"
+
+              - text: mirror
+                url: "/assets/docs/2024_Effects of sodium-glucose cotransporter-2 inhibitors on chronic kidney disease progression a multi-state survival model.pdf"
+
 
           - title: "External validation and revision of Penn incisional hernia prediction model: A large-scale retrospective cohort of abdominal operations"
             icon: fas fa-newspaper
