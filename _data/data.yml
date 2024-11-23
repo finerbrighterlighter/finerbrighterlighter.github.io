@@ -113,7 +113,7 @@ projects:
   assignments:
 
     - title: Development of multi-center cohort for hypertensive patients
-      link:
+      link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/muticenter/ht"
       role: "As Data Manager"
       tagline: "Collboration across Ramathibodi Hospital and Siriraj Hospital of Mahidol University, Srinagarind Hospital of Khon Kaen University"
 
@@ -159,8 +159,6 @@ works:
             venue: "Diabetology & Metabolic Syndrome"
             scholar: "Y0pCki6q_DkC" 
             sources:
-              - text: pubmed
-                url: 
 
               - text: fulltext
                 url: "https://doi.org/10.1186/s13098-024-01522-6"
