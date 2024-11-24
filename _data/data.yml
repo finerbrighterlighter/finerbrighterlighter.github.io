@@ -159,6 +159,8 @@ works:
             venue: "Diabetology & Metabolic Syndrome"
             scholar: "Y0pCki6q_DkC" 
             sources:
+              - text: pubmed
+                url: "https://pubmed.ncbi.nlm.nih.gov/39578825/"
 
               - text: fulltext
                 url: "https://doi.org/10.1186/s13098-024-01522-6"
