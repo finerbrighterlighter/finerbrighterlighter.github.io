@@ -149,7 +149,7 @@ works:
   - title: Works
     icon: fa-file-alt
     years:
-      - year: 2024
+      - year: 2025
         papers:
 
           - title: "Uncertainty Aware Approach for Multiple Imputation Using Conventional and Machine Learning Models: A Real-World Data Study"
@@ -165,6 +165,9 @@ works:
 
               - text: mirror
                 url: "/assets/docs/2025_Uncertainty-aware approach for multiple imputation using conventional and machine learning models a real-world data study.pdf"
+
+      - year: 2024
+        papers:
 
           - title: "Effects of sodium-glucose cotransporter-2 inhibitors on chronic kidney disease progression: A multi-state parametric survival model"
             icon: fas fa-newspaper
