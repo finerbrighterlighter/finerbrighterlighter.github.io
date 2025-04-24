@@ -152,6 +152,20 @@ works:
       - year: 2024
         papers:
 
+          - title: "Uncertainty Aware Approach for Multiple Imputation Using Conventional and Machine Learning Models: A Real-World Data Study"
+            icon: fas fa-newspaper
+            legend: Academic Manuscript
+            authors: Wabina, R.S., Looaresuwan, P., Sonsilphong, S., <b>Teza, H.</b>, Ponthongmak, W., McKay, G.J., Attia, J., Pattanateepapon, A., Panitchoke, A., Thakkinstian, A.
+            venue: "Journal of Big Data"
+            scholar: "W7OEmFMy1HYC" 
+            sources:
+
+              - text: fulltext
+                url: "https://doi.org/10.1186/s40537-025-01136-3"
+
+              - text: mirror
+                url: "/assets/docs/2025_Uncertainty-aware approach for multiple imputation using conventional and machine learning models a real-world data study.pdf"
+
           - title: "Effects of sodium-glucose cotransporter-2 inhibitors on chronic kidney disease progression: A multi-state parametric survival model"
             icon: fas fa-newspaper
             legend: Academic Manuscript
@@ -329,11 +343,6 @@ works:
 
       - year: Under Review
         papers:
-
-          - title: "Uncertainty Aware Approach for Multiple Imputation Using Conventional and Machine Learning Models: A Real-World Data Study"
-            icon: fas fa-newspaper
-            legend: Academic Publication
-            authors: Wabina, R.S., <b>Teza, H.</b>, Ponthongmak, W., Looaresuwan, P., Pattanateepapon, A., Thakkinstian, A.
 
           - title: "Incidence and prognosis of resistant hypertension: Real world insights from a multi-state analysis"
             icon: fas fa-newspaper
