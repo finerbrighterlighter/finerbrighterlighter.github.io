@@ -24,7 +24,8 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
         if (method == "user.getrecenttracks") {
           var total = obj.recenttracks["@attr"].total;
-
+          element.innerHTML = ""; // Clear previous content before adding new track
+          
           for (i = 0; i < number; i++) {
             // Loop through responses
             var track = obj.recenttracks.track[i]; // references this specific track
@@ -39,7 +40,7 @@ function lastFM_request(method, username, API_key, number, elementID) {
             if (number == 1) {
               if (track["@attr"] && track["@attr"].nowplaying !== ""){
                 element.innerHTML +=
-                  '<i class="fas fa-music fa-fw"></i><a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener"> &nbsp;&nbsp; now played: </a> ';
+                  '<i class="fas fa-music fa-fw"></i><a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener"> &nbsp;&nbsp; now playing: </a> ';
               } else {
                 element.innerHTML +=
                   '<i class="fas fa-music fa-fw"></i><a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener"> &nbsp;&nbsp; last played: </a> ';
