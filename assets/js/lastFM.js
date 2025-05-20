@@ -37,8 +37,13 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
             // prints link to song with artist and song name
             if (number == 1) {
-              element.innerHTML +=
-                '<i class="fas fa-music fa-fw"></i><a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener"> &nbsp;&nbsp; last played: </a> ';
+              if (track["@attr"] && track["@attr"].nowplaying !== ""){
+                element.innerHTML +=
+                  '<i class="fas fa-music fa-fw"></i><a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener"> &nbsp;&nbsp; now played: </a> ';
+              } else {
+                element.innerHTML +=
+                  '<i class="fas fa-music fa-fw"></i><a href="https://www.last.fm/user/fibrili/library" target="_blank" rel="noreferrer noopener"> &nbsp;&nbsp; last played: </a> ';
+              }
             } else {
               element.innerHTML += "<li>";
             }
@@ -110,3 +115,9 @@ function lastFM_request(method, username, API_key, number, elementID) {
 
 lastFM_request("user.getrecenttracks","fibrili","c0674923fe24ec9a2ec6b60ef3d73ff3","1", "lasttrack");
 lastFM_request("user.gettopalbums","fibrili","c0674923fe24ec9a2ec6b60ef3d73ff3","10","topalbums");
+
+function updateRecentTrack() {
+  lastFM_request("user.getrecenttracks", "fibrili", "c0674923fe24ec9a2ec6b60ef3d73ff3", "1", "lasttrack");
+}
+setInterval(updateRecentTrack, 30000);
+// Update every 30 seconds

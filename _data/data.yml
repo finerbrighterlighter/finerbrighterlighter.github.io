@@ -115,7 +115,7 @@ projects:
     - title: Association between Ambient air quality and Dementia in Thailand
       link:
       role: "As Data Manager"
-      tagline: "Thailand national health data analysis in collaboration with Chulalongkorn University"
+      tagline: "Collaboration with Chulalongkorn University using National Health Security Office (NHSO) data"
 
     - title: Development of multi-center cohort for hypertensive patients
       link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/muticenter/ht"
