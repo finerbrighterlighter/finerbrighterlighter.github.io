@@ -13,4 +13,8 @@ function getTime(elementID, format) {
   element.textContent = formattedTime.split("M")[1] + " (" + formattedTime.split("M")[0] + "M)";
 }
 
-setInterval(getTime("timezone", true), 1000); // Refresh time 
+
+function updateTime() {
+  getTime("timezone", true);
+}
+setInterval(updateTime, 1000); // Refresh time 
