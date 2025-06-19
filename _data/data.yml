@@ -115,7 +115,12 @@ projects:
     - title: Association between Ambient air quality and Dementia in Thailand
       link:
       role: "As Data Manager"
-      tagline: "Collaboration with Chulalongkorn University using National Health Security Office (NHSO) data"
+      tagline: "Collaboration with Chulalongkorn University and Royal College of Physicians of Thailand"
+
+    - title: CEB Data Warehouse's Dementia Theme
+      link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/Data/Dimentia"
+      role: "As Data Manager and Co Investigator"
+      tagline: "funded by National Research Council of Thailand (NRCT)"
 
     - title: Development of multi-center cohort for hypertensive patients
       link: "https://www.rama.mahidol.ac.th/ceb/CEBdatawarehouse/muticenter/ht"
