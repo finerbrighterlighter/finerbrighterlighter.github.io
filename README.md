@@ -1,7 +1,25 @@
+# 🧪 Personal Website (Beta Build)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8d6c4d2e-0e73-4f12-8bb8-58ab54827136/deploy-status)](https://app.netlify.com/sites/personalbloghteza/deploys)
 
-This is beta build for a personal website using github pages. The domain is  purchased from [namecheap](https://www.namecheap.com/), built using [Jekyll](http://jekyllrb.com) and hosted by [Github pages](https://pages.github.com/), as guided in [JONATHAN MCGLONE](http://jmcglone.com/guides/github-pages/)'s guide.
-It is my first time curating a webpage and basically my second time using html after the [ssignment project](https://github.com/finerbrighterlighter/AQ10_questionnaire) 2 years ago. The code is spaghetti af, lines are reduntant and not a good example of how it could be. But I am proud of me, learning how to html in a day. Gotta say it was a productive day.
-This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
-[Sharath Kumar](https://github.com/sharu725) made this into a Jekyll Theme. Checkout their fork [here](https://github.com/sharu725/online-cv).
-Last.fm section on the side bar extract information using [this js script](https://github.com/pschfr/LastFM.js). How to get data from Anilist is [here](https://jsfiddle.net/0tuh4pfj/1/). Figure which metadata you want [here](https://anilist.co/graphiql) and edit the query.
+This is the beta build of my personal website — a simple site built with [Jekyll](http://jekyllrb.com), hosted via [GitHub Pages](https://pages.github.com), and deployed using [Netlify](https://www.netlify.com/). The custom domain was registered through [Porkbun](https://porkbun.com).
+
+This is my first time curating a full website and only my second encounter with HTML (the first being this [assignment project](https://github.com/finerbrighterlighter/AQ10_questionnaire) from two years ago). The code is rough — a bit of a spaghetti mess, honestly. There are redundant lines and plenty of things that could be done more elegantly. But hey, I learned to HTML in a day and shipped something. Not a bad day.
+
+## 🎨 Theme & Credits
+
+This theme was originally designed by **Xiaoying Riley** at [3rd Wave Media](http://themes.3rdwavemedia.com/).  
+Check out her portfolio of themes here: [themes.3rdwavemedia.com](http://themes.3rdwavemedia.com/).
+
+It was later ported into a Jekyll theme by **Sharath Kumar** — see their fork here: [sharu725/online-cv](https://github.com/sharu725/online-cv).
+
+## 🎵 Sidebar Integrations
+
+- **Last.fm now playing** uses a simple JavaScript snippet from [pschfr/LastFM.js](https://github.com/pschfr/LastFM.js).
+- **AniList integration** pulls data using GraphQL queries.  
+  - Example snippet: [JSFiddle](https://jsfiddle.net/0tuh4pfj/1/)  
+  - Explore available metadata here: [anilist.co/graphiql](https://anilist.co/graphiql)
+
+## 🚧 Status
+
+This is a **work-in-progress** and still under heavy iteration. Expect broken layouts, questionable code, and plenty of TODOs. But it’s live, and that counts for something.
