@@ -161,6 +161,23 @@ works:
     years:
       - year: 2025
         papers:
+        
+          - title: "Factors Associated with New-Onset Atrial Fibrillation in Thai Adults with Hypertension"
+            icon: fas fa-newspaper
+            legend: Academic Manuscript
+            authors: Limpijankit, V., Sasiprapha, T., <b>Teza, H.</b>, Pattanateepapon, A., Siriyotha, S., Boonmanunt, S., Attia, J., Thakkinstian, A.
+            venue: "American Journal of Hypertension"
+            scholar: "eQOLeE2rZwMC" 
+            sources:
+            
+              - text: pubmed
+                url: "https://pubmed.ncbi.nlm.nih.gov/40796195/"
+                
+              - text: fulltext
+                url: "https://doi.org/10.1093/ajh/hpaf149"
+
+              - text: mirror
+                url: 
 
           - title: "Uncertainty Aware Approach for Multiple Imputation Using Conventional and Machine Learning Models: A Real-World Data Study"
             icon: fas fa-newspaper
