@@ -177,7 +177,7 @@ works:
                 url: "https://doi.org/10.1093/ajh/hpaf149"
 
               - text: mirror
-                url: 
+                url: "/assets/docs/2025_Factors Associated with New Onset Atrial Fibrillation in Thai Adults with Hypertension.pdf"
 
           - title: "Uncertainty Aware Approach for Multiple Imputation Using Conventional and Machine Learning Models: A Real-World Data Study"
             icon: fas fa-newspaper
