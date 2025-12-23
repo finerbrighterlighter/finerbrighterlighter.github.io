@@ -162,22 +162,14 @@ works:
       - year: 2026
         papers:
         
-          - title: "Incidence and prognosis of resistant hypertension: Real world insights from a multi-state analysis"
+          - title: "Incidence and Prognosis of Apparent Treatment–Resistant Hypertension: A Multi-State Analysis Using Real-World Evidence"
             icon: fas fa-newspaper
             legend: Academic Manuscript
             authors: <b>Teza, H.</b>, Anothaisintawee, T., Limpijankit, T., Tansawet, A., Boonmanunt, S., Pattanateepapon, A., McKay, G.J., Attia, J., Thakkinstian, A.
             venue: "Clinical Hypertension"
-            scholar: "" 
+            scholar:
             sources:
-            
-              - text: pubmed
-                url: ""
-                
-              - text: fulltext
-                url: ""
 
-              - text: mirror
-                url: ""
 
       - year: 2025
         papers:
