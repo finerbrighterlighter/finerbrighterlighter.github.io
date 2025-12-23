@@ -386,11 +386,6 @@ works:
       - year: Under Review
         papers:
 
-          - title: 
-            icon: fas fa-newspaper
-            legend: Academic Publication
-            authors: 
-            
 footer: >
   Designed with <i class="fas fa-heart" style="color: #4B6A78;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | 
   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> | 
