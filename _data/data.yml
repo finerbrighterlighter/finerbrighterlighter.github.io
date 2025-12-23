@@ -159,6 +159,26 @@ works:
   - title: Works
     icon: fa-file-alt
     years:
+      - year: 2026
+        papers:
+        
+          - title: "Incidence and prognosis of resistant hypertension: Real world insights from a multi-state analysis"
+            icon: fas fa-newspaper
+            legend: Academic Manuscript
+            authors: <b>Teza, H.</b>, Anothaisintawee, T., Limpijankit, T., Tansawet, A., Boonmanunt, S., Pattanateepapon, A., McKay, G.J., Attia, J., Thakkinstian, A.
+            venue: "Clinical Hypertension"
+            scholar: "" 
+            sources:
+            
+              - text: pubmed
+                url: ""
+                
+              - text: fulltext
+                url: ""
+
+              - text: mirror
+                url: ""
+
       - year: 2025
         papers:
         
@@ -374,10 +394,10 @@ works:
       - year: Under Review
         papers:
 
-          - title: "Incidence and prognosis of resistant hypertension: Real world insights from a multi-state analysis"
+          - title: 
             icon: fas fa-newspaper
             legend: Academic Publication
-            authors: <b>Teza, H.</b>, Anothaisintawee, T., Limpijankit, T., Tansawet, A., Boonmanunt, S., Pattanateepapon, A., McKay, G.J., Attia, J., Thakkinstian, A.
+            authors: 
             
 footer: >
   Designed with <i class="fas fa-heart" style="color: #4B6A78;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | 
