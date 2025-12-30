@@ -68,13 +68,14 @@ function lastFM_request(method, username, API_key, number, elementID) {
         } else if (method == "user.gettopalbums") {
           for (i = 0; i < number; i++) {
             var album = obj.topalbums.album[i]; // references this specific artist
+            const imageUrl = album.image?.[1]?.["#text"]; 
             // console.log(artist);
-            if (album.image[1]["#text"] != null) {
+            if (imageUrl && imageUrl.trim() !== "") {
               element.innerHTML +=
                 "<a href='" +
                 album.url +
                 "' target='_blank' rel='noreferrer noopener' style='height: 64px;' loading='lazy' decoding='async'><img src='" +
-                album.image[1]["#text"] +
+                imageUrl +
                 "' title='" +
                 album.artist.name.replace(/'/g, '"') + // single quotes mean something here, so single quotes in string are replaced by double quotes
                 " - " +
