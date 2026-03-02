@@ -503,3 +503,26 @@ p {
     transform: translateX(-100%);
   }
 }
+
+.openalex-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.openalex-table th,
+.openalex-table td {
+  padding: 4px 0;
+}
+
+.openalex-table th:first-child,
+.openalex-table td:first-child {
+  text-align: left;
+  width: 45%;
+}
+
+.openalex-table th:not(:first-child),
+.openalex-table td:not(:first-child) {
+  text-align: right;
+  width: 27.5%;
+}

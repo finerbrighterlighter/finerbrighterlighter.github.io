@@ -24,8 +24,9 @@
   </div>
   <!--//profile-container-->
 
-  {% include contact.html %} {% if sidebar.education %} {% include
-  education.html %} {% endif %} {% if sidebar.about %} {% include about.html %}
-  {% endif %}
+  {% include contact.html %} 
+  {% if sidebar.education %}  {% include education.html %}  {% endif %} 
+  {% if sidebar.about %}  {% include about.html %} {% endif %}
+  {% include openalex.html %}
 </div>
 <!--//sidebar-wrapper-->
