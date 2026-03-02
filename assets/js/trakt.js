@@ -1,4 +1,4 @@
-const clientId = '9828398c3af61bce1a65a58d2e4d5f16e365486b27efb125a87d699c590467b4'; // Replace this with your actual Client ID
+const clientId = '7042caff01554d9dd3fbd0de97a345f4285b64a77536e979ea219cd1ee347d19'; // Replace this with your actual Client ID
 const apiUrl = `https://api.trakt.tv/users/{username}/watched/{type}`;
 const tmdbApiKey = 'a92e5943352e9146b887de7d871ee4aa'; // Replace this with your actual TMDb API key
 
