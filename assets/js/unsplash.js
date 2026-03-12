@@ -26,4 +26,5 @@ function getunsplash(username, accessKey, number, elementID) {
     });
 }
 
-getunsplash("finerbrighterlighter","bQGcIoNwvjNVym1Dr-50ReObTxnIU_D4_oMy6XgRIaM",10,"latestimage");
+const unsplash_access_key = "abcdefghijklmnopqrstuvwxyz123456"; // Replace with your actual Unsplash Access Key
+getunsplash("finerbrighterlighter",unsplash_access_key,10,"latestimage");

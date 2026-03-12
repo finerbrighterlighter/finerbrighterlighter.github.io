@@ -112,14 +112,16 @@ function lastFM_request(method, username, API_key, number, elementID) {
       }
     }
   };
-  xmlhttp.send(null); // Close connection
+  xmlhttp.send(null); // Close connections
 }
 
-lastFM_request("user.getrecenttracks","fibrili","c0674923fe24ec9a2ec6b60ef3d73ff3","1", "lasttrack");
-lastFM_request("user.gettopalbums","fibrili","c0674923fe24ec9a2ec6b60ef3d73ff3","10","topalbums");
+const lastfm_api_key = "abcdefghijklmnopqrstuvwxyz123456"; // Replace with your actual Last.FM API key
+
+lastFM_request("user.getrecenttracks", "fibrili", lastfm_api_key, "1", "lasttrack");
+lastFM_request("user.gettopalbums", "fibrili", lastfm_api_key, "10", "topalbums");
 
 function updateRecentTrack() {
-  lastFM_request("user.getrecenttracks", "fibrili", "c0674923fe24ec9a2ec6b60ef3d73ff3", "1", "lasttrack");
+  lastFM_request("user.getrecenttracks", "fibrili", lastfm_api_key, "1", "lasttrack");
 }
 setInterval(updateRecentTrack, 30000);
 // Update every 30 seconds
